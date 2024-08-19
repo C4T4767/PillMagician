@@ -1,0 +1,112 @@
+[
+  {
+    "timestamp": "2024-05-22 21:04:39.931",
+    "userId": 38,
+    "data": "알약 판별 진행"
+  },
+  {
+    "timestamp": "2024-05-22 21:04:42.201",
+    "userId": 38,
+    "data": "이미지 분류 오류 발생: /usr/local/lib64/python3.9/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).\n  warnings.warn(\n"
+  },
+  {
+    "timestamp": "2024-05-22 21:05:51.292",
+    "userId": 705,
+    "data": "알약 판별 진행"
+  },
+  {
+    "timestamp": "2024-05-22 21:05:53.851",
+    "userId": 705,
+    "data": "이미지 분류 오류 발생: /usr/local/lib64/python3.9/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).\n  warnings.warn(\n"
+  },
+  {
+    "timestamp": "2024-05-22 21:12:03.935",
+    "userId": 686,
+    "data": "알약 판별 진행"
+  },
+  {
+    "timestamp": "2024-05-22 21:12:06.153",
+    "userId": 686,
+    "data": "이미지 분류 오류 발생: /usr/local/lib64/python3.9/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).\n  warnings.warn(\n"
+  },
+  {
+    "timestamp": "2024-05-22 21:12:38.963",
+    "userId": 476,
+    "data": "알약 판별 진행"
+  },
+  {
+    "timestamp": "2024-05-22 21:12:41.199",
+    "userId": 476,
+    "data": "이미지 분류 오류 발생: /usr/local/lib64/python3.9/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).\n  warnings.warn(\n"
+  },
+  {
+    "timestamp": "2024-05-22 21:13:32.201",
+    "userId": 210,
+    "data": "알약 판별 진행"
+  },
+  {
+    "timestamp": "2024-05-22 21:13:34.355",
+    "userId": 210,
+    "data": "이미지 분류 오류 발생: /usr/local/lib64/python3.9/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).\n  warnings.warn(\n"
+  },
+  {
+    "timestamp": "2024-05-22 21:13:59.213",
+    "userId": 475,
+    "data": "알약 판별 진행"
+  },
+  {
+    "timestamp": "2024-05-22 21:14:01.795",
+    "userId": 475,
+    "data": "이미지 분류 오류 발생: /usr/local/lib64/python3.9/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).\n  warnings.warn(\n"
+  },
+  {
+    "timestamp": "2024-05-22 21:14:30.555",
+    "userId": 621,
+    "data": "알약 판별 진행"
+  },
+  {
+    "timestamp": "2024-05-22 21:14:32.733",
+    "userId": 621,
+    "data": "이미지 분류 오류 발생: /usr/local/lib64/python3.9/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).\n  warnings.warn(\n"
+  },
+  {
+    "timestamp": "2024-05-22 21:15:16.553",
+    "userId": 852,
+    "data": "알약 판별 진행"
+  },
+  {
+    "timestamp": "2024-05-22 21:15:18.798",
+    "userId": 852,
+    "data": "이미지 분류 오류 발생: /usr/local/lib64/python3.9/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).\n  warnings.warn(\n"
+  },
+  {
+    "timestamp": "2024-05-22 21:15:36.081",
+    "userId": 648,
+    "data": "알약 판별 진행"
+  },
+  {
+    "timestamp": "2024-05-22 21:15:38.348",
+    "userId": 648,
+    "data": "이미지 분류 오류 발생: /usr/local/lib64/python3.9/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).\n  warnings.warn(\n"
+  },
+  {
+    "timestamp": "2024-05-22 21:16:04.830",
+    "userId": 565,
+    "data": "알약 판별 진행"
+  },
+  {
+    "timestamp": "2024-05-22 21:16:07.052",
+    "userId": 565,
+    "data": "이미지 분류 오류 발생: /usr/local/lib64/python3.9/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).\n  warnings.warn(\n"
+  },
+  {
+    "timestamp": "2024-05-22 21:16:34.144",
+    "userId": 514,
+    "data": "알약 판별 진행"
+  },
+  {
+    "timestamp": "2024-05-22 21:16:36.477",
+    "userId": 514,
+    "data": "이미지 분류 오류 발생: /usr/local/lib64/python3.9/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).\n  warnings.warn(\n"
+  }
+]

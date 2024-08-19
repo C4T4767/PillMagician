@@ -1,0 +1,113 @@
+<div class="container-fluid px-4">
+    <h1 class="mt-4">AI 모델 정보</h1>
+    <hr>
+</div>
+
+<div class="container-fluid px-4">
+    <div class="card mb-4">
+        <div class="card-body">
+            서비스 제공 중에 생성된 모델 정보를 확인 및 관리할 수 있다.<br>
+            테스트 모델을 선정할 수 있다.
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <!-- 왼쪽 패널: 모델 목록 -->
+            <div class="col-md-4">
+                <!-- 왼쪽 패널: 모델 목록 -->
+                <div class="list-group">
+                    <!-- 모델 목록 항목 -->
+                    <% models.forEach(function(model, index) { %>
+                        <a href="/AI/detail/<%= currentPage %>/<%= model.model_id %><%= (target && keyword) ? `?target=${target}&keyword=${keyword}` : '' %>" 
+                           class="list-group-item list-group-item-action">
+                            <div class="d-flex align-items-center">
+                                <span class="badge bg-primary me-2"><%= index + 1 %></span>
+                                <span class="<%= (model.model_name === selectedModel) ? 'highlight' : '' %>"><%= model.model_name %></span>
+                            </div>
+                        </a>
+                    <% }); %>
+                </div>
+                <div>
+                    <form action="/ai/management/1" method="get" class="form-inline search-form justify-content-end">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <select class="form-control form-control-sm" name="target">
+                                    <option value="model_name" selected>모델 이름</option>
+                                    <option value="model_type">모델 유형</option>
+                                </select>
+                            </div>
+                            <span class="d-none" id="searchFormLabel">Keyword search form input</span>
+                            <input type="text" class="form-control form-control-sm" name="keyword" aria-labelledby="searchFormLabel">
+                            <div class="input-group-append">
+                                <button class="btn btn-arca btn-sm" type="submit">검색</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <!-- 페이징 코드 -->
+                <ul class="pagination justify-content-center">
+                    <% 
+                    const min = (x, y) => x < y ? x : y;
+                    const max = (x, y) => x > y ? x : y;
+                    const a = currentPage;
+                    const b = totalPages;
+                    const page = max(1, min(max(1, a - 2), b - 4));
+                    const num = b > 4 ? 5 : b;
+                    const pages = [];
+
+                    for (let i = 0; i < num; i++) {
+                        pages[i] = page + i;
+                    }
+                    %>
+
+                    <% if (a > 3 && b > 5) { %>
+                        <li class="page-item">
+                            <a class="page-link" href="<%= `/ai/management/1${(target && keyword) ? `?target=${target}&keyword=${keyword}` : ''}` %>" title="최신글 보기">&lt;&lt;</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="<%= `/ai/management/${pages[0]-1}${(target && keyword) ? `?target=${target}&keyword=${keyword}` : ''}` %>">&lt;</a>
+                        </li>
+                    <% } %>
+
+                    <% for (let i = 0; i < num; i++) { %>
+                        <li class="<%= (currentPage === pages[i]) ? 'page-item active' : 'page-item' %>">
+                            <a class="page-link" href="<%= `/ai/management/${pages[i]}${(target && keyword) ? `?target=${target}&keyword=${keyword}` : ''}` %>">
+                                <%= pages[i] %>
+                            </a>
+                        </li>
+                    <% } %>
+
+                    <% if (a < b - 2 && b > 5) { %>
+                        <li class="page-item">
+                            <a class="page-link" href="<%= `/ai/management/${pages[4] + 1}${(target && keyword) ? `?target=${target}&keyword=${keyword}` : ''}` %>">&gt;</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="<%= `/ai/management/${totalPages}${(target && keyword) ? `?target=${target}&keyword=${keyword}` : ''}` %>" title="첫 글 보기">&gt;&gt;</a>
+                        </li>
+                    <% } %>
+                </ul>
+            </div>
+
+            <!-- 오른쪽 패널: 모델 정보 -->
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title">모델 정보</h2>
+                        <!-- 모델 정보 테이블 및 버튼 등 -->
+                        <table class="table">
+                            <!-- 모델 정보 테이블 내용 -->
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .highlight {
+        color: red; /* 강조할 글씨 색 지정 */
+        font-weight: bold; /* 글씨 두껍게 */
+    }
+</style>

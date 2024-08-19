@@ -1,0 +1,686 @@
+[
+  {
+    "timestamp": "2024-05-27 11:02:45.170",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-27 17:52:14.045",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-27 17:52:26.864",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:14.35.75.94"
+  },
+  {
+    "timestamp": "2024-05-27 17:52:58.530",
+    "data": "모델 'model1'이 삭제됐습니다."
+  },
+  {
+    "timestamp": "2024-05-27 17:53:04.948",
+    "data": "모델 'model6'이 삭제됐습니다."
+  },
+  {
+    "timestamp": "2024-05-27 17:53:11.268",
+    "data": "모델 'model5'이 삭제됐습니다."
+  },
+  {
+    "timestamp": "2024-05-27 17:53:15.985",
+    "data": "모델 'model4'이 삭제됐습니다."
+  },
+  {
+    "timestamp": "2024-05-27 17:53:20.923",
+    "data": "모델 'model9'이 삭제됐습니다."
+  },
+  {
+    "timestamp": "2024-05-27 17:54:52.141",
+    "data": "모델 'model3'이 삭제됐습니다."
+  },
+  {
+    "timestamp": "2024-05-27 17:54:55.691",
+    "data": "모델 'model7'이 삭제됐습니다."
+  },
+  {
+    "timestamp": "2024-05-27 17:55:10.705",
+    "data": "모델 'model2'이 삭제됐습니다."
+  },
+  {
+    "timestamp": "2024-05-27 18:48:47.893",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-27 21:29:39.846",
+    "data": "로그인 성공. 유저명: 김우진, IP: ::ffff:121.133.210.20"
+  },
+  {
+    "timestamp": "2024-05-27 21:32:12.722",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:14.35.75.94"
+  },
+  {
+    "timestamp": "2024-05-27 21:32:23.552",
+    "data": "학습을 시작합니다. name: YS0.1, model_type: YOLOv8, optimizer: SGD, batch_size: 16, epoch: 1"
+  },
+  {
+    "timestamp": "2024-05-27 21:32:23.552",
+    "data": "학습을 시작합니다. name:YS0.1, model_type:YOLOv8, optimizer:SGD, batch_size:16, epoch:1"
+  },
+  {
+    "timestamp": "2024-05-27 21:32:56.772",
+    "data": "학습이 완료되었습니다. 모델명: YS0.1"
+  },
+  {
+    "timestamp": "2024-05-27 21:37:13.301",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-27 21:37:29.457",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:14.35.75.94"
+  },
+  {
+    "timestamp": "2024-05-27 21:38:50.745",
+    "data": "학습을 시작합니다. name: YS0.3, model_type: YOLOv8, optimizer: SGD, batch_size: 16, epoch: 2"
+  },
+  {
+    "timestamp": "2024-05-27 21:38:50.745",
+    "data": "학습을 시작합니다. name:YS0.3, model_type:YOLOv8, optimizer:SGD, batch_size:16, epoch:2"
+  },
+  {
+    "timestamp": "2024-05-27 21:39:29.665",
+    "data": "학습이 완료되었습니다. 모델명: YS0.3"
+  },
+  {
+    "timestamp": "2024-05-27 21:39:31.655",
+    "data": "학습을 시작합니다. name: YS0.5, model_type: YOLOv8, optimizer: SGD, batch_size: 16, epoch: 3"
+  },
+  {
+    "timestamp": "2024-05-27 21:39:31.655",
+    "data": "학습을 시작합니다. name:YS0.5, model_type:YOLOv8, optimizer:SGD, batch_size:16, epoch:3"
+  },
+  {
+    "timestamp": "2024-05-27 21:40:14.355",
+    "data": "학습이 완료되었습니다. 모델명: YS0.5"
+  },
+  {
+    "timestamp": "2024-05-27 21:40:36.985",
+    "data": "학습을 시작합니다. name: YS0.7, model_type: YOLOv8, optimizer: SGD, batch_size: 16, epoch: 4"
+  },
+  {
+    "timestamp": "2024-05-27 21:40:36.985",
+    "data": "학습을 시작합니다. name:YS0.7, model_type:YOLOv8, optimizer:SGD, batch_size:16, epoch:4"
+  },
+  {
+    "timestamp": "2024-05-27 21:41:23.938",
+    "data": "학습이 완료되었습니다. 모델명: YS0.7"
+  },
+  {
+    "timestamp": "2024-05-27 21:41:24.428",
+    "data": "학습을 시작합니다. name: YS0.9, model_type: YOLOv8, optimizer: SGD, batch_size: 16, epoch: 5"
+  },
+  {
+    "timestamp": "2024-05-27 21:41:24.428",
+    "data": "학습을 시작합니다. name:YS0.9, model_type:YOLOv8, optimizer:SGD, batch_size:16, epoch:5"
+  },
+  {
+    "timestamp": "2024-05-27 21:42:15.084",
+    "data": "이미 학습이 진행 중입니다."
+  },
+  {
+    "timestamp": "2024-05-27 21:42:15.304",
+    "data": "학습이 완료되었습니다. 모델명: YS0.9"
+  },
+  {
+    "timestamp": "2024-05-27 21:42:21.094",
+    "data": "학습을 시작합니다. name: YA0.1, model_type: YOLOv8, optimizer: Adam, batch_size: 16, epoch: 1"
+  },
+  {
+    "timestamp": "2024-05-27 21:42:21.094",
+    "data": "학습을 시작합니다. name:YA0.1, model_type:YOLOv8, optimizer:Adam, batch_size:16, epoch:1"
+  },
+  {
+    "timestamp": "2024-05-27 21:42:58.591",
+    "data": "학습이 완료되었습니다. 모델명: YA0.1"
+  },
+  {
+    "timestamp": "2024-05-27 21:42:59.448",
+    "data": "로그인 성공. 유저명: 김우진, IP: ::ffff:121.133.210.20"
+  },
+  {
+    "timestamp": "2024-05-27 21:43:05.073",
+    "data": "학습을 시작합니다. name: YA0.3, model_type: YOLOv8, optimizer: Adam, batch_size: 16, epoch: 2"
+  },
+  {
+    "timestamp": "2024-05-27 21:43:05.073",
+    "data": "학습을 시작합니다. name:YA0.3, model_type:YOLOv8, optimizer:Adam, batch_size:16, epoch:2"
+  },
+  {
+    "timestamp": "2024-05-27 21:43:45.820",
+    "data": "학습이 완료되었습니다. 모델명: YA0.3"
+  },
+  {
+    "timestamp": "2024-05-27 21:43:46.490",
+    "data": "학습을 시작합니다. name: YA0.5, model_type: YOLOv8, optimizer: Adam, batch_size: 16, epoch: 3"
+  },
+  {
+    "timestamp": "2024-05-27 21:43:46.490",
+    "data": "학습을 시작합니다. name:YA0.5, model_type:YOLOv8, optimizer:Adam, batch_size:16, epoch:3"
+  },
+  {
+    "timestamp": "2024-05-27 21:44:37.107",
+    "data": "학습이 완료되었습니다. 모델명: YA0.5"
+  },
+  {
+    "timestamp": "2024-05-27 21:44:38.520",
+    "data": "학습을 시작합니다. name: YA0.7, model_type: YOLOv8, optimizer: Adam, batch_size: 16, epoch: 4"
+  },
+  {
+    "timestamp": "2024-05-27 21:44:38.520",
+    "data": "학습을 시작합니다. name:YA0.7, model_type:YOLOv8, optimizer:Adam, batch_size:16, epoch:4"
+  },
+  {
+    "timestamp": "2024-05-27 21:45:29.655",
+    "data": "학습이 완료되었습니다. 모델명: YA0.7"
+  },
+  {
+    "timestamp": "2024-05-27 21:45:34.888",
+    "data": "학습을 시작합니다. name: YA0.9, model_type: YOLOv8, optimizer: Adam, batch_size: 16, epoch: 5"
+  },
+  {
+    "timestamp": "2024-05-27 21:45:34.888",
+    "data": "학습을 시작합니다. name:YA0.9, model_type:YOLOv8, optimizer:Adam, batch_size:16, epoch:5"
+  },
+  {
+    "timestamp": "2024-05-27 21:46:26.299",
+    "data": "학습이 완료되었습니다. 모델명: YA0.9"
+  },
+  {
+    "timestamp": "2024-05-27 21:46:27.558",
+    "data": "학습을 시작합니다. name: RA0.1, model_type: resnet50, optimizer: Adam, batch_size: 16, epoch: 1"
+  },
+  {
+    "timestamp": "2024-05-27 21:46:27.558",
+    "data": "학습을 시작합니다. name:RA0.1, model_type:resnet50, optimizer:Adam, batch_size:16, epoch:1"
+  },
+  {
+    "timestamp": "2024-05-27 21:46:34.381",
+    "data": "학습이 완료되었습니다. 모델명: RA0.1"
+  },
+  {
+    "timestamp": "2024-05-27 21:46:42.270",
+    "data": "모델명 중복됨"
+  },
+  {
+    "timestamp": "2024-05-27 21:46:48.753",
+    "data": "학습을 시작합니다. name: RA0.3, model_type: resnet50, optimizer: Adam, batch_size: 16, epoch: 2"
+  },
+  {
+    "timestamp": "2024-05-27 21:46:48.753",
+    "data": "학습을 시작합니다. name:RA0.3, model_type:resnet50, optimizer:Adam, batch_size:16, epoch:2"
+  },
+  {
+    "timestamp": "2024-05-27 21:46:57.407",
+    "data": "학습이 완료되었습니다. 모델명: RA0.3"
+  },
+  {
+    "timestamp": "2024-05-27 21:47:40.018",
+    "data": "이미지 분류 오류 발생: /usr/local/lib64/python3.9/site-packages/PIL/Image.py:975: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images\n  warnings.warn(\n"
+  },
+  {
+    "timestamp": "2024-05-27 21:49:30.410",
+    "data": "학습을 시작합니다. name: RA0.5, model_type: resnet50, optimizer: Adam, batch_size: 16, epoch: 3"
+  },
+  {
+    "timestamp": "2024-05-27 21:49:30.410",
+    "data": "학습을 시작합니다. name:RA0.5, model_type:resnet50, optimizer:Adam, batch_size:16, epoch:3"
+  },
+  {
+    "timestamp": "2024-05-27 21:49:41.240",
+    "data": "학습이 완료되었습니다. 모델명: RA0.5"
+  },
+  {
+    "timestamp": "2024-05-27 21:50:35.557",
+    "data": "학습을 시작합니다. name: RA0.7, model_type: resnet50, optimizer: Adam, batch_size: 16, epoch: 4"
+  },
+  {
+    "timestamp": "2024-05-27 21:50:35.557",
+    "data": "학습을 시작합니다. name:RA0.7, model_type:resnet50, optimizer:Adam, batch_size:16, epoch:4"
+  },
+  {
+    "timestamp": "2024-05-27 21:50:48.700",
+    "data": "학습이 완료되었습니다. 모델명: RA0.7"
+  },
+  {
+    "timestamp": "2024-05-27 21:50:49.898",
+    "data": "학습을 시작합니다. name: RA0.9, model_type: resnet50, optimizer: Adam, batch_size: 16, epoch: 5"
+  },
+  {
+    "timestamp": "2024-05-27 21:50:49.898",
+    "data": "학습을 시작합니다. name:RA0.9, model_type:resnet50, optimizer:Adam, batch_size:16, epoch:5"
+  },
+  {
+    "timestamp": "2024-05-27 21:51:04.928",
+    "data": "학습이 완료되었습니다. 모델명: RA0.9"
+  },
+  {
+    "timestamp": "2024-05-27 21:51:13.623",
+    "data": "학습을 시작합니다. name: RS0.1, model_type: resnet50, optimizer: SGD, batch_size: 16, epoch: 1"
+  },
+  {
+    "timestamp": "2024-05-27 21:51:13.623",
+    "data": "학습을 시작합니다. name:RS0.1, model_type:resnet50, optimizer:SGD, batch_size:16, epoch:1"
+  },
+  {
+    "timestamp": "2024-05-27 21:51:20.285",
+    "data": "학습이 완료되었습니다. 모델명: RS0.1"
+  },
+  {
+    "timestamp": "2024-05-27 21:52:35.986",
+    "data": "모델 'RA0.1'이 삭제됐습니다."
+  },
+  {
+    "timestamp": "2024-05-27 21:52:39.948",
+    "data": "모델 'RA0.3'이 삭제됐습니다."
+  },
+  {
+    "timestamp": "2024-05-27 21:52:42.796",
+    "data": "모델 'RA0.7'이 삭제됐습니다."
+  },
+  {
+    "timestamp": "2024-05-27 21:53:21.755",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-27 21:53:25.484",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:14.35.75.94"
+  },
+  {
+    "timestamp": "2024-05-27 21:53:32.848",
+    "data": "모델 'RA0.1'이 삭제됐습니다."
+  },
+  {
+    "timestamp": "2024-05-27 21:53:39.215",
+    "data": "학습을 시작합니다. name: RA0.1, model_type: resnet50, optimizer: Adam, batch_size: 16, epoch: 1"
+  },
+  {
+    "timestamp": "2024-05-27 21:53:39.215",
+    "data": "학습을 시작합니다. name:RA0.1, model_type:resnet50, optimizer:Adam, batch_size:16, epoch:1"
+  },
+  {
+    "timestamp": "2024-05-27 21:53:45.887",
+    "data": "학습이 완료되었습니다. 모델명: RA0.1"
+  },
+  {
+    "timestamp": "2024-05-27 21:53:48.634",
+    "data": "학습을 시작합니다. name: RA0.3, model_type: YOLOv8, optimizer: Adam, batch_size: 16, epoch: 2"
+  },
+  {
+    "timestamp": "2024-05-27 21:53:48.634",
+    "data": "학습을 시작합니다. name:RA0.3, model_type:YOLOv8, optimizer:Adam, batch_size:16, epoch:2"
+  },
+  {
+    "timestamp": "2024-05-27 21:53:54.050",
+    "data": "학습 프로세스가 중지되었습니다."
+  },
+  {
+    "timestamp": "2024-05-27 21:53:59.561",
+    "data": "학습을 시작합니다. name: RA0.3, model_type: resnet50, optimizer: Adam, batch_size: 16, epoch: 2"
+  },
+  {
+    "timestamp": "2024-05-27 21:53:59.561",
+    "data": "학습을 시작합니다. name:RA0.3, model_type:resnet50, optimizer:Adam, batch_size:16, epoch:2"
+  },
+  {
+    "timestamp": "2024-05-27 21:54:08.251",
+    "data": "학습이 완료되었습니다. 모델명: RA0.3"
+  },
+  {
+    "timestamp": "2024-05-27 21:54:18.885",
+    "data": "로그인 성공. 유저명: 김우진, IP: ::ffff:121.133.210.20"
+  },
+  {
+    "timestamp": "2024-05-27 21:55:01.656",
+    "data": "모델 'RA0.1'이 삭제됐습니다."
+  },
+  {
+    "timestamp": "2024-05-27 21:55:05.184",
+    "data": "모델 'RA0.3'이 삭제됐습니다."
+  },
+  {
+    "timestamp": "2024-05-27 21:55:11.736",
+    "data": "학습을 시작합니다. name: RA0.1, model_type: resnet50, optimizer: Adam, batch_size: 16, epoch: 1"
+  },
+  {
+    "timestamp": "2024-05-27 21:55:11.736",
+    "data": "학습을 시작합니다. name:RA0.1, model_type:resnet50, optimizer:Adam, batch_size:16, epoch:1"
+  },
+  {
+    "timestamp": "2024-05-27 21:55:18.133",
+    "data": "학습이 완료되었습니다. 모델명: RA0.1"
+  },
+  {
+    "timestamp": "2024-05-27 21:55:27.399",
+    "data": "학습을 시작합니다. name: RA0.3, model_type: resnet50, optimizer: Adam, batch_size: 16, epoch: 2"
+  },
+  {
+    "timestamp": "2024-05-27 21:55:27.399",
+    "data": "학습을 시작합니다. name:RA0.3, model_type:resnet50, optimizer:Adam, batch_size:16, epoch:2"
+  },
+  {
+    "timestamp": "2024-05-27 21:55:36.022",
+    "data": "학습이 완료되었습니다. 모델명: RA0.3"
+  },
+  {
+    "timestamp": "2024-05-27 21:55:45.527",
+    "data": "모델 'RA0.1'이 삭제됐습니다."
+  },
+  {
+    "timestamp": "2024-05-27 21:55:47.869",
+    "data": "모델 'RA0.3'이 삭제됐습니다."
+  },
+  {
+    "timestamp": "2024-05-27 21:55:53.941",
+    "data": "학습을 시작합니다. name: RA0.1, model_type: ResNet101, optimizer: Adam, batch_size: 16, epoch: 1"
+  },
+  {
+    "timestamp": "2024-05-27 21:55:53.941",
+    "data": "학습을 시작합니다. name:RA0.1, model_type:ResNet101, optimizer:Adam, batch_size:16, epoch:1"
+  },
+  {
+    "timestamp": "2024-05-27 21:56:06.017",
+    "data": "학습이 완료되었습니다. 모델명: RA0.1"
+  },
+  {
+    "timestamp": "2024-05-27 21:56:06.973",
+    "data": "학습을 시작합니다. name: RA0.3, model_type: ResNet101, optimizer: Adam, batch_size: 16, epoch: 2"
+  },
+  {
+    "timestamp": "2024-05-27 21:56:06.973",
+    "data": "학습을 시작합니다. name:RA0.3, model_type:ResNet101, optimizer:Adam, batch_size:16, epoch:2"
+  },
+  {
+    "timestamp": "2024-05-27 21:56:25.510",
+    "data": "학습이 완료되었습니다. 모델명: RA0.3"
+  },
+  {
+    "timestamp": "2024-05-27 21:56:26.900",
+    "data": "학습을 시작합니다. name: RA0.5, model_type: ResNet101, optimizer: Adam, batch_size: 16, epoch: 3"
+  },
+  {
+    "timestamp": "2024-05-27 21:56:26.900",
+    "data": "학습을 시작합니다. name:RA0.5, model_type:ResNet101, optimizer:Adam, batch_size:16, epoch:3"
+  },
+  {
+    "timestamp": "2024-05-27 21:56:52.368",
+    "data": "학습이 완료되었습니다. 모델명: RA0.5"
+  },
+  {
+    "timestamp": "2024-05-27 21:56:53.222",
+    "data": "학습을 시작합니다. name: RA0.7, model_type: ResNet101, optimizer: Adam, batch_size: 16, epoch: 4"
+  },
+  {
+    "timestamp": "2024-05-27 21:56:53.222",
+    "data": "학습을 시작합니다. name:RA0.7, model_type:ResNet101, optimizer:Adam, batch_size:16, epoch:4"
+  },
+  {
+    "timestamp": "2024-05-27 21:57:24.842",
+    "data": "학습이 완료되었습니다. 모델명: RA0.7"
+  },
+  {
+    "timestamp": "2024-05-27 21:57:27.170",
+    "data": "학습을 시작합니다. name: RA0.9, model_type: ResNet101, optimizer: Adam, batch_size: 16, epoch: 5"
+  },
+  {
+    "timestamp": "2024-05-27 21:57:27.170",
+    "data": "학습을 시작합니다. name:RA0.9, model_type:ResNet101, optimizer:Adam, batch_size:16, epoch:5"
+  },
+  {
+    "timestamp": "2024-05-27 21:58:04.961",
+    "data": "학습이 완료되었습니다. 모델명: RA0.9"
+  },
+  {
+    "timestamp": "2024-05-27 21:58:05.726",
+    "data": "학습을 시작합니다. name: RS0.1, model_type: ResNet101, optimizer: SGD, batch_size: 16, epoch: 1"
+  },
+  {
+    "timestamp": "2024-05-27 21:58:05.726",
+    "data": "학습을 시작합니다. name:RS0.1, model_type:ResNet101, optimizer:SGD, batch_size:16, epoch:1"
+  },
+  {
+    "timestamp": "2024-05-27 21:58:18.050",
+    "data": "학습이 완료되었습니다. 모델명: RS0.1"
+  },
+  {
+    "timestamp": "2024-05-27 21:58:19.126",
+    "data": "학습을 시작합니다. name: RS0.3, model_type: ResNet101, optimizer: SGD, batch_size: 16, epoch: 2"
+  },
+  {
+    "timestamp": "2024-05-27 21:58:19.126",
+    "data": "학습을 시작합니다. name:RS0.3, model_type:ResNet101, optimizer:SGD, batch_size:16, epoch:2"
+  },
+  {
+    "timestamp": "2024-05-27 21:58:37.957",
+    "data": "학습이 완료되었습니다. 모델명: RS0.3"
+  },
+  {
+    "timestamp": "2024-05-27 21:58:40.102",
+    "data": "학습을 시작합니다. name: RS0.5, model_type: YOLOv8, optimizer: Adam, batch_size: 16, epoch: 3"
+  },
+  {
+    "timestamp": "2024-05-27 21:58:40.102",
+    "data": "학습을 시작합니다. name:RS0.5, model_type:YOLOv8, optimizer:Adam, batch_size:16, epoch:3"
+  },
+  {
+    "timestamp": "2024-05-27 21:58:44.646",
+    "data": "학습 프로세스가 중지되었습니다."
+  },
+  {
+    "timestamp": "2024-05-27 21:58:50.151",
+    "data": "학습을 시작합니다. name: RS0.5, model_type: ResNet101, optimizer: SGD, batch_size: 16, epoch: 3"
+  },
+  {
+    "timestamp": "2024-05-27 21:58:50.151",
+    "data": "학습을 시작합니다. name:RS0.5, model_type:ResNet101, optimizer:SGD, batch_size:16, epoch:3"
+  },
+  {
+    "timestamp": "2024-05-27 21:59:15.053",
+    "data": "학습이 완료되었습니다. 모델명: RS0.5"
+  },
+  {
+    "timestamp": "2024-05-27 21:59:29.635",
+    "data": "학습을 시작합니다. name: RS0.7, model_type: ResNet101, optimizer: SGD, batch_size: 16, epoch: 4"
+  },
+  {
+    "timestamp": "2024-05-27 21:59:29.635",
+    "data": "학습을 시작합니다. name:RS0.7, model_type:ResNet101, optimizer:SGD, batch_size:16, epoch:4"
+  },
+  {
+    "timestamp": "2024-05-27 22:00:00.189",
+    "data": "학습이 완료되었습니다. 모델명: RS0.7"
+  },
+  {
+    "timestamp": "2024-05-27 22:00:20.311",
+    "data": "학습을 시작합니다. name: RS0.9, model_type: ResNet101, optimizer: SGD, batch_size: 16, epoch: 5"
+  },
+  {
+    "timestamp": "2024-05-27 22:00:20.311",
+    "data": "학습을 시작합니다. name:RS0.9, model_type:ResNet101, optimizer:SGD, batch_size:16, epoch:5"
+  },
+  {
+    "timestamp": "2024-05-27 22:00:57.406",
+    "data": "학습이 완료되었습니다. 모델명: RS0.9"
+  },
+  {
+    "timestamp": "2024-05-27 22:00:58.603",
+    "data": "학습을 시작합니다. name: MA0.1, model_type: MobileNetV3, optimizer: Adam, batch_size: 16, epoch: 1"
+  },
+  {
+    "timestamp": "2024-05-27 22:00:58.603",
+    "data": "학습을 시작합니다. name:MA0.1, model_type:MobileNetV3, optimizer:Adam, batch_size:16, epoch:1"
+  },
+  {
+    "timestamp": "2024-05-27 22:01:05.519",
+    "data": "학습이 완료되었습니다. 모델명: MA0.1"
+  },
+  {
+    "timestamp": "2024-05-27 22:01:08.306",
+    "data": "학습을 시작합니다. name: MA0.3, model_type: MobileNetV3, optimizer: Adam, batch_size: 16, epoch: 2"
+  },
+  {
+    "timestamp": "2024-05-27 22:01:08.306",
+    "data": "학습을 시작합니다. name:MA0.3, model_type:MobileNetV3, optimizer:Adam, batch_size:16, epoch:2"
+  },
+  {
+    "timestamp": "2024-05-27 22:01:17.296",
+    "data": "학습이 완료되었습니다. 모델명: MA0.3"
+  },
+  {
+    "timestamp": "2024-05-27 22:01:17.944",
+    "data": "학습을 시작합니다. name: MA0.5, model_type: MobileNetV3, optimizer: Adam, batch_size: 16, epoch: 3"
+  },
+  {
+    "timestamp": "2024-05-27 22:01:17.944",
+    "data": "학습을 시작합니다. name:MA0.5, model_type:MobileNetV3, optimizer:Adam, batch_size:16, epoch:3"
+  },
+  {
+    "timestamp": "2024-05-27 22:01:29.167",
+    "data": "학습이 완료되었습니다. 모델명: MA0.5"
+  },
+  {
+    "timestamp": "2024-05-27 22:02:08.222",
+    "data": "학습을 시작합니다. name: MA0.7, model_type: MobileNetV3, optimizer: Adam, batch_size: 16, epoch: 4"
+  },
+  {
+    "timestamp": "2024-05-27 22:02:08.222",
+    "data": "학습을 시작합니다. name:MA0.7, model_type:MobileNetV3, optimizer:Adam, batch_size:16, epoch:4"
+  },
+  {
+    "timestamp": "2024-05-27 22:02:20.798",
+    "data": "학습이 완료되었습니다. 모델명: MA0.7"
+  },
+  {
+    "timestamp": "2024-05-27 22:02:53.210",
+    "data": "학습을 시작합니다. name: MA0.9, model_type: MobileNetV3, optimizer: Adam, batch_size: 16, epoch: 5"
+  },
+  {
+    "timestamp": "2024-05-27 22:02:53.210",
+    "data": "학습을 시작합니다. name:MA0.9, model_type:MobileNetV3, optimizer:Adam, batch_size:16, epoch:5"
+  },
+  {
+    "timestamp": "2024-05-27 22:03:08.217",
+    "data": "학습이 완료되었습니다. 모델명: MA0.9"
+  },
+  {
+    "timestamp": "2024-05-27 22:03:40.301",
+    "data": "학습을 시작합니다. name: MS0.1, model_type: MobileNetV3, optimizer: SGD, batch_size: 16, epoch: 1"
+  },
+  {
+    "timestamp": "2024-05-27 22:03:40.301",
+    "data": "학습을 시작합니다. name:MS0.1, model_type:MobileNetV3, optimizer:SGD, batch_size:16, epoch:1"
+  },
+  {
+    "timestamp": "2024-05-27 22:03:47.266",
+    "data": "학습이 완료되었습니다. 모델명: MS0.1"
+  },
+  {
+    "timestamp": "2024-05-27 22:05:13.766",
+    "data": "학습을 시작합니다. name: MS0.3, model_type: MobileNetV3, optimizer: SGD, batch_size: 16, epoch: 2"
+  },
+  {
+    "timestamp": "2024-05-27 22:05:13.766",
+    "data": "학습을 시작합니다. name:MS0.3, model_type:MobileNetV3, optimizer:SGD, batch_size:16, epoch:2"
+  },
+  {
+    "timestamp": "2024-05-27 22:05:22.517",
+    "data": "학습이 완료되었습니다. 모델명: MS0.3"
+  },
+  {
+    "timestamp": "2024-05-27 22:05:59.269",
+    "data": "학습을 시작합니다. name: MS0.5, model_type: MobileNetV3, optimizer: SGD, batch_size: 16, epoch: 3"
+  },
+  {
+    "timestamp": "2024-05-27 22:05:59.269",
+    "data": "학습을 시작합니다. name:MS0.5, model_type:MobileNetV3, optimizer:SGD, batch_size:16, epoch:3"
+  },
+  {
+    "timestamp": "2024-05-27 22:06:10.294",
+    "data": "학습이 완료되었습니다. 모델명: MS0.5"
+  },
+  {
+    "timestamp": "2024-05-27 22:06:15.596",
+    "data": "학습을 시작합니다. name: MS0.7, model_type: MobileNetV3, optimizer: SGD, batch_size: 16, epoch: 4"
+  },
+  {
+    "timestamp": "2024-05-27 22:06:15.596",
+    "data": "학습을 시작합니다. name:MS0.7, model_type:MobileNetV3, optimizer:SGD, batch_size:16, epoch:4"
+  },
+  {
+    "timestamp": "2024-05-27 22:06:28.271",
+    "data": "학습이 완료되었습니다. 모델명: MS0.7"
+  },
+  {
+    "timestamp": "2024-05-27 22:08:03.339",
+    "data": "학습을 시작합니다. name: MS0.9, model_type: MobileNetV3, optimizer: SGD, batch_size: 16, epoch: 5"
+  },
+  {
+    "timestamp": "2024-05-27 22:08:03.339",
+    "data": "학습을 시작합니다. name:MS0.9, model_type:MobileNetV3, optimizer:SGD, batch_size:16, epoch:5"
+  },
+  {
+    "timestamp": "2024-05-27 22:08:18.750",
+    "data": "학습이 완료되었습니다. 모델명: MS0.9"
+  },
+  {
+    "timestamp": "2024-05-27 22:10:15.753",
+    "data": "모델 'model16'이 삭제됐습니다."
+  },
+  {
+    "timestamp": "2024-05-27 22:10:20.087",
+    "data": "모델 'model20'이 삭제됐습니다."
+  },
+  {
+    "timestamp": "2024-05-27 22:10:23.730",
+    "data": "모델 'model19'이 삭제됐습니다."
+  },
+  {
+    "timestamp": "2024-05-27 22:10:27.202",
+    "data": "모델 'model18'이 삭제됐습니다."
+  },
+  {
+    "timestamp": "2024-05-27 22:10:32.680",
+    "data": "모델 'model17'이 삭제됐습니다."
+  },
+  {
+    "timestamp": "2024-05-27 22:10:36.063",
+    "data": "모델 'model15'이 삭제됐습니다."
+  },
+  {
+    "timestamp": "2024-05-27 22:10:38.873",
+    "data": "모델 'model14'이 삭제됐습니다."
+  },
+  {
+    "timestamp": "2024-05-27 22:10:42.950",
+    "data": "모델 'model13'이 삭제됐습니다."
+  },
+  {
+    "timestamp": "2024-05-27 22:10:55.579",
+    "data": "모델 'model12'이 삭제됐습니다."
+  },
+  {
+    "timestamp": "2024-05-27 22:11:00.420",
+    "data": "모델 'model8'이 삭제됐습니다."
+  },
+  {
+    "timestamp": "2024-05-27 22:11:04.178",
+    "data": "모델 'model11'이 삭제됐습니다."
+  },
+  {
+    "timestamp": "2024-05-27 22:11:08.335",
+    "data": "모델 'model10'이 삭제됐습니다."
+  },
+  {
+    "timestamp": "2024-05-27 22:11:20.160",
+    "data": "이미지 분류 모델이 변경되었습니다."
+  },
+  {
+    "timestamp": "2024-05-27 23:25:47.598",
+    "data": "서버가 시작되었습니다."
+  }
+]

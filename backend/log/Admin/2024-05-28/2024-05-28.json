@@ -1,0 +1,266 @@
+[
+  {
+    "timestamp": "2024-05-28 00:34:37.503",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-28 00:58:18.506",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-28 10:39:02.442",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-28 10:44:10.128",
+    "data": "로그인 성공. 유저명: 김우진, IP: ::ffff:172.16.238.144"
+  },
+  {
+    "timestamp": "2024-05-28 10:44:28.975",
+    "data": "학습을 시작합니다. name: testest, model_type: YOLOv8, optimizer: Adam, batch_size: 16, epoch: 1"
+  },
+  {
+    "timestamp": "2024-05-28 10:44:28.975",
+    "data": "학습을 시작합니다. name:testest, model_type:YOLOv8, optimizer:Adam, batch_size:16, epoch:1"
+  },
+  {
+    "timestamp": "2024-05-28 10:45:07.728",
+    "data": "학습이 완료되었습니다. 모델명: testest"
+  },
+  {
+    "timestamp": "2024-05-28 10:46:42.302",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-28 10:53:10.609",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-28 10:55:58.255",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-28 10:56:04.361",
+    "data": "로그인 성공. 유저명: 김우진, IP: ::ffff:172.16.238.144"
+  },
+  {
+    "timestamp": "2024-05-28 10:56:20.858",
+    "data": "학습을 시작합니다. name: ttttttttttttttttttttt, model_type: ResNet101, optimizer: Adam, batch_size: 16, epoch: 1"
+  },
+  {
+    "timestamp": "2024-05-28 10:56:20.858",
+    "data": "학습을 시작합니다. name:ttttttttttttttttttttt, model_type:ResNet101, optimizer:Adam, batch_size:16, epoch:1"
+  },
+  {
+    "timestamp": "2024-05-28 10:56:33.605",
+    "data": "학습이 완료되었습니다. 모델명: ttttttttttttttttttttt"
+  },
+  {
+    "timestamp": "2024-05-28 12:50:11.557",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-28 13:37:14.377",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-28 14:11:08.804",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-28 14:11:32.730",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:172.16.227.194"
+  },
+  {
+    "timestamp": "2024-05-28 14:18:20.595",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-28 14:20:17.321",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:223.38.56.227"
+  },
+  {
+    "timestamp": "2024-05-28 14:25:30.270",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-28 14:26:48.848",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-28 14:27:50.730",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:223.38.56.227"
+  },
+  {
+    "timestamp": "2024-05-28 15:28:35.410",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-28 15:41:34.442",
+    "data": "로그인 성공. 유저명: 김우진, IP: ::ffff:192.9.201.185"
+  },
+  {
+    "timestamp": "2024-05-28 15:41:50.676",
+    "data": "학습을 시작합니다. name: dlfma, model_type: YOLOv8, optimizer: Adam, batch_size: 16, epoch: 1"
+  },
+  {
+    "timestamp": "2024-05-28 15:41:50.676",
+    "data": "학습을 시작합니다. name:dlfma, model_type:YOLOv8, optimizer:Adam, batch_size:16, epoch:1"
+  },
+  {
+    "timestamp": "2024-05-28 15:42:38.460",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-28 15:42:51.598",
+    "data": "로그인 성공. 유저명: 김우진, IP: ::ffff:192.9.201.185"
+  },
+  {
+    "timestamp": "2024-05-28 16:18:23.073",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-28 16:18:31.340",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:172.16.227.194"
+  },
+  {
+    "timestamp": "2024-05-28 16:27:26.548",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-28 16:27:36.726",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:172.16.227.194"
+  },
+  {
+    "timestamp": "2024-05-28 16:28:24.373",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-28 16:28:30.850",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:172.16.227.194"
+  },
+  {
+    "timestamp": "2024-05-28 16:34:00.608",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-28 16:34:12.880",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:172.16.227.194"
+  },
+  {
+    "timestamp": "2024-05-28 16:37:06.578",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-28 16:37:50.341",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:172.16.227.194"
+  },
+  {
+    "timestamp": "2024-05-28 16:43:40.714",
+    "data": "이미지 분류 모델이 변경되었습니다."
+  },
+  {
+    "timestamp": "2024-05-28 16:43:50.993",
+    "data": "이미지 분류 모델이 변경되었습니다."
+  },
+  {
+    "timestamp": "2024-05-28 16:45:57.668",
+    "data": "json 파일을 불러오는 데 실패했습니다."
+  },
+  {
+    "timestamp": "2024-05-28 16:45:59.569",
+    "data": "json 파일을 불러오는 데 실패했습니다."
+  },
+  {
+    "timestamp": "2024-05-28 16:46:00.796",
+    "data": "json 파일을 불러오는 데 실패했습니다."
+  },
+  {
+    "timestamp": "2024-05-28 16:46:06.031",
+    "data": "Error reading selectedmodel.json: ENOENT: no such file or directory, open './data/selectedModel.json'"
+  },
+  {
+    "timestamp": "2024-05-28 16:49:20.960",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-28 16:49:37.400",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:172.16.227.194"
+  },
+  {
+    "timestamp": "2024-05-28 16:49:40.245",
+    "data": "Error reading selectedmodel.json: ENOENT: no such file or directory, open './data/selectedModel.json'"
+  },
+  {
+    "timestamp": "2024-05-28 16:53:22.159",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-28 16:53:34.989",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:172.16.227.194"
+  },
+  {
+    "timestamp": "2024-05-28 16:53:38.555",
+    "data": "Error reading selectedmodel.json: ENOENT: no such file or directory, open './data/selectedModel.json'"
+  },
+  {
+    "timestamp": "2024-05-28 16:54:17.769",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-28 16:54:22.994",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:172.16.227.194"
+  },
+  {
+    "timestamp": "2024-05-28 16:54:26.551",
+    "data": "Error reading selectedmodel.json: ENOENT: no such file or directory, open './data/selectedModel.json'"
+  },
+  {
+    "timestamp": "2024-05-28 16:54:57.687",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-28 16:55:04.540",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:172.16.227.194"
+  },
+  {
+    "timestamp": "2024-05-28 16:55:07.311",
+    "data": "Error reading selectedmodel.json: ENOENT: no such file or directory, open './data/selectedModel.json'"
+  },
+  {
+    "timestamp": "2024-05-28 16:55:17.896",
+    "data": "json 파일을 불러오는 데 실패했습니다."
+  },
+  {
+    "timestamp": "2024-05-28 16:55:20.059",
+    "data": "json 파일을 불러오는 데 실패했습니다."
+  },
+  {
+    "timestamp": "2024-05-28 16:59:06.415",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-28 16:59:10.840",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:172.16.227.194"
+  },
+  {
+    "timestamp": "2024-05-28 16:59:14.349",
+    "data": "json 파일을 불러오는 데 실패했습니다."
+  },
+  {
+    "timestamp": "2024-05-28 16:59:28.790",
+    "data": "json 파일을 불러오는 데 실패했습니다."
+  },
+  {
+    "timestamp": "2024-05-28 16:59:30.354",
+    "data": "json 파일을 불러오는 데 실패했습니다."
+  },
+  {
+    "timestamp": "2024-05-28 16:59:31.384",
+    "data": "json 파일을 불러오는 데 실패했습니다."
+  },
+  {
+    "timestamp": "2024-05-28 16:59:33.802",
+    "data": "이미지 분류 모델이 변경되었습니다."
+  }
+]

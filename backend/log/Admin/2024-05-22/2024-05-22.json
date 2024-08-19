@@ -1,0 +1,310 @@
+[
+  {
+    "timestamp": "2024-05-22 03:40:22.055",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-22 11:12:26.360",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-22 11:12:47.968",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:14.35.75.94"
+  },
+  {
+    "timestamp": "2024-05-22 11:13:02.510",
+    "data": "이미지 분류 모델이 변경되었습니다."
+  },
+  {
+    "timestamp": "2024-05-22 11:22:08.506",
+    "data": "이미지 분류 오류 발생: Traceback (most recent call last):\n  File \"/home/t24103/v1.0src/backend/../ai/classify-mobilenetv3.py\", line 121, in <module>\n"
+  },
+  {
+    "timestamp": "2024-05-22 11:22:08.507",
+    "data": "이미지 분류 오류 발생:     classify_image(image_path, UNET_MODEL_PATH, model_path, torch.device('cuda' if torch.cuda.is_available() else 'cpu'))\n  File \"/home/t24103/v1.0src/backend/../ai/classify-mobilenetv3.py\", line 83, in classify_image\n    unet_model = load_unet_model(unet_model_path, device)\n  File \"/home/t24103/v1.0src/backend/../ai/classify-mobilenetv3.py\", line 18, in load_unet_model\n    model.load_state_dict(torch.load(unet_model_path, map_location=device))\n  File \"/usr/local/lib64/python3.9/site-packages/torch/serialization.py\", line 986, in load\n    with _open_file_like(f, 'rb') as opened_file:\n  File \"/usr/local/lib64/python3.9/site-packages/torch/serialization.py\", line 435, in _open_file_like\n    return _open_file(name_or_buffer, mode)\n  File \"/usr/local/lib64/python3.9/site-packages/torch/serialization.py\", line 416, in __init__\n    super().__init__(open(name, mode))\n"
+  },
+  {
+    "timestamp": "2024-05-22 11:22:08.507",
+    "data": "이미지 분류 오류 발생: FileNotFoundError: [Errno 2] No such file or directory: './models/unet.pth'\n"
+  },
+  {
+    "timestamp": "2024-05-22 11:22:08.837",
+    "data": "이미지 분류에 실패했습니다."
+  },
+  {
+    "timestamp": "2024-05-22 11:23:58.394",
+    "data": "이미지 분류 오류 발생: Traceback (most recent call last):\n  File \"/home/t24103/v1.0src/backend/../ai/classify-mobilenetv3.py\", line 121, in <module>\n"
+  },
+  {
+    "timestamp": "2024-05-22 11:23:58.394",
+    "data": "이미지 분류 오류 발생:     classify_image(image_path, UNET_MODEL_PATH, model_path, torch.device('cuda' if torch.cuda.is_available() else 'cpu'))\n  File \"/home/t24103/v1.0src/backend/../ai/classify-mobilenetv3.py\", line 83, in classify_image\n    unet_model = load_unet_model(unet_model_path, device)\n  File \"/home/t24103/v1.0src/backend/../ai/classify-mobilenetv3.py\", line 18, in load_unet_model\n    model.load_state_dict(torch.load(unet_model_path, map_location=device))\n  File \"/usr/local/lib64/python3.9/site-packages/torch/serialization.py\", line 986, in load\n"
+  },
+  {
+    "timestamp": "2024-05-22 11:23:58.394",
+    "data": "이미지 분류 오류 발생:     with _open_file_like(f, 'rb') as opened_file:\n  File \"/usr/local/lib64/python3.9/site-packages/torch/serialization.py\", line 435, in _open_file_like\n"
+  },
+  {
+    "timestamp": "2024-05-22 11:23:58.394",
+    "data": "이미지 분류 오류 발생:     return _open_file(name_or_buffer, mode)\n  File \"/usr/local/lib64/python3.9/site-packages/torch/serialization.py\", line 416, in __init__\n"
+  },
+  {
+    "timestamp": "2024-05-22 11:23:58.394",
+    "data": "이미지 분류 오류 발생:     super().__init__(open(name, mode))\n"
+  },
+  {
+    "timestamp": "2024-05-22 11:23:58.394",
+    "data": "이미지 분류 오류 발생: FileNotFoundError: [Errno 2] No such file or directory: '/home/t24103/v1.0src/backend/ai/models/unet.pth'\n"
+  },
+  {
+    "timestamp": "2024-05-22 11:23:58.737",
+    "data": "이미지 분류에 실패했습니다."
+  },
+  {
+    "timestamp": "2024-05-22 11:24:48.525",
+    "data": "이미지 분류 오류 발생: Traceback (most recent call last):\n  File \"/home/t24103/v1.0src/backend/../ai/classify-mobilenetv3.py\", line 121, in <module>\n"
+  },
+  {
+    "timestamp": "2024-05-22 11:24:48.525",
+    "data": "이미지 분류 오류 발생:     classify_image(image_path, UNET_MODEL_PATH, model_path, torch.device('cuda' if torch.cuda.is_available() else 'cpu'))\n  File \"/home/t24103/v1.0src/backend/../ai/classify-mobilenetv3.py\", line 87, in classify_image\n    image = remove_background(image, unet_model, device)\n  File \"/home/t24103/v1.0src/backend/../ai/classify-mobilenetv3.py\", line 40, in remove_background\n    result = img * np.repeat(pred_mask[:, :, np.newaxis], 3, axis=2)\nValueError: operands could not be broadcast together with shapes (512,512,3) (1,512,3,512) \n"
+  },
+  {
+    "timestamp": "2024-05-22 11:24:48.906",
+    "data": "이미지 분류에 실패했습니다."
+  },
+  {
+    "timestamp": "2024-05-22 11:26:25.419",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-22 11:26:42.402",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:14.35.75.94"
+  },
+  {
+    "timestamp": "2024-05-22 11:27:04.107",
+    "data": "이미지 분류 오류 발생: Traceback (most recent call last):\n  File \"/home/t24103/v1.0src/backend/../ai/classify-mobilenetv3.py\", line 125, in <module>\n"
+  },
+  {
+    "timestamp": "2024-05-22 11:27:04.107",
+    "data": "이미지 분류 오류 발생:     classify_image(image_path, UNET_MODEL_PATH, model_path, torch.device('cuda' if torch.cuda.is_available() else 'cpu'))\n  File \"/home/t24103/v1.0src/backend/../ai/classify-mobilenetv3.py\", line 91, in classify_image\n    image = remove_background(image, unet_model, device)\n  File \"/home/t24103/v1.0src/backend/../ai/classify-mobilenetv3.py\", line 44, in remove_background\n    result = img * pred_mask\nValueError: operands could not be broadcast together with shapes (512,512,3) (1,512,3,512) \n"
+  },
+  {
+    "timestamp": "2024-05-22 11:27:04.503",
+    "data": "이미지 분류에 실패했습니다."
+  },
+  {
+    "timestamp": "2024-05-22 11:28:53.439",
+    "data": "이미지 분류 오류 발생: Traceback (most recent call last):\n  File \"/home/t24103/v1.0src/backend/../ai/classify-mobilenetv3.py\", line 125, in <module>\n"
+  },
+  {
+    "timestamp": "2024-05-22 11:28:53.439",
+    "data": "이미지 분류 오류 발생:     classify_image(image_path, UNET_MODEL_PATH, model_path, torch.device('cuda' if torch.cuda.is_available() else 'cpu'))\n  File \"/home/t24103/v1.0src/backend/../ai/classify-mobilenetv3.py\", line 91, in classify_image\n    image = remove_background(image, unet_model, device)\n  File \"/home/t24103/v1.0src/backend/../ai/classify-mobilenetv3.py\", line 44, in remove_background\n    result = img * pred_mask\nValueError: operands could not be broadcast together with shapes (512,512,3) (1,512,3,512) \n"
+  },
+  {
+    "timestamp": "2024-05-22 11:28:53.832",
+    "data": "이미지 분류에 실패했습니다."
+  },
+  {
+    "timestamp": "2024-05-22 13:41:35.617",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-22 13:41:54.801",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:14.35.75.94"
+  },
+  {
+    "timestamp": "2024-05-22 13:42:11.748",
+    "data": "이미지 분류 오류 발생: /usr/local/lib64/python3.9/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).\n  warnings.warn(\n"
+  },
+  {
+    "timestamp": "2024-05-22 13:42:30.763",
+    "data": "이미지 분류 오류 발생: /usr/local/lib64/python3.9/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).\n  warnings.warn(\n"
+  },
+  {
+    "timestamp": "2024-05-22 13:43:37.679",
+    "data": "이미지 분류 오류 발생: /usr/local/lib64/python3.9/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).\n  warnings.warn(\n"
+  },
+  {
+    "timestamp": "2024-05-22 13:43:38.357",
+    "data": "이미지 분류 오류 발생: Traceback (most recent call last):\n  File \"/usr/local/lib64/python3.9/site-packages/PIL/Image.py\", line 2415, in save\n"
+  },
+  {
+    "timestamp": "2024-05-22 13:43:38.357",
+    "data": "이미지 분류 오류 발생:     format = EXTENSION[ext]\n"
+  },
+  {
+    "timestamp": "2024-05-22 13:43:38.358",
+    "data": "이미지 분류 오류 발생: KeyError: ''\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/home/t24103/v1.0src/backend/../ai/classify-mobilenetv3.py\", line 94, in <module>\n    extracted_img = remove_background(image_path)\n  File \"/home/t24103/v1.0src/backend/../ai/classify-mobilenetv3.py\", line 90, in remove_background\n"
+  },
+  {
+    "timestamp": "2024-05-22 13:43:38.358",
+    "data": "이미지 분류 오류 발생:     extracted_img.save('./')\n  File \"/usr/local/lib64/python3.9/site-packages/PIL/Image.py\", line 2418, in save\n"
+  },
+  {
+    "timestamp": "2024-05-22 13:43:38.358",
+    "data": "이미지 분류 오류 발생:     raise ValueError(msg) from e\nValueError: unknown file extension: \n"
+  },
+  {
+    "timestamp": "2024-05-22 13:43:38.760",
+    "data": "이미지 분류에 실패했습니다."
+  },
+  {
+    "timestamp": "2024-05-22 13:44:39.228",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-22 13:44:50.289",
+    "data": "로그인 실패. 유효하지 않은 사용자 이름 또는 비밀번호. IP: ::ffff:14.35.75.94"
+  },
+  {
+    "timestamp": "2024-05-22 13:44:54.826",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:14.35.75.94"
+  },
+  {
+    "timestamp": "2024-05-22 13:45:07.916",
+    "data": "이미지 분류 오류 발생: /usr/local/lib64/python3.9/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).\n  warnings.warn(\n"
+  },
+  {
+    "timestamp": "2024-05-22 13:45:08.660",
+    "data": "이미지 분류 오류 발생: Traceback (most recent call last):\n  File \"/usr/local/lib64/python3.9/site-packages/PIL/Image.py\", line 2415, in save\n"
+  },
+  {
+    "timestamp": "2024-05-22 13:45:08.660",
+    "data": "이미지 분류 오류 발생:     format = EXTENSION[ext]\nKeyError: ''\n"
+  },
+  {
+    "timestamp": "2024-05-22 13:45:08.660",
+    "data": "이미지 분류 오류 발생: \nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/home/t24103/v1.0src/backend/../ai/classify-mobilenetv3.py\", line 94, in <module>\n    extracted_img = remove_background(image_path)\n  File \"/home/t24103/v1.0src/backend/../ai/classify-mobilenetv3.py\", line 90, in remove_background\n"
+  },
+  {
+    "timestamp": "2024-05-22 13:45:08.660",
+    "data": "이미지 분류 오류 발생:     extracted_img.save('/home/t24103/extracted')\n  File \"/usr/local/lib64/python3.9/site-packages/PIL/Image.py\", line 2418, in save\n"
+  },
+  {
+    "timestamp": "2024-05-22 13:45:08.660",
+    "data": "이미지 분류 오류 발생:     raise ValueError(msg) from e\nValueError: unknown file extension: \n"
+  },
+  {
+    "timestamp": "2024-05-22 13:45:09.053",
+    "data": "이미지 분류에 실패했습니다."
+  },
+  {
+    "timestamp": "2024-05-22 13:47:55.717",
+    "data": "이미지 분류 오류 발생: /usr/local/lib64/python3.9/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).\n  warnings.warn(\n"
+  },
+  {
+    "timestamp": "2024-05-22 13:49:51.735",
+    "data": "이미지 분류 오류 발생: /usr/local/lib64/python3.9/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).\n  warnings.warn(\n"
+  },
+  {
+    "timestamp": "2024-05-22 13:50:08.361",
+    "data": "이미지 분류 오류 발생: /usr/local/lib64/python3.9/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).\n  warnings.warn(\n"
+  },
+  {
+    "timestamp": "2024-05-22 13:50:27.358",
+    "data": "이미지 분류 오류 발생: /usr/local/lib64/python3.9/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).\n  warnings.warn(\n"
+  },
+  {
+    "timestamp": "2024-05-22 13:50:44.322",
+    "data": "이미지 분류 오류 발생: /usr/local/lib64/python3.9/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).\n  warnings.warn(\n"
+  },
+  {
+    "timestamp": "2024-05-22 13:50:58.354",
+    "data": "이미지 분류 오류 발생: /usr/local/lib64/python3.9/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).\n  warnings.warn(\n"
+  },
+  {
+    "timestamp": "2024-05-22 13:51:15.230",
+    "data": "이미지 분류 오류 발생: /usr/local/lib64/python3.9/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).\n  warnings.warn(\n"
+  },
+  {
+    "timestamp": "2024-05-22 13:51:34.602",
+    "data": "이미지 분류 오류 발생: /usr/local/lib64/python3.9/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).\n  warnings.warn(\n"
+  },
+  {
+    "timestamp": "2024-05-22 13:51:47.870",
+    "data": "이미지 분류 오류 발생: /usr/local/lib64/python3.9/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).\n  warnings.warn(\n"
+  },
+  {
+    "timestamp": "2024-05-22 14:02:41.077",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-22 14:02:50.921",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:14.35.75.94"
+  },
+  {
+    "timestamp": "2024-05-22 14:03:12.838",
+    "data": "이미지 분류 오류 발생: /usr/local/lib64/python3.9/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).\n  warnings.warn(\n"
+  },
+  {
+    "timestamp": "2024-05-22 14:24:06.587",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-22 14:24:27.534",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:172.16.238.227"
+  },
+  {
+    "timestamp": "2024-05-22 14:47:30.401",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-22 14:47:36.987",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:172.16.238.227"
+  },
+  {
+    "timestamp": "2024-05-22 15:32:50.582",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-22 15:33:06.866",
+    "data": "로그인 실패. 유효하지 않은 사용자 이름 또는 비밀번호. IP: ::ffff:14.35.75.94"
+  },
+  {
+    "timestamp": "2024-05-22 15:33:13.076",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:14.35.75.94"
+  },
+  {
+    "timestamp": "2024-05-22 15:51:12.054",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-22 15:51:18.622",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:14.35.75.94"
+  },
+  {
+    "timestamp": "2024-05-22 20:56:30.959",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-22 20:56:38.583",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:14.35.75.94"
+  },
+  {
+    "timestamp": "2024-05-22 20:56:50.446",
+    "data": "이미지 분류 오류 발생: /usr/local/lib64/python3.9/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).\n  warnings.warn(\n"
+  },
+  {
+    "timestamp": "2024-05-22 20:57:02.035",
+    "data": "이미지 분류 오류 발생: /usr/local/lib64/python3.9/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).\n  warnings.warn(\n"
+  },
+  {
+    "timestamp": "2024-05-22 20:57:05.726",
+    "data": "이미지 분류 오류 발생: /usr/local/lib64/python3.9/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).\n  warnings.warn(\n"
+  },
+  {
+    "timestamp": "2024-05-22 20:57:21.244",
+    "data": "이미지 분류 오류 발생: /usr/local/lib64/python3.9/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).\n  warnings.warn(\n"
+  },
+  {
+    "timestamp": "2024-05-22 21:10:10.952",
+    "data": "이미지 분류 오류 발생: /usr/local/lib64/python3.9/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).\n  warnings.warn(\n"
+  },
+  {
+    "timestamp": "2024-05-22 21:40:24.601",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-22 21:40:49.397",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:14.35.75.94"
+  }
+]

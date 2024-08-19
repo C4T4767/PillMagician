@@ -1,0 +1,86 @@
+[
+  {
+    "timestamp": "2024-05-23 17:08:35.767",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-23 17:08:42.062",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:14.35.75.94"
+  },
+  {
+    "timestamp": "2024-05-23 20:45:22.677",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-23 21:23:45.010",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-23 21:27:45.180",
+    "data": "로그인 성공. 유저명: 김우진, IP: ::ffff:121.133.210.20"
+  },
+  {
+    "timestamp": "2024-05-23 21:28:25.164",
+    "data": "학습을 시작합니다. name: for test, model_type: resnet50, optimizer: Adam, batch_size: 16, epoch: 2"
+  },
+  {
+    "timestamp": "2024-05-23 21:28:25.164",
+    "data": "학습을 시작합니다. name:for test, model_type:resnet50, optimizer:Adam, batch_size:16, epoch:2"
+  },
+  {
+    "timestamp": "2024-05-23 21:28:27.715",
+    "data": "학습 오류 발생: FileNotFoundError: [Errno 2] No such file or directory: '/home/t24103/v1.0src/ai/aidata/train'\n"
+  },
+  {
+    "timestamp": "2024-05-23 21:31:43.283",
+    "data": "학습을 시작합니다. name: for test, model_type: resnet50, optimizer: Adam, batch_size: 16, epoch: 2"
+  },
+  {
+    "timestamp": "2024-05-23 21:31:43.283",
+    "data": "학습을 시작합니다. name:for test, model_type:resnet50, optimizer:Adam, batch_size:16, epoch:2"
+  },
+  {
+    "timestamp": "2024-05-23 21:32:19.080",
+    "data": "학습이 완료되었습니다. 모델명: for test"
+  },
+  {
+    "timestamp": "2024-05-23 21:32:48.803",
+    "data": "학습 오류 발생: Traceback (most recent call last):\n  File \"/home/t24103/v1.0src/backend/../ai/retrain-resnet50.py\", line 225, in <module>\n    main()\n  File \"/home/t24103/v1.0src/backend/../ai/retrain-resnet50.py\", line 64, in main\n    model.load_state_dict(model_state_dict)\n  File \"/usr/local/lib64/python3.9/site-packages/torch/nn/modules/module.py\", line 2152, in load_state_dict\n    raise RuntimeError('Error(s) in loading state_dict for {}:\\n\\t{}'.format(\nRuntimeError: Error(s) in loading state_dict for ResNet:\n\tMissing key(s) in state_dict: \"fc.weight\", \"fc.bias\". \n\tUnexpected key(s) in state_dict: \"fc.1.weight\", \"fc.1.bias\". \n"
+  },
+  {
+    "timestamp": "2024-05-23 21:33:19.315",
+    "data": "이름 또는 epoch가 없습니다."
+  },
+  {
+    "timestamp": "2024-05-23 21:33:24.034",
+    "data": "학습을 시작합니다. name: 123, model_type: YOLOv8, optimizer: Adam, batch_size: 16, epoch: 1"
+  },
+  {
+    "timestamp": "2024-05-23 21:33:24.034",
+    "data": "학습을 시작합니다. name:123, model_type:YOLOv8, optimizer:Adam, batch_size:16, epoch:1"
+  },
+  {
+    "timestamp": "2024-05-23 21:33:39.364",
+    "data": "학습 오류 발생:     return self._call_impl(*args, **kwargs)\n  File \"/usr/local/lib64/python3.9/site-packages/torch/nn/modules/module.py\", line 1527, in _call_impl\n    return forward_call(*args, **kwargs)\n  File \"/usr/local/lib64/python3.9/site-packages/torch/nn/modules/conv.py\", line 460, in forward\n    return self._conv_forward(input, self.weight, self.bias)\n  File \"/usr/local/lib64/python3.9/site-packages/torch/nn/modules/conv.py\", line 456, in _conv_forward\n    return F.conv2d(input, weight, bias, self.stride,\ntorch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB. GPU 0 has a total capacty of 23.68 GiB of which 15.88 MiB is free. Process 671408 has 5.03 GiB memory in use. Including non-PyTorch memory, this process has 1.49 GiB memory in use. Process 916072 has 17.12 GiB memory in use. Of the allocated memory 1.13 GiB is allocated by PyTorch, and 54.29 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF\n"
+  },
+  {
+    "timestamp": "2024-05-23 21:35:38.568",
+    "data": "이미지 분류 오류 발생: Traceback (most recent call last):\n"
+  },
+  {
+    "timestamp": "2024-05-23 21:35:38.568",
+    "data": "이미지 분류 오류 발생:   File \"/home/t24103/v1.0src/backend/../ai/classify-mobilenetv3.py\", line 11, in <module>\n"
+  },
+  {
+    "timestamp": "2024-05-23 21:35:38.568",
+    "data": "이미지 분류 오류 발생:     from unet import UNet\n"
+  },
+  {
+    "timestamp": "2024-05-23 21:35:38.568",
+    "data": "이미지 분류 오류 발생: ModuleNotFoundError: No module named 'unet'\n"
+  },
+  {
+    "timestamp": "2024-05-23 21:35:38.896",
+    "data": "이미지 분류에 실패했습니다."
+  }
+]

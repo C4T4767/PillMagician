@@ -1,0 +1,202 @@
+[
+  {
+    "timestamp": "2024-05-13T11:58:09.779Z",
+    "data": "Training process started: name:test1, model_type:YOLOv8, optimizer:Adam, batch_size:16, epoch:2"
+  },
+  {
+    "timestamp": "2024-05-13T11:58:09.780Z",
+    "data": "학습을 시작합니다."
+  },
+  {
+    "timestamp": "2024-05-13T11:58:21.469Z",
+    "data": "runs 폴더를 성공적으로 삭제했습니다."
+  },
+  {
+    "timestamp": "2024-05-13T12:04:41.725Z",
+    "data": "Training process started: name:test, model_type:YOLOv8, optimizer:Adam, batch_size:16, epoch:2"
+  },
+  {
+    "timestamp": "2024-05-13T12:04:41.728Z",
+    "data": "학습을 시작합니다."
+  },
+  {
+    "timestamp": "2024-05-13T12:04:53.208Z",
+    "data": "학습 오류 발생: torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB. GPU 0 has a total capacty of 23.68 GiB of which 3.81 MiB is free. Process 3856036 has 6.69 GiB memory in use. Process 2402509 has 13.35 GiB memory in use. Process 2490171 has 1.70 GiB memory in use. Including non-PyTorch memory, this process has 1.66 GiB memory in use. Of the allocated memory 1.32 GiB is allocated by PyTorch, and 36.60 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF\n"
+  },
+  {
+    "timestamp": "2024-05-13T12:04:53.210Z",
+    "data": "runs 폴더를 성공적으로 삭제했습니다."
+  },
+  {
+    "timestamp": "2024-05-13T12:06:21.848Z",
+    "data": "Training process started: name:test, model_type:YOLOv8, optimizer:Adam, batch_size:16, epoch:2"
+  },
+  {
+    "timestamp": "2024-05-13T12:06:21.850Z",
+    "data": "학습을 시작합니다."
+  },
+  {
+    "timestamp": "2024-05-13T12:06:32.917Z",
+    "data": "학습 오류 발생: torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB. GPU 0 has a total capacty of 23.68 GiB of which 3.81 MiB is free. Process 3856036 has 6.69 GiB memory in use. Process 2402509 has 13.35 GiB memory in use. Process 2490171 has 1.70 GiB memory in use. Including non-PyTorch memory, this process has 1.66 GiB memory in use. Of the allocated memory 1.32 GiB is allocated by PyTorch, and 36.60 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF\n"
+  },
+  {
+    "timestamp": "2024-05-13T12:06:32.919Z",
+    "data": "runs 폴더를 성공적으로 삭제했습니다."
+  },
+  {
+    "timestamp": "2024-05-13 12:50:33.816",
+    "data": "Training process started: name:test, model_type:YOLOv8, optimizer:Adam, batch_size:16, epoch:2"
+  },
+  {
+    "timestamp": "2024-05-13 12:50:33.818",
+    "data": "학습을 시작합니다."
+  },
+  {
+    "timestamp": "2024-05-13 12:52:12.662",
+    "data": "test폴더가 성공적으로 생성되었습니다."
+  },
+  {
+    "timestamp": "2024-05-13 12:52:12.663",
+    "data": "test폴더가 성공적으로 생성되었습니다."
+  },
+  {
+    "timestamp": "2024-05-13 12:52:12.663",
+    "data": "roc_curve.png 파일을 성공적으로 이동했습니다."
+  },
+  {
+    "timestamp": "2024-05-13 12:52:12.663",
+    "data": "best.pt 파일을 성공적으로 이동했습니다."
+  },
+  {
+    "timestamp": "2024-05-13 12:52:12.669",
+    "data": "runs 폴더를 성공적으로 삭제했습니다."
+  },
+  {
+    "timestamp": "2024-05-13 12:59:23.657",
+    "data": "Training process started: name:test1, model_type:YOLOv8, optimizer:Adam, batch_size:16, epoch:2"
+  },
+  {
+    "timestamp": "2024-05-13 12:59:23.659",
+    "data": "학습을 시작합니다."
+  },
+  {
+    "timestamp": "2024-05-13 13:00:58.906",
+    "data": "test1폴더가 성공적으로 생성되었습니다."
+  },
+  {
+    "timestamp": "2024-05-13 13:00:58.906",
+    "data": "test1폴더가 성공적으로 생성되었습니다."
+  },
+  {
+    "timestamp": "2024-05-13 13:00:58.907",
+    "data": "roc_curve.png 파일을 성공적으로 이동했습니다."
+  },
+  {
+    "timestamp": "2024-05-13 13:00:58.907",
+    "data": "best.pt 파일을 성공적으로 이동했습니다."
+  },
+  {
+    "timestamp": "2024-05-13 13:00:58.914",
+    "data": "runs 폴더를 성공적으로 삭제했습니다."
+  },
+  {
+    "timestamp": "2024-05-13 20:03:33.670",
+    "data": "Training process started: name:test1, model_type:resnet50, optimizer:Adam, batch_size:16, epoch:2"
+  },
+  {
+    "timestamp": "2024-05-13 20:03:33.671",
+    "data": "모델명 중복됨"
+  },
+  {
+    "timestamp": "2024-05-13 20:03:38.486",
+    "data": "Training process started: name:test2, model_type:resnet50, optimizer:Adam, batch_size:16, epoch:3"
+  },
+  {
+    "timestamp": "2024-05-13 20:03:38.488",
+    "data": "학습을 시작합니다."
+  },
+  {
+    "timestamp": "2024-05-13 20:04:16.677",
+    "data": "test2폴더가 성공적으로 생성되었습니다."
+  },
+  {
+    "timestamp": "2024-05-13 20:04:16.677",
+    "data": "test2폴더가 성공적으로 생성되었습니다."
+  },
+  {
+    "timestamp": "2024-05-13 20:04:16.677",
+    "data": "runs 폴더를 성공적으로 삭제했습니다."
+  },
+  {
+    "timestamp": "2024-05-13 20:04:16.677",
+    "data": "roc_curve.png 파일을 성공적으로 이동했습니다."
+  },
+  {
+    "timestamp": "2024-05-13 20:04:16.677",
+    "data": "best.pt 파일을 성공적으로 이동했습니다."
+  },
+  {
+    "timestamp": "2024-05-13 20:19:03.147",
+    "data": "Training process started: name:test3, model_type:resnet50, optimizer:Adam, batch_size:16, epoch:4"
+  },
+  {
+    "timestamp": "2024-05-13 20:19:03.149",
+    "data": "학습을 시작합니다."
+  },
+  {
+    "timestamp": "2024-05-13 20:19:51.757",
+    "data": "test3폴더가 성공적으로 생성되었습니다."
+  },
+  {
+    "timestamp": "2024-05-13 20:19:51.758",
+    "data": "test3폴더가 성공적으로 생성되었습니다."
+  },
+  {
+    "timestamp": "2024-05-13 20:19:51.758",
+    "data": "runs 폴더를 성공적으로 삭제했습니다."
+  },
+  {
+    "timestamp": "2024-05-13 20:19:51.758",
+    "data": "best.pt 파일을 성공적으로 이동했습니다."
+  },
+  {
+    "timestamp": "2024-05-13 20:19:51.758",
+    "data": "roc_curve.png 파일을 성공적으로 이동했습니다."
+  },
+  {
+    "timestamp": "2024-05-13 20:32:16.517",
+    "data": "학습을 시작합니다. name:test4, model_type:resnet50, optimizer:Adam, batch_size:16, epoch:5"
+  },
+  {
+    "timestamp": "2024-05-13 20:33:39.082",
+    "data": "학습을 시작합니다. name:test5, model_type:resnet50, optimizer:Adam, batch_size:16, epoch:5"
+  },
+  {
+    "timestamp": "2024-05-13 20:35:41.963",
+    "data": "학습을 시작합니다. name:test6, model_type:resnet50, optimizer:Adam, batch_size:16, epoch:6"
+  },
+  {
+    "timestamp": "2024-05-13 21:24:39.643",
+    "data": "학습을 시작합니다. name:test7, model_type:resnet50, optimizer:Adam, batch_size:16, epoch:10"
+  },
+  {
+    "timestamp": "2024-05-13 21:26:33.432",
+    "data": "test7폴더가 성공적으로 생성되었습니다."
+  },
+  {
+    "timestamp": "2024-05-13 21:26:33.432",
+    "data": "test7폴더가 성공적으로 생성되었습니다."
+  },
+  {
+    "timestamp": "2024-05-13 21:26:33.432",
+    "data": "best.pt 파일을 성공적으로 이동했습니다."
+  },
+  {
+    "timestamp": "2024-05-13 21:26:33.432",
+    "data": "roc_curve.png 파일을 성공적으로 이동했습니다."
+  },
+  {
+    "timestamp": "2024-05-13 21:26:33.433",
+    "data": "runs 폴더를 성공적으로 삭제했습니다."
+  }
+]

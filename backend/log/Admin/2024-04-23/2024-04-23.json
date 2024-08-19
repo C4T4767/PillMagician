@@ -1,0 +1,114 @@
+[
+  {
+    "timestamp": "2024-04-23T06:28:20.809Z",
+    "data": "Training process started: name:test, model_type:resnet50, optimizer:Adam, batch_size:16, epoch:3"
+  },
+  {
+    "timestamp": "2024-04-23T06:28:20.810Z",
+    "data": "학습을 시작합니다."
+  },
+  {
+    "timestamp": "2024-04-23T06:28:58.778Z",
+    "data": "폴더1가 성공적으로 생성되었습니다."
+  },
+  {
+    "timestamp": "2024-04-23T06:28:58.778Z",
+    "data": "폴더2가 성공적으로 생성되었습니다."
+  },
+  {
+    "timestamp": "2024-04-23T06:28:58.778Z",
+    "data": "best.pt 파일을 성공적으로 이동했습니다."
+  },
+  {
+    "timestamp": "2024-04-23T06:28:58.778Z",
+    "data": "roc_curve.png 파일을 성공적으로 이동했습니다."
+  },
+  {
+    "timestamp": "2024-04-23T06:28:58.778Z",
+    "data": "runs 폴더를 성공적으로 삭제했습니다."
+  },
+  {
+    "timestamp": "2024-04-23T06:29:21.752Z",
+    "data": "이미지 분류 모델이 변경되었습니다."
+  },
+  {
+    "timestamp": "2024-04-23T06:29:54.288Z",
+    "data": "이미지 분류 모델이 변경되었습니다."
+  },
+  {
+    "timestamp": "2024-04-23T07:20:57.477Z",
+    "data": "Training process started: name:aishoihio, model_type:resnet50, optimizer:Adam, batch_size:16, epoch:2"
+  },
+  {
+    "timestamp": "2024-04-23T07:20:57.478Z",
+    "data": "학습을 시작합니다."
+  },
+  {
+    "timestamp": "2024-04-23T07:21:24.089Z",
+    "data": "폴더2가 성공적으로 생성되었습니다."
+  },
+  {
+    "timestamp": "2024-04-23T07:21:24.090Z",
+    "data": "roc_curve.png 파일을 성공적으로 이동했습니다."
+  },
+  {
+    "timestamp": "2024-04-23T07:21:24.090Z",
+    "data": "runs 폴더를 성공적으로 삭제했습니다."
+  },
+  {
+    "timestamp": "2024-04-23T07:21:24.094Z",
+    "data": "폴더1가 성공적으로 생성되었습니다."
+  },
+  {
+    "timestamp": "2024-04-23T07:21:24.094Z",
+    "data": "best.pt 파일을 성공적으로 이동했습니다."
+  },
+  {
+    "timestamp": "2024-04-23T07:22:01.920Z",
+    "data": "폴더2가 성공적으로 생성되었습니다."
+  },
+  {
+    "timestamp": "2024-04-23T07:22:01.921Z",
+    "data": "폴더1가 성공적으로 생성되었습니다."
+  },
+  {
+    "timestamp": "2024-04-23T07:22:01.921Z",
+    "data": "roc_curve.png 파일을 성공적으로 이동했습니다."
+  },
+  {
+    "timestamp": "2024-04-23T07:22:01.921Z",
+    "data": "best.pt 파일을 성공적으로 이동했습니다."
+  },
+  {
+    "timestamp": "2024-04-23T07:24:43.058Z",
+    "data": "이미지 분류 모델이 변경되었습니다."
+  },
+  {
+    "timestamp": "2024-04-23T07:27:26.198Z",
+    "data": "Training process started: name:test, model_type:resnet50, optimizer:Adam, batch_size:16, epoch:2"
+  },
+  {
+    "timestamp": "2024-04-23T07:27:26.198Z",
+    "data": "학습을 시작합니다."
+  },
+  {
+    "timestamp": "2024-04-23T07:27:52.768Z",
+    "data": "폴더1가 성공적으로 생성되었습니다."
+  },
+  {
+    "timestamp": "2024-04-23T07:27:52.769Z",
+    "data": "폴더2가 성공적으로 생성되었습니다."
+  },
+  {
+    "timestamp": "2024-04-23T07:27:52.769Z",
+    "data": "runs 폴더를 성공적으로 삭제했습니다."
+  },
+  {
+    "timestamp": "2024-04-23T07:27:52.774Z",
+    "data": "best.pt 파일을 성공적으로 이동했습니다."
+  },
+  {
+    "timestamp": "2024-04-23T07:27:52.774Z",
+    "data": "roc_curve.png 파일을 성공적으로 이동했습니다."
+  }
+]

@@ -1,0 +1,290 @@
+[
+  {
+    "timestamp": "2024-04-20T09:22:02.185Z",
+    "data": "Training process started: name:test23, model_type:undefined, optimizer:Adam, batch_size:16, epoch:2"
+  },
+  {
+    "timestamp": "2024-04-20T09:24:31.979Z",
+    "data": "Training process started: name:1234, model_type:undefined, optimizer:Adam, batch_size:16, epoch:2"
+  },
+  {
+    "timestamp": "2024-04-20T09:31:46.613Z",
+    "data": "Training process started: name:test2, model_type:undefined, optimizer:Adam, batch_size:16, epoch:2"
+  },
+  {
+    "timestamp": "2024-04-20T09:33:32.599Z",
+    "data": "Training process started: name:test2, model_type:undefined, optimizer:Adam, batch_size:16, epoch:2"
+  },
+  {
+    "timestamp": "2024-04-20T09:34:02.969Z",
+    "data": "Training process started: name:test2, model_type:undefined, optimizer:Adam, batch_size:16, epoch:2"
+  },
+  {
+    "timestamp": "2024-04-20T09:35:51.827Z",
+    "data": "Training process started: name:test2, model_type:undefined, optimizer:Adam, batch_size:16, epoch:2"
+  },
+  {
+    "timestamp": "2024-04-20T09:38:41.316Z",
+    "data": "Training process started: name:test23, model_type:YOLOv8, optimizer:Adam, batch_size:16, epoch:2"
+  },
+  {
+    "timestamp": "2024-04-20T09:44:25.026Z",
+    "data": "Training process started: name:test23, model_type:resnet50, optimizer:Adam, batch_size:16, epoch:2"
+  },
+  {
+    "timestamp": "2024-04-20T09:44:25.032Z",
+    "data": "학습을 시작합니다."
+  },
+  {
+    "timestamp": "2024-04-20T10:51:45.610Z",
+    "data": "Training process started: name:test233, model_type:resnet50, optimizer:Adam, batch_size:16, epoch:2"
+  },
+  {
+    "timestamp": "2024-04-20T10:51:45.612Z",
+    "data": "학습을 시작합니다."
+  },
+  {
+    "timestamp": "2024-04-20T10:54:13.503Z",
+    "data": "Training process started: name:test232, model_type:resnet50, optimizer:Adam, batch_size:16, epoch:2"
+  },
+  {
+    "timestamp": "2024-04-20T10:54:13.508Z",
+    "data": "학습을 시작합니다."
+  },
+  {
+    "timestamp": "2024-04-20T11:00:48.939Z",
+    "data": "Training process started: name:asd, model_type:resnet50, optimizer:Adam, batch_size:16, epoch:2"
+  },
+  {
+    "timestamp": "2024-04-20T11:00:48.941Z",
+    "data": "학습을 시작합니다."
+  },
+  {
+    "timestamp": "2024-04-20T11:21:43.316Z",
+    "data": "Training process started: name:asdsad, model_type:resnet50, optimizer:Adam, batch_size:16, epoch:2"
+  },
+  {
+    "timestamp": "2024-04-20T11:21:43.321Z",
+    "data": "학습을 시작합니다."
+  },
+  {
+    "timestamp": "2024-04-20T12:05:58.740Z",
+    "data": "Training process started: name:ㅁ, model_type:YOLOv8, optimizer:Adam, batch_size:16, epoch:2"
+  },
+  {
+    "timestamp": "2024-04-20T12:05:58.742Z",
+    "data": "학습을 시작합니다."
+  },
+  {
+    "timestamp": "2024-04-20T12:11:48.068Z",
+    "data": "Training process started: name:ya1, model_type:YOLOv8, optimizer:Adam, batch_size:16, epoch:2"
+  },
+  {
+    "timestamp": "2024-04-20T12:11:48.070Z",
+    "data": "학습을 시작합니다."
+  },
+  {
+    "timestamp": "2024-04-20T12:19:24.517Z",
+    "data": "Training process started: name:ya, model_type:YOLOv8, optimizer:Adam, batch_size:16, epoch:2"
+  },
+  {
+    "timestamp": "2024-04-20T12:19:24.519Z",
+    "data": "학습을 시작합니다."
+  },
+  {
+    "timestamp": "2024-04-20T12:38:01.110Z",
+    "data": "Training process started: name:2, model_type:YOLOv8, optimizer:Adam, batch_size:16, epoch:2"
+  },
+  {
+    "timestamp": "2024-04-20T12:38:01.113Z",
+    "data": "학습을 시작합니다."
+  },
+  {
+    "timestamp": "2024-04-20T12:44:07.431Z",
+    "data": "Training process started: name:2, model_type:YOLOv8, optimizer:Adam, batch_size:16, epoch:2"
+  },
+  {
+    "timestamp": "2024-04-20T12:44:07.434Z",
+    "data": "학습을 시작합니다."
+  },
+  {
+    "timestamp": "2024-04-20T12:44:09.220Z",
+    "data": "Training process started: name:2, model_type:YOLOv8, optimizer:Adam, batch_size:16, epoch:2"
+  },
+  {
+    "timestamp": "2024-04-20T12:44:09.220Z",
+    "data": "이미 학습이 진행 중입니다."
+  },
+  {
+    "timestamp": "2024-04-20T12:49:33.932Z",
+    "data": "Training process started: name:YA1., model_type:YOLOv8, optimizer:Adam, batch_size:16, epoch:2"
+  },
+  {
+    "timestamp": "2024-04-20T12:49:33.934Z",
+    "data": "학습을 시작합니다."
+  },
+  {
+    "timestamp": "2024-04-20T12:54:18.584Z",
+    "data": "Training process started: name:YA112, model_type:YOLOv8, optimizer:Adam, batch_size:16, epoch:2"
+  },
+  {
+    "timestamp": "2024-04-20T12:54:18.586Z",
+    "data": "학습을 시작합니다."
+  },
+  {
+    "timestamp": "2024-04-20T12:57:54.558Z",
+    "data": "Training process started: name:YA111, model_type:YOLOv8, optimizer:Adam, batch_size:16, epoch:2"
+  },
+  {
+    "timestamp": "2024-04-20T12:57:54.564Z",
+    "data": "학습을 시작합니다."
+  },
+  {
+    "timestamp": "2024-04-20T12:59:54.545Z",
+    "data": "폴더가 성공적으로 생성되었습니다."
+  },
+  {
+    "timestamp": "2024-04-20T12:59:54.547Z",
+    "data": "best.pt 파일을 성공적으로 이동했습니다."
+  },
+  {
+    "timestamp": "2024-04-20T12:59:54.547Z",
+    "data": "roc_curve.png 파일을 성공적으로 이동했습니다."
+  },
+  {
+    "timestamp": "2024-04-20T12:59:54.564Z",
+    "data": "runs 폴더를 성공적으로 삭제했습니다."
+  },
+  {
+    "timestamp": "2024-04-20T13:00:55.845Z",
+    "data": "Training process started: name:RA, model_type:resnet50, optimizer:Adam, batch_size:16, epoch:2"
+  },
+  {
+    "timestamp": "2024-04-20T13:00:55.847Z",
+    "data": "학습을 시작합니다."
+  },
+  {
+    "timestamp": "2024-04-20T13:02:20.660Z",
+    "data": "폴더가 성공적으로 생성되었습니다."
+  },
+  {
+    "timestamp": "2024-04-20T13:02:20.661Z",
+    "data": "best.pt 파일을 성공적으로 이동했습니다."
+  },
+  {
+    "timestamp": "2024-04-20T13:02:20.662Z",
+    "data": "roc_curve.png 파일을 성공적으로 이동했습니다."
+  },
+  {
+    "timestamp": "2024-04-20T13:02:20.662Z",
+    "data": "runs 폴더를 성공적으로 삭제했습니다."
+  },
+  {
+    "timestamp": "2024-04-20T13:15:44.414Z",
+    "data": "이미지 분류 모델이 변경되었습니다."
+  },
+  {
+    "timestamp": "2024-04-20T13:39:36.014Z",
+    "data": "Training process started: name:YA1.0, model_type:YOLOv8, optimizer:Adam, batch_size:16, epoch:2"
+  },
+  {
+    "timestamp": "2024-04-20T13:39:36.015Z",
+    "data": "학습을 시작합니다."
+  },
+  {
+    "timestamp": "2024-04-20T13:41:44.142Z",
+    "data": "폴더가 성공적으로 생성되었습니다."
+  },
+  {
+    "timestamp": "2024-04-20T13:41:44.143Z",
+    "data": "best.pt 파일을 성공적으로 이동했습니다."
+  },
+  {
+    "timestamp": "2024-04-20T13:41:44.143Z",
+    "data": "roc_curve.png 파일을 성공적으로 이동했습니다."
+  },
+  {
+    "timestamp": "2024-04-20T13:41:44.159Z",
+    "data": "runs 폴더를 성공적으로 삭제했습니다."
+  },
+  {
+    "timestamp": "2024-04-20T13:41:56.756Z",
+    "data": "Training process started: name:RA1.0, model_type:resnet50, optimizer:Adam, batch_size:16, epoch:2"
+  },
+  {
+    "timestamp": "2024-04-20T13:41:56.757Z",
+    "data": "학습을 시작합니다."
+  },
+  {
+    "timestamp": "2024-04-20T13:43:16.969Z",
+    "data": "Training process started: name:MA1.0, model_type:resnet50, optimizer:Adam, batch_size:16, epoch:2"
+  },
+  {
+    "timestamp": "2024-04-20T13:43:16.970Z",
+    "data": "이미 학습이 진행 중입니다."
+  },
+  {
+    "timestamp": "2024-04-20T13:43:19.040Z",
+    "data": "폴더가 성공적으로 생성되었습니다."
+  },
+  {
+    "timestamp": "2024-04-20T13:43:19.040Z",
+    "data": "best.pt 파일을 성공적으로 이동했습니다."
+  },
+  {
+    "timestamp": "2024-04-20T13:43:19.041Z",
+    "data": "roc_curve.png 파일을 성공적으로 이동했습니다."
+  },
+  {
+    "timestamp": "2024-04-20T13:43:19.042Z",
+    "data": "runs 폴더를 성공적으로 삭제했습니다."
+  },
+  {
+    "timestamp": "2024-04-20T13:43:22.934Z",
+    "data": "Training process started: name:MA1.0, model_type:resnet50, optimizer:Adam, batch_size:16, epoch:2"
+  },
+  {
+    "timestamp": "2024-04-20T13:43:22.935Z",
+    "data": "학습을 시작합니다."
+  },
+  {
+    "timestamp": "2024-04-20T13:44:46.717Z",
+    "data": "폴더가 성공적으로 생성되었습니다."
+  },
+  {
+    "timestamp": "2024-04-20T13:44:46.717Z",
+    "data": "best.pt 파일을 성공적으로 이동했습니다."
+  },
+  {
+    "timestamp": "2024-04-20T13:44:46.718Z",
+    "data": "roc_curve.png 파일을 성공적으로 이동했습니다."
+  },
+  {
+    "timestamp": "2024-04-20T13:44:46.718Z",
+    "data": "runs 폴더를 성공적으로 삭제했습니다."
+  },
+  {
+    "timestamp": "2024-04-20T14:06:58.195Z",
+    "data": "Training process started: name:MA1.0, model_type:MobileNetV3, optimizer:Adam, batch_size:16, epoch:2"
+  },
+  {
+    "timestamp": "2024-04-20T14:06:58.202Z",
+    "data": "학습을 시작합니다."
+  },
+  {
+    "timestamp": "2024-04-20T14:07:47.816Z",
+    "data": "폴더가 성공적으로 생성되었습니다."
+  },
+  {
+    "timestamp": "2024-04-20T14:07:47.824Z",
+    "data": "best.pt 파일을 성공적으로 이동했습니다."
+  },
+  {
+    "timestamp": "2024-04-20T14:07:47.825Z",
+    "data": "roc_curve.png 파일을 성공적으로 이동했습니다."
+  },
+  {
+    "timestamp": "2024-04-20T14:07:47.827Z",
+    "data": "runs 폴더를 성공적으로 삭제했습니다."
+  }
+]

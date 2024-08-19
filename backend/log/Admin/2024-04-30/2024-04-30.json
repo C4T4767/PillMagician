@@ -1,0 +1,70 @@
+[
+  {
+    "timestamp": "2024-04-30T05:20:21.736Z",
+    "data": "Training process started: name:, model_type:YOLOv8, optimizer:Adam, batch_size:16, epoch:"
+  },
+  {
+    "timestamp": "2024-04-30T05:20:21.736Z",
+    "data": "이름 또는 epoch가 없습니다."
+  },
+  {
+    "timestamp": "2024-04-30T05:20:30.499Z",
+    "data": "Training process started: name:test, model_type:resnet50, optimizer:Adam, batch_size:16, epoch:1"
+  },
+  {
+    "timestamp": "2024-04-30T05:20:30.500Z",
+    "data": "학습을 시작합니다."
+  },
+  {
+    "timestamp": "2024-04-30T05:20:34.536Z",
+    "data": "runs 폴더를 성공적으로 삭제했습니다."
+  },
+  {
+    "timestamp": "2024-04-30T06:18:58.788Z",
+    "data": "Training process started: name:test, model_type:YOLOv8, optimizer:Adam, batch_size:16, epoch:1"
+  },
+  {
+    "timestamp": "2024-04-30T06:18:58.789Z",
+    "data": "학습을 시작합니다."
+  },
+  {
+    "timestamp": "2024-04-30T06:19:07.183Z",
+    "data": "runs 폴더를 성공적으로 삭제했습니다."
+  },
+  {
+    "timestamp": "2024-04-30T06:48:24.807Z",
+    "data": "Training process started: name:ㄷㅂㅈㄷ, model_type:resnet50, optimizer:Adam, batch_size:16, epoch:2"
+  },
+  {
+    "timestamp": "2024-04-30T06:48:24.808Z",
+    "data": "학습을 시작합니다."
+  },
+  {
+    "timestamp": "2024-04-30T06:48:28.596Z",
+    "data": "runs 폴더를 성공적으로 삭제했습니다."
+  },
+  {
+    "timestamp": "2024-04-30T07:05:08.237Z",
+    "data": "이미지 분류 모델이 변경되었습니다."
+  },
+  {
+    "timestamp": "2024-04-30T07:07:29.988Z",
+    "data": "Error reading selectedmodel.json: ENOENT: no such file or directory, open './data/selectedModel.json'"
+  },
+  {
+    "timestamp": "2024-04-30T07:08:15.153Z",
+    "data": "이미지 분류 모델이 변경되었습니다."
+  },
+  {
+    "timestamp": "2024-04-30T07:09:26.189Z",
+    "data": "이미지 분류 모델이 변경되었습니다."
+  },
+  {
+    "timestamp": "2024-04-30T07:12:23.356Z",
+    "data": "이미지 분류 모델이 변경되었습니다."
+  },
+  {
+    "timestamp": "2024-04-30T07:15:50.770Z",
+    "data": "이미지 분류 모델이 변경되었습니다."
+  }
+]

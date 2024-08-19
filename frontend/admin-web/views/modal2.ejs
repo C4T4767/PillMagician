@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Admin Page</title>
+        <link href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css" rel="stylesheet" />
+        <link href="/css/styles.css" rel="stylesheet" />
+
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/umd/simple-datatables.min.js" crossorigin="anonymous"></script>
+        
+
+
+        <script src="/js/js_account/logout.js"></script>
+
+
+
+    </head>
+    <body>
+        <!-- modal.ejs -->
+
+        <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">알림</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p><%= message %></p>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="<%= redirectUrl %>" class="btn btn-primary"><%= message2 %></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            var myModal = new bootstrap.Modal(document.getElementById('myModal'));
+            myModal.show();
+
+            // 모달이 닫힌 후 /admin/login으로 이동하는 함수
+            function closeModalAndRedirect() {
+                myModal.hide(); // 모달을 닫음
+                window.location.href = "<%= redirectUrl %>"; // /admin/login으로 이동
+            }
+
+            // 모달 외부를 클릭하여도 모달이 닫히도록 설정
+            var modalElement = document.getElementById('myModal');
+            modalElement.addEventListener('click', function(event) {
+                if (event.target === modalElement) {
+                    closeModalAndRedirect();
+                }
+            });
+
+            // 닫기 버튼을 클릭하여도 모달이 닫히도록 설정
+            var closeButton = document.querySelector('.modal-header .btn-close');
+            closeButton.addEventListener('click', closeModalAndRedirect);
+        </script>
+
+
+    </body>
+</html>

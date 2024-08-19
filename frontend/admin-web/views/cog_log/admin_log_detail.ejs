@@ -1,0 +1,28 @@
+
+    <div class="container">
+        <h1 class="mt-5 mb-4">JSON 데이터</h1>
+        
+        <!-- 폴더 경로 -->
+        <p class="mb-4">폴더 경로: <%= folderPath %></p>
+
+        <!-- JSON 데이터 출력 -->
+        <div class="table-responsive">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Timestamp</th>
+                        <th>Data</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% jsonData.forEach(entry => { %>
+                        <tr>
+                            <td><%= entry.timestamp %></td>
+                            <td><%= JSON.stringify(entry.data) %></td>
+                        </tr>
+                    <% }); %>
+                </tbody>
+            </table>
+        </div>
+    </div>
+

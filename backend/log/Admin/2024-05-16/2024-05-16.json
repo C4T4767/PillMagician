@@ -1,0 +1,234 @@
+[
+  {
+    "timestamp": "2024-05-16 00:04:20.413",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-16 00:04:34.597",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:14.35.75.94"
+  },
+  {
+    "timestamp": "2024-05-16 00:09:08.262",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-16 00:11:38.720",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:14.35.75.94"
+  },
+  {
+    "timestamp": "2024-05-16 00:18:36.767",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-16 00:19:54.142",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:14.35.75.94"
+  },
+  {
+    "timestamp": "2024-05-16 00:21:56.295",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-16 00:22:50.527",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:14.35.75.94"
+  },
+  {
+    "timestamp": "2024-05-16 00:26:57.516",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-16 00:27:05.264",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:14.35.75.94"
+  },
+  {
+    "timestamp": "2024-05-16 00:27:48.977",
+    "data": "이미지 분류 모델이 변경되었습니다."
+  },
+  {
+    "timestamp": "2024-05-16 01:56:03.193",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-16 01:57:09.350",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-16 04:45:04.173",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:14.35.75.94"
+  },
+  {
+    "timestamp": "2024-05-16 04:45:11.736",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-16 04:46:01.585",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-16 04:46:05.227",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:14.35.75.94"
+  },
+  {
+    "timestamp": "2024-05-16 04:46:09.278",
+    "data": "학습을 시작합니다. name:asda, model_type:YOLOv8, optimizer:Adam, batch_size:16, epoch:2"
+  },
+  {
+    "timestamp": "2024-05-16 04:47:15.876",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-16 04:47:19.387",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:14.35.75.94"
+  },
+  {
+    "timestamp": "2024-05-16 04:47:28.935",
+    "data": "모델 'asda'이 삭제됐습니다."
+  },
+  {
+    "timestamp": "2024-05-16 06:00:10.188",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-16 06:00:14.862",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:14.35.75.94"
+  },
+  {
+    "timestamp": "2024-05-16 10:07:11.556",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-16 10:15:51.389",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-16 10:23:26.114",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-16 10:57:19.688",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-16 11:07:25.569",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-16 11:19:10.370",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-16 11:22:59.712",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-16 11:28:15.501",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-16 11:39:13.927",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-16 15:09:27.193",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-16 15:51:38.089",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-16 16:28:03.750",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-16 17:07:51.252",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:14.35.75.94"
+  },
+  {
+    "timestamp": "2024-05-16 18:15:59.226",
+    "data": "이미지 분류 오류 발생: Traceback (most recent call last):\n  File \"/home/t24103/v0.9src/backend/../ai/classify-mobilenetv3.py\", line 56, in <module>\n"
+  },
+  {
+    "timestamp": "2024-05-16 18:15:59.226",
+    "data": "이미지 분류 오류 발생:     input_tensor = preprocess(image)\n  File \"/usr/local/lib64/python3.9/site-packages/torchvision/transforms/transforms.py\", line 95, in __call__\n"
+  },
+  {
+    "timestamp": "2024-05-16 18:15:59.230",
+    "data": "이미지 분류 오류 발생:     img = t(img)\n  File \"/home/t24103/v0.9src/backend/../ai/classify-mobilenetv3.py\", line 43, in custom_crop\n"
+  },
+  {
+    "timestamp": "2024-05-16 18:15:59.230",
+    "data": "이미지 분류 오류 발생:     return img.crop((left, top, right, bottom))\n  File \"/usr/local/lib64/python3.9/site-packages/PIL/Image.py\", line 1213, in crop\n"
+  },
+  {
+    "timestamp": "2024-05-16 18:15:59.234",
+    "data": "이미지 분류 오류 발생:     self.load()\n  File \"/usr/local/lib64/python3.9/site-packages/PIL/ImageFile.py\", line 288, in load\n"
+  },
+  {
+    "timestamp": "2024-05-16 18:15:59.236",
+    "data": "이미지 분류 오류 발생:     raise_oserror(err_code)\n  File \"/usr/local/lib64/python3.9/site-packages/PIL/ImageFile.py\", line 72, in raise_oserror\n"
+  },
+  {
+    "timestamp": "2024-05-16 18:15:59.236",
+    "data": "이미지 분류 오류 발생:     raise OSError(msg)\nOSError: broken data stream when reading image file\n"
+  },
+  {
+    "timestamp": "2024-05-16 18:15:59.557",
+    "data": "이미지 분류에 실패했습니다."
+  },
+  {
+    "timestamp": "2024-05-16 18:16:51.997",
+    "data": "이미지 분류 오류 발생: Traceback (most recent call last):\n  File \"/home/t24103/v0.9src/backend/../ai/classify-mobilenetv3.py\", line 56, in <module>\n"
+  },
+  {
+    "timestamp": "2024-05-16 18:16:51.997",
+    "data": "이미지 분류 오류 발생:     input_tensor = preprocess(image)\n  File \"/usr/local/lib64/python3.9/site-packages/torchvision/transforms/transforms.py\", line 95, in __call__\n    img = t(img)\n  File \"/home/t24103/v0.9src/backend/../ai/classify-mobilenetv3.py\", line 43, in custom_crop\n    return img.crop((left, top, right, bottom))\n  File \"/usr/local/lib64/python3.9/site-packages/PIL/Image.py\", line 1213, in crop\n    self.load()\n  File \"/usr/local/lib64/python3.9/site-packages/PIL/ImageFile.py\", line 288, in load\n"
+  },
+  {
+    "timestamp": "2024-05-16 18:16:51.997",
+    "data": "이미지 분류 오류 발생:     raise_oserror(err_code)\n  File \"/usr/local/lib64/python3.9/site-packages/PIL/ImageFile.py\", line 72, in raise_oserror\n"
+  },
+  {
+    "timestamp": "2024-05-16 18:16:51.997",
+    "data": "이미지 분류 오류 발생:     raise OSError(msg)\nOSError: broken data stream when reading image file\n"
+  },
+  {
+    "timestamp": "2024-05-16 18:16:52.339",
+    "data": "이미지 분류에 실패했습니다."
+  },
+  {
+    "timestamp": "2024-05-16 19:06:00.675",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-16 19:13:44.218",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-16 19:20:20.558",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-16 19:20:31.984",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:14.35.75.94"
+  },
+  {
+    "timestamp": "2024-05-16 19:20:50.761",
+    "data": "학습을 시작합니다. name:asdasd, model_type:MobileNetV3, optimizer:Adam, batch_size:16, epoch:3"
+  },
+  {
+    "timestamp": "2024-05-16 19:21:12.074",
+    "data": "학습이 완료되었습니다. 모델명: asdasd"
+  },
+  {
+    "timestamp": "2024-05-16 19:41:24.190",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:192.9.200.212"
+  },
+  {
+    "timestamp": "2024-05-16 19:41:30.493",
+    "data": "로그아웃 했습니다. 유저명: aa"
+  },
+  {
+    "timestamp": "2024-05-16 19:43:40.247",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:192.9.200.212"
+  }
+]

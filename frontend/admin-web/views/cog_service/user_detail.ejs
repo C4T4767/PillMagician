@@ -1,0 +1,82 @@
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <div class="card shadow-lg border-0 rounded-lg mt-5">
+                <div class="card-header bg-primary text-white">
+                    <h3 class="text-center fw-light my-2">고객 세부 정보</h3>
+                </div>
+                <div class="card-body">
+                    <table class="table table-hover">
+                        <tbody>
+                            <tr>
+                                <th>고객 번호</th>
+                                <td><%= model[0].user_num %></td>
+                            </tr>
+                            <tr>
+                                <th>이름</th>
+                                <td><%= model[0].name %></td>
+                            </tr>
+                            <tr>
+                                <th>닉네임</th>
+                                <td><%= model[0].nickname %></td>
+                            </tr>
+                            <tr>
+                                <th>아이디</th>
+                                <td><%= model[0].id %></td>
+                            </tr>
+                            <tr>
+                                <th>패스워드</th>
+                                <td><%= model[0].password %></td>
+                            </tr>
+                            <tr>
+                                <th>생일</th>
+                                <td><%= model[0].birth %></td>
+                            </tr>
+                            <tr>
+                                <th>이메일</th>
+                                <td><%= model[0].email %></td>
+                            </tr>
+                            <tr>
+                                <th>전화번호</th>
+                                <td><%= model[0].phone %></td>
+                            </tr>
+                            <tr>
+                                <th>키</th>
+                                <td><%= model[0].user_height %></td>
+                            </tr>
+                            <tr>
+                                <th>몸무게</th>
+                                <td><%= model[0].user_weight %></td>
+                            </tr>
+                            <tr>
+                                <th>BMI</th>
+                                <td><%= model[0].user_bmi %></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="card-footer text-end bg-transparent">
+                    <button class="btn btn-danger me-2" onclick="deleteUser('<%= model.user_num %>')">고객 정보 삭제</button>
+                    <button class="btn btn-primary" onclick="window.history.back()">뒤로 가기</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function deleteUser(user_num) {
+        if (confirm('정말로 이 사용자를 삭제하시겠습니까?')) {
+            fetch('/service/detail/' + user_num, {
+                method: 'DELETE'
+            })
+            .then(response => response.json())
+            .then(data => {
+                alert(data.message);
+                // 삭제 성공 시 /main 페이지로 이동
+                window.location.href = '/service/user';
+            })
+            .catch(error => console.error('데이터 삭제 오류:', error));
+        }
+    }
+</script>

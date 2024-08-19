@@ -1,0 +1,128 @@
+
+<script>
+    let folder;
+    let table;
+    function detail(folder) {
+        window.location.href = '/log/user_log_detail/' + folder;
+    }
+
+    // 데이터 테이블
+    window.addEventListener('DOMContentLoaded', event => {
+        $('#loadingModal').modal('show');
+
+        const datatablesSimple = document.getElementById('datatablesSimple');
+        if (datatablesSimple) {
+            table = new simpleDatatables.DataTable(datatablesSimple, {
+                processing: true,
+                serverSide: true,
+                searching: true,
+                ordering: true,
+                serverMethod: 'POST',
+                ajax: {
+                    url: '/log/user_log_data_set',
+                    type: 'POST',
+                    dataSrc: 'files'
+                }
+            });
+
+            function loadData() {
+                // 서버로부터 데이터를 비동기적으로 로드합니다.
+                $.ajax({
+                    url: '/log/user_log_data_set',
+                    type: 'POST',
+                    success: function (data) {
+                        // 성공적으로 데이터를 받았을 때 처리
+                        renderTable(data); // 데이터가 로드된 후에 테이블 렌더링
+                        // 데이터 로딩이 완료되면 모달을 숨깁니다.
+                        $('#loadingModal').modal('hide');
+                    },
+                    error: function (xhr, status, error) {
+                        // 오류 처리
+                        console.error('데이터 로드 오류:', error);
+                        // 오류가 발생했을 때도 모달을 숨깁니다.
+                        $('#loadingModal').modal('hide');
+                    }
+                });
+            }
+
+            function renderTable(data) {
+                // 데이터를 내림차순으로 정렬합니다.
+                data.sort((a, b) => {
+                    return new Date(b.folder) - new Date(a.folder);
+                });
+
+                let total = [];
+                data.forEach((item, index) => {
+                    let rowData = [
+                        item.folder,
+                        `<button class="btn btn-primary btn-sm" style="font-size: 12px;" onclick="detail('${item.folder}')">detail</button>`
+                    ];
+                    total.push(rowData);
+                });
+
+                // 데이터 테이블에 추가
+                table.insert({ data: total });
+            }
+
+
+
+
+
+
+
+        }
+
+        loadData();
+    });
+
+</script>
+
+
+<!-- 모달 -->
+<div class="modal" id="loadingModal" tabindex="-1" role="dialog" aria-labelledby="loadingModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content bg-dark">
+        <div class="modal-body text-center">
+        <div class="spinner-border text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+        <p class="text-light mt-2">Loading...</p>
+        </div>
+    </div>
+    </div>
+</div>
+
+
+
+<div class="container-fluid px-4">
+    <h1 class="mt-4">유저 로그 관리</h1>
+    <hr>
+    </div>
+  
+  <div class="container-fluid px-4">
+    <div class="card mb-4">
+        <div class="card-body">
+            사용자가 앱에서 진행한 AI 알약 사진 판별 서비스의 로그를 확인할 수 있다.
+        </div>
+    </div>
+    <div class="card mb-4" style="width: 50%;">
+        <div class="card-header">
+            <i class="fas fa-table me-1"></i>
+            로그 데이터
+        </div>
+        <div class="card-body">
+  
+            <table id="datatablesSimple">
+                <thead>
+                    <tr>
+                        <th>날짜</th>
+                        <th>세부정보</th>
+                    </tr>
+                </thead>
+                <tbody id="datasimplebody">
+                  
+                </tbody>
+            </table>
+  
+        </div>
+    </div>

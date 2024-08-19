@@ -1,0 +1,189 @@
+
+<style>
+  /* 테이블 칼럼 가운데 정렬 */
+  #datatablesSimple th:nth-child(n+1) {
+    text-align: center;
+  }
+
+  /* 이름 부분의 너비 조정 */
+  #datatablesSimple th:nth-child(2) {
+    width: 100px; /* 원하는 너비로 조정하세요 */
+    overflow: hidden;
+    text-overflow: ellipsis; /* 너무 긴 텍스트를 ...으로 줄여줍니다 */
+  }
+</style>
+
+<script>
+
+function detail(itemSeq) {
+    window.location.href = '/data/getidentify_detail/' + itemSeq;
+  }
+
+$(document).ready(function() {
+  let table;
+
+  $('#loadingModal').modal('show', {backdrop: 'static', keyboard: false}); // 모달 설정
+
+  const datatablesSimple = document.getElementById('datatablesSimple');
+  if (datatablesSimple) {
+    table = new simpleDatatables.DataTable(datatablesSimple, {
+      processing: true,
+      serverSide: true,
+      searching: true,
+      ordering: false,
+      serverMethod: 'POST',
+      ajax: {
+        url: '/data/getidentify_data_set',
+        type: 'POST',
+        dataSrc: 'pills'
+      },
+      columns: [
+        { data: 'item_seq' }, // 첫 번째 열
+        { data: 'item_name' }, // 두 번째 열
+        { data: 'entp_name' }, // 세 번째 열
+        { data: 'drug_shape' }, // 네 번째 열
+        { data: 'class_name' }, // 다섯 번째 열
+        { data: 'class_name' }, // 여섯 번째 열
+        { data: 'detail' }
+      ]
+    });
+
+    // 데이터 로딩 함수
+    function loadData() {
+      // 추가 데이터를 비동기적으로 로드합니다.
+      $.ajax({
+        url: '/data/getidentify_data_set',
+        type: 'POST',
+        success: function(data) {
+          // 성공적으로 데이터를 받았을 때 처리
+          pills = data.pills;
+          renderTable(); // 데이터가 로드된 후에 테이블 렌더링
+          // 데이터 로딩이 완료되면 모달을 숨깁니다.
+          $('#loadingModal').modal('hide');
+        },
+        error: function(xhr, status, error) {
+          // 오류 처리
+          console.error('데이터 로드 오류:', error);
+          // 오류가 발생했을 때도 모달을 숨깁니다.
+          $('#loadingModal').modal('hide');
+        }
+      });
+    }
+
+    // 데이터를 테이블에 렌더링하는 함수
+    function renderTable() {
+      let total = [];
+      pills.forEach(function(a) {
+        let da = [a.item_seq, a.item_name, a.entp_name, a.drug_shape, a.class_name, a.class_name, `<button class="btn btn-primary btn-sm" style="font-size: 12px;" onclick="detail(${a.item_seq})">detail</button>`];
+        total.push(da);
+      });
+      table.insert({ data: total });
+      console.log("완료");
+    }
+
+    // 데이터 로딩
+    loadData();
+
+    // 이벤트 위임을 사용하여 열 클릭 이벤트 설정
+    // 테이블의 각 셀(td)을 클릭하여 이벤트를 처리
+    $('#datatablesSimple tbody').on('click', 'td', function() {
+      var data = table.row($(this).closest('tr')).data();
+      if (data) {
+        window.location.href = '/data/detail_page?item_seq=' + data[0];
+      } else {
+        console.log("데이터를 가져오지 못했습니다.");
+      }
+    });
+  }
+
+  // 폼 제출 이벤트 리스너
+  $('#updateForm').on('submit', function(event) {
+    event.preventDefault(); // 기본 폼 제출 동작 막기
+    console.log("폼 제출 중...");
+
+    // 모달 보이기
+    $('#loadingModal').modal('show');
+
+    // 폼 데이터를 Ajax를 통해 전송
+    var formData = new FormData(this);
+    $.ajax({
+      url: $(this).attr('action'),
+      type: $(this).attr('method'),
+      data: formData,
+      contentType: false,
+      processData: false,
+      success: function(response) {
+        $('#loadingModal').modal('hide');
+        alert('데이터가 성공적으로 저장되었습니다.');
+        // 필요하면 페이지 새로고침 또는 다른 동작 수행
+        location.reload();
+      },
+      error: function(xhr, status, error) {
+        $('#loadingModal').modal('hide');
+        console.error('데이터 업데이트 오류:', error);
+        alert('데이터 업데이트 중 오류가 발생했습니다.');
+      }
+    });
+  });
+});
+</script>
+
+<!-- 모달 -->
+<div class="modal" id="loadingModal" tabindex="-1" role="dialog" aria-labelledby="loadingModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content bg-dark">
+      <div class="modal-body text-center">
+        <div class="spinner-border text-primary" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <p class="text-light mt-2">Loading...</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid px-4">
+  <h1 class="mt-4">식별정보 관리</h1>
+  <hr>
+  <div class="container-fluid d-flex justify-content-center">
+    <div class="card mb-4">
+      <div class="card-body" style="max-width: 600px;">
+        <form id="updateForm" action="/data/getidentify_process" method="post" enctype="multipart/form-data" class="d-flex justify-content-between align-items-center">
+          <p class="mb-0 mr-4" style="margin-right: 30px;">마지막 업데이트 날짜: <%= lastUpdate %></p>
+          <button type="submit" class="btn btn-primary">데이터 업데이트</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid px-4">
+  <div class="card mb-4">
+    <div class="card-body">
+      AI 모델이 식별할 수 있는 알약 식별 정보
+    </div>
+  </div>
+  <div class="card mb-4">
+    <div class="card-header">
+      <i class="fas fa-table me-1"></i>
+      알약 식별 정보 데이터
+    </div>
+    <div class="card-body">
+      <table id="datatablesSimple">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>이름</th>
+            <th>제조사</th>
+            <th>제형</th>
+            <th>CLASS_NAME</th>
+            <th>CLASS_NAME</th>
+            <th>세부정보</th>
+          </tr>
+        </thead>
+        <tbody id="datasimplebody">
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

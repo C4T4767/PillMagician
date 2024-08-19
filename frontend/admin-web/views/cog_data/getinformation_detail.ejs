@@ -1,0 +1,86 @@
+<script>
+    // 삭제 버튼이 클릭되었을 때 실행될 함수를 정의합니다.
+    $(document).on("click", "#deleteButton", function() {
+        // confirm 다이얼로그를 통해 사용자에게 삭제 여부를 확인합니다.
+        if (confirm("정말로 삭제하시겠습니까?")) {
+            // 클라이언트에서 서버로 삭제 요청을 보냅니다.
+            $.ajax({
+                url: '/data/getinformation_detail/' + '<%= itemSeq %>', // 여기를 수정해야 합니다.
+                method: 'DELETE',
+                contentType: 'application/json',
+                success: function(response) {
+                    // 삭제 성공 시 알림을 표시합니다.
+                    window.location.href = '/data/getinformation';
+                    alert("삭제되었습니다.");
+                    // 페이지를 새로고침하여 변경 사항을 확인합니다.
+                    
+                },
+                error: function(xhr, status, error) {
+                    // 삭제 실패 시 오류 메시지를 표시합니다.
+                    alert("삭제에 실패했습니다. 다시 시도해주세요.");
+                    console.error('삭제 요청 오류:', error);
+                }
+            });
+        }
+    });
+</script>
+
+
+<div class="container">
+    <h1 class="mt-5 mb-4 text-center">알약 상세 정보</h1>
+    <hr>
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <!-- 알약 정보 출력 -->
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title text-center">알약 정보</h4>
+                    <hr>
+                    <p>ID: <%= itemSeq %></p>
+                    <p>이름: <%= itemName %></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<div class="row justify-content-center mt-4">
+    <div class="col-md-4">
+        <!-- 카드 스타일을 적용한 컨테이너 -->
+        <div class="card">
+            <div class="card-body">
+                <!-- HTML 파일 출력 -->
+                <div class="iframe-container text-center">
+                    <iframe srcdoc="<%= htmlFiles[0] %>" style="width: 100%; height: 600px;"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <!-- HTML 파일 출력 -->
+                <div class="iframe-container text-center">
+                    <iframe srcdoc="<%= htmlFiles[1] %>" style="width: 100%; height: 600px;"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <!-- HTML 파일 출력 -->
+                <div class="iframe-container text-center">
+                    <iframe srcdoc="<%= htmlFiles[2] %>" style="width: 100%; height: 600px;"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="text-center mt-4">
+    <a href="javascript:history.back()" class="btn btn-secondary mr-2">뒤로가기</a>
+    <button class="btn btn-danger" id="deleteButton">삭제</button>
+</div>
+
+

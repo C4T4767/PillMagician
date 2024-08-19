@@ -1,0 +1,46 @@
+[
+  {
+    "timestamp": "2024-06-07 09:05:35.277",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-06-07 09:05:45.586",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:210.119.237.41"
+  },
+  {
+    "timestamp": "2024-06-07 09:06:00.831",
+    "data": "모델 'dlfma'이 삭제됐습니다."
+  },
+  {
+    "timestamp": "2024-06-07 09:06:07.215",
+    "data": "모델 'ttttttttttttttttttttt'이 삭제됐습니다."
+  },
+  {
+    "timestamp": "2024-06-07 09:06:16.334",
+    "data": "학습을 시작합니다. name: hel, model_type: YOLOv8, optimizer: Adam, batch_size: 16, epoch: 2"
+  },
+  {
+    "timestamp": "2024-06-07 09:06:16.334",
+    "data": "학습을 시작합니다. name:hel, model_type:YOLOv8, optimizer:Adam, batch_size:16, epoch:2"
+  },
+  {
+    "timestamp": "2024-06-07 09:06:25.876",
+    "data": "학습 프로세스가 중지되었습니다."
+  },
+  {
+    "timestamp": "2024-06-07 10:04:42.507",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-06-07 10:04:50.398",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:210.119.237.41"
+  },
+  {
+    "timestamp": "2024-06-07 16:53:30.945",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-06-07 17:07:44.151",
+    "data": "로그인 성공. 유저명: 김우진, IP: ::ffff:192.9.201.201"
+  }
+]

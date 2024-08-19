@@ -1,0 +1,1154 @@
+[
+  {
+    "timestamp": "2024-05-25 00:17:54.844",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-25 00:18:09.980",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:14.35.75.94"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:19.924",
+    "data": "이미지 분류 모델이 변경되었습니다."
+  },
+  {
+    "timestamp": "2024-05-25 00:18:35.023",
+    "data": "이미지 분류 오류 발생: Downloading: \"https://download.pytorch.org/models/resnet101-cd907fc2.pth\" to /home/t24103/.cache/torch/hub/checkpoints/resnet101-cd907fc2.pth\n"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:35.115",
+    "data": "이미지 분류 오류 발생: \r  0%|          | 0.00/171M [00:00<?, ?B/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:35.216",
+    "data": "이미지 분류 오류 발생: \r  1%|          | 1.12M/171M [00:00<00:15, 11.8MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:35.316",
+    "data": "이미지 분류 오류 발생: \r  1%|▏         | 2.26M/171M [00:00<00:14, 11.8MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:35.417",
+    "data": "이미지 분류 오류 발생: \r  2%|▏         | 3.41M/171M [00:00<00:14, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:35.518",
+    "data": "이미지 분류 오류 발생: \r  3%|▎         | 4.56M/171M [00:00<00:14, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:35.618",
+    "data": "이미지 분류 오류 발생: \r  3%|▎         | 5.70M/171M [00:00<00:14, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:35.719",
+    "data": "이미지 분류 오류 발생: \r  4%|▍         | 6.84M/171M [00:00<00:14, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:35.819",
+    "data": "이미지 분류 오류 발생: \r  5%|▍         | 7.98M/171M [00:00<00:14, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:35.921",
+    "data": "이미지 분류 오류 발생: \r  5%|▌         | 9.14M/171M [00:00<00:14, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:36.022",
+    "data": "이미지 분류 오류 발생: \r  6%|▌         | 10.3M/171M [00:00<00:14, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:36.123",
+    "data": "이미지 분류 오류 발생: \r  7%|▋         | 11.4M/171M [00:01<00:13, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:36.224",
+    "data": "이미지 분류 오류 발생: \r  7%|▋         | 12.6M/171M [00:01<00:13, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:36.324",
+    "data": "이미지 분류 오류 발생: \r  8%|▊         | 13.7M/171M [00:01<00:13, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:36.425",
+    "data": "이미지 분류 오류 발생: \r  9%|▊         | 14.9M/171M [00:01<00:13, 12.0MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:36.527",
+    "data": "이미지 분류 오류 발생: \r  9%|▉         | 16.0M/171M [00:01<00:13, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:36.628",
+    "data": "이미지 분류 오류 발생: \r 10%|█         | 17.2M/171M [00:01<00:13, 12.0MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:36.729",
+    "data": "이미지 분류 오류 발생: \r 11%|█         | 18.3M/171M [00:01<00:13, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:36.830",
+    "data": "이미지 분류 오류 발생: \r 11%|█▏        | 19.5M/171M [00:01<00:13, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:36.931",
+    "data": "이미지 분류 오류 발생: \r 12%|█▏        | 20.6M/171M [00:01<00:13, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:37.031",
+    "data": "이미지 분류 오류 발생: \r 13%|█▎        | 21.8M/171M [00:01<00:13, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:37.132",
+    "data": "이미지 분류 오류 발생: \r 13%|█▎        | 22.9M/171M [00:02<00:12, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:37.233",
+    "data": "이미지 분류 오류 발생: \r 14%|█▍        | 24.1M/171M [00:02<00:12, 12.0MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:37.334",
+    "data": "이미지 분류 오류 발생: \r 15%|█▍        | 25.2M/171M [00:02<00:12, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:37.434",
+    "data": "이미지 분류 오류 발생: \r 15%|█▌        | 26.4M/171M [00:02<00:12, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:37.534",
+    "data": "이미지 분류 오류 발생: \r 16%|█▌        | 27.5M/171M [00:02<00:12, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:37.635",
+    "data": "이미지 분류 오류 발생: \r 17%|█▋        | 28.7M/171M [00:02<00:12, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:37.736",
+    "data": "이미지 분류 오류 발생: \r 17%|█▋        | 29.8M/171M [00:02<00:12, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:37.837",
+    "data": "이미지 분류 오류 발생: \r 18%|█▊        | 30.9M/171M [00:02<00:12, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:37.937",
+    "data": "이미지 분류 오류 발생: \r 19%|█▉        | 32.1M/171M [00:02<00:12, 12.0MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:38.039",
+    "data": "이미지 분류 오류 발생: \r 19%|█▉        | 33.2M/171M [00:02<00:12, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:38.139",
+    "data": "이미지 분류 오류 발생: \r 20%|██        | 34.4M/171M [00:03<00:11, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:38.241",
+    "data": "이미지 분류 오류 발생: \r 21%|██        | 35.5M/171M [00:03<00:11, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:38.341",
+    "data": "이미지 분류 오류 발생: \r 22%|██▏       | 36.7M/171M [00:03<00:11, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:38.443",
+    "data": "이미지 분류 오류 발생: \r 22%|██▏       | 37.8M/171M [00:03<00:11, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:38.543",
+    "data": "이미지 분류 오류 발생: \r 23%|██▎       | 39.0M/171M [00:03<00:11, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:38.645",
+    "data": "이미지 분류 오류 발생: \r 24%|██▎       | 40.1M/171M [00:03<00:11, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:38.745",
+    "data": "이미지 분류 오류 발생: \r 24%|██▍       | 41.3M/171M [00:03<00:11, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:38.845",
+    "data": "이미지 분류 오류 발생: \r 25%|██▍       | 42.4M/171M [00:03<00:11, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:38.947",
+    "data": "이미지 분류 오류 발생: \r 26%|██▌       | 43.6M/171M [00:03<00:11, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:39.048",
+    "data": "이미지 분류 오류 발생: \r 26%|██▌       | 44.7M/171M [00:03<00:11, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:39.148",
+    "data": "이미지 분류 오류 발생: \r 27%|██▋       | 45.9M/171M [00:04<00:10, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:39.250",
+    "data": "이미지 분류 오류 발생: \r 28%|██▊       | 47.0M/171M [00:04<00:10, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:39.351",
+    "data": "이미지 분류 오류 발생: \r 28%|██▊       | 48.2M/171M [00:04<00:10, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:39.453",
+    "data": "이미지 분류 오류 발생: \r 29%|██▉       | 49.3M/171M [00:04<00:10, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:39.554",
+    "data": "이미지 분류 오류 발생: \r 30%|██▉       | 50.5M/171M [00:04<00:10, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:39.655",
+    "data": "이미지 분류 오류 발생: \r 30%|███       | 51.6M/171M [00:04<00:10, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:39.757",
+    "data": "이미지 분류 오류 발생: \r 31%|███       | 52.8M/171M [00:04<00:10, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:39.857",
+    "data": "이미지 분류 오류 발생: \r 32%|███▏      | 53.9M/171M [00:04<00:10, 12.0MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:39.957",
+    "data": "이미지 분류 오류 발생: \r 32%|███▏      | 55.1M/171M [00:04<00:10, 12.0MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:40.058",
+    "data": "이미지 분류 오류 발생: \r 33%|███▎      | 56.2M/171M [00:04<00:10, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:40.158",
+    "data": "이미지 분류 오류 발생: \r 34%|███▎      | 57.4M/171M [00:05<00:09, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:40.259",
+    "data": "이미지 분류 오류 발생: \r 34%|███▍      | 58.5M/171M [00:05<00:09, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:40.359",
+    "data": "이미지 분류 오류 발생: \r 35%|███▍      | 59.6M/171M [00:05<00:09, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:40.459",
+    "data": "이미지 분류 오류 발생: \r 36%|███▌      | 60.8M/171M [00:05<00:09, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:40.560",
+    "data": "이미지 분류 오류 발생: \r 36%|███▋      | 61.9M/171M [00:05<00:09, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:40.660",
+    "data": "이미지 분류 오류 발생: \r 37%|███▋      | 63.1M/171M [00:05<00:09, 12.0MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:40.760",
+    "data": "이미지 분류 오류 발생: \r 38%|███▊      | 64.2M/171M [00:05<00:09, 12.0MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:40.861",
+    "data": "이미지 분류 오류 발생: \r 38%|███▊      | 65.4M/171M [00:05<00:09, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:40.961",
+    "data": "이미지 분류 오류 발생: \r 39%|███▉      | 66.5M/171M [00:05<00:09, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:41.064",
+    "data": "이미지 분류 오류 발생: \r 40%|███▉      | 67.6M/171M [00:05<00:09, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:41.164",
+    "data": "이미지 분류 오류 발생: \r 40%|████      | 68.8M/171M [00:06<00:08, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:41.264",
+    "data": "이미지 분류 오류 발생: \r 41%|████      | 69.9M/171M [00:06<00:08, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:41.364",
+    "data": "이미지 분류 오류 발생: \r 42%|████▏     | 71.1M/171M [00:06<00:08, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:41.466",
+    "data": "이미지 분류 오류 발생: \r 42%|████▏     | 72.2M/171M [00:06<00:08, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:41.565",
+    "data": "이미지 분류 오류 발생: \r 43%|████▎     | 73.4M/171M [00:06<00:08, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:41.665",
+    "data": "이미지 분류 오류 발생: \r 44%|████▎     | 74.5M/171M [00:06<00:08, 12.0MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:41.766",
+    "data": "이미지 분류 오류 발생: \r 44%|████▍     | 75.6M/171M [00:06<00:08, 12.0MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:41.866",
+    "data": "이미지 분류 오류 발생: \r 45%|████▌     | 76.8M/171M [00:06<00:08, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:41.967",
+    "data": "이미지 분류 오류 발생: \r 46%|████▌     | 77.9M/171M [00:06<00:08, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:42.067",
+    "data": "이미지 분류 오류 발생: \r 46%|████▋     | 79.1M/171M [00:06<00:08, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:42.169",
+    "data": "이미지 분류 오류 발생: \r 47%|████▋     | 80.2M/171M [00:07<00:07, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:42.269",
+    "data": "이미지 분류 오류 발생: \r 48%|████▊     | 81.4M/171M [00:07<00:07, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:42.369",
+    "data": "이미지 분류 오류 발생: \r 48%|████▊     | 82.5M/171M [00:07<00:07, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:42.470",
+    "data": "이미지 분류 오류 발생: \r 49%|████▉     | 83.6M/171M [00:07<00:07, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:42.570",
+    "data": "이미지 분류 오류 발생: \r 50%|████▉     | 84.8M/171M [00:07<00:07, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:42.671",
+    "data": "이미지 분류 오류 발생: \r 50%|█████     | 85.9M/171M [00:07<00:07, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:42.772",
+    "data": "이미지 분류 오류 발생: \r 51%|█████     | 87.1M/171M [00:07<00:07, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:42.872",
+    "data": "이미지 분류 오류 발생: \r 52%|█████▏    | 88.2M/171M [00:07<00:07, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:42.976",
+    "data": "이미지 분류 오류 발생: \r 52%|█████▏    | 89.4M/171M [00:07<00:07, 11.8MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:43.076",
+    "data": "이미지 분류 오류 발생: \r 53%|█████▎    | 90.5M/171M [00:07<00:07, 11.8MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:43.176",
+    "data": "이미지 분류 오류 발생: \r 54%|█████▎    | 91.6M/171M [00:08<00:06, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:43.276",
+    "data": "이미지 분류 오류 발생: \r 54%|█████▍    | 92.8M/171M [00:08<00:06, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:43.377",
+    "data": "이미지 분류 오류 발생: \r 55%|█████▌    | 93.9M/171M [00:08<00:06, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:43.477",
+    "data": "이미지 분류 오류 발생: \r 56%|█████▌    | 95.1M/171M [00:08<00:06, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:43.578",
+    "data": "이미지 분류 오류 발생: \r 56%|█████▋    | 96.2M/171M [00:08<00:06, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:43.679",
+    "data": "이미지 분류 오류 발생: \r 57%|█████▋    | 97.4M/171M [00:08<00:06, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:43.780",
+    "data": "이미지 분류 오류 발생: \r 58%|█████▊    | 98.5M/171M [00:08<00:06, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:43.880",
+    "data": "이미지 분류 오류 발생: \r 58%|█████▊    | 99.7M/171M [00:08<00:06, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:43.981",
+    "data": "이미지 분류 오류 발생: \r 59%|█████▉    | 101M/171M [00:08<00:06, 12.0MB/s] "
+  },
+  {
+    "timestamp": "2024-05-25 00:18:44.082",
+    "data": "이미지 분류 오류 발생: \r 60%|█████▉    | 102M/171M [00:08<00:06, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:44.183",
+    "data": "이미지 분류 오류 발생: \r 60%|██████    | 103M/171M [00:09<00:05, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:44.284",
+    "data": "이미지 분류 오류 발생: \r 61%|██████    | 104M/171M [00:09<00:05, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:44.384",
+    "data": "이미지 분류 오류 발생: \r 62%|██████▏   | 105M/171M [00:09<00:05, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:44.485",
+    "data": "이미지 분류 오류 발생: \r 62%|██████▏   | 107M/171M [00:09<00:05, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:44.586",
+    "data": "이미지 분류 오류 발생: \r 63%|██████▎   | 108M/171M [00:09<00:05, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:44.687",
+    "data": "이미지 분류 오류 발생: \r 64%|██████▍   | 109M/171M [00:09<00:05, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:44.787",
+    "data": "이미지 분류 오류 발생: \r 64%|██████▍   | 110M/171M [00:09<00:05, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:44.888",
+    "data": "이미지 분류 오류 발생: \r 65%|██████▌   | 111M/171M [00:09<00:05, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:44.989",
+    "data": "이미지 분류 오류 발생: \r 66%|██████▌   | 112M/171M [00:09<00:05, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:45.090",
+    "data": "이미지 분류 오류 발생: \r 67%|██████▋   | 113M/171M [00:09<00:05, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:45.191",
+    "data": "이미지 분류 오류 발생: \r 67%|██████▋   | 115M/171M [00:10<00:04, 12.0MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:45.291",
+    "data": "이미지 분류 오류 발생: \r 68%|██████▊   | 116M/171M [00:10<00:04, 12.0MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:45.392",
+    "data": "이미지 분류 오류 발생: \r 69%|██████▊   | 117M/171M [00:10<00:04, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:45.493",
+    "data": "이미지 분류 오류 발생: \r 69%|██████▉   | 118M/171M [00:10<00:04, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:45.594",
+    "data": "이미지 분류 오류 발생: \r 70%|██████▉   | 119M/171M [00:10<00:04, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:45.694",
+    "data": "이미지 분류 오류 발생: \r 71%|███████   | 120M/171M [00:10<00:04, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:45.795",
+    "data": "이미지 분류 오류 발생: \r 71%|███████   | 121M/171M [00:10<00:04, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:45.895",
+    "data": "이미지 분류 오류 발생: \r 72%|███████▏  | 123M/171M [00:10<00:04, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:45.995",
+    "data": "이미지 분류 오류 발생: \r 73%|███████▎  | 124M/171M [00:10<00:04, 12.0MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:46.097",
+    "data": "이미지 분류 오류 발생: \r 73%|███████▎  | 125M/171M [00:10<00:04, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:46.199",
+    "data": "이미지 분류 오류 발생: \r 74%|███████▍  | 126M/171M [00:11<00:03, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:46.299",
+    "data": "이미지 분류 오류 발생: \r 75%|███████▍  | 127M/171M [00:11<00:03, 12.0MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:46.399",
+    "data": "이미지 분류 오류 발생: \r 75%|███████▌  | 128M/171M [00:11<00:03, 12.0MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:46.501",
+    "data": "이미지 분류 오류 발생: \r 76%|███████▌  | 129M/171M [00:11<00:03, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:46.602",
+    "data": "이미지 분류 오류 발생: \r 77%|███████▋  | 131M/171M [00:11<00:03, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:46.702",
+    "data": "이미지 분류 오류 발생: \r 77%|███████▋  | 132M/171M [00:11<00:03, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:46.802",
+    "data": "이미지 분류 오류 발생: \r 78%|███████▊  | 133M/171M [00:11<00:03, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:46.904",
+    "data": "이미지 분류 오류 발생: \r 79%|███████▊  | 134M/171M [00:11<00:03, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:47.006",
+    "data": "이미지 분류 오류 발생: \r 79%|███████▉  | 135M/171M [00:11<00:03, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:47.106",
+    "data": "이미지 분류 오류 발생: \r 80%|███████▉  | 136M/171M [00:11<00:03, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:47.208",
+    "data": "이미지 분류 오류 발생: \r 81%|████████  | 138M/171M [00:12<00:02, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:47.308",
+    "data": "이미지 분류 오류 발생: \r 81%|████████▏ | 139M/171M [00:12<00:02, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:47.409",
+    "data": "이미지 분류 오류 발생: \r 82%|████████▏ | 140M/171M [00:12<00:02, 12.0MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:47.510",
+    "data": "이미지 분류 오류 발생: \r 83%|████████▎ | 141M/171M [00:12<00:02, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:47.612",
+    "data": "이미지 분류 오류 발생: \r 83%|████████▎ | 142M/171M [00:12<00:02, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:47.712",
+    "data": "이미지 분류 오류 발생: \r 84%|████████▍ | 143M/171M [00:12<00:02, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:47.812",
+    "data": "이미지 분류 오류 발생: \r 85%|████████▍ | 144M/171M [00:12<00:02, 12.0MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:47.914",
+    "data": "이미지 분류 오류 발생: \r 85%|████████▌ | 146M/171M [00:12<00:02, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:48.015",
+    "data": "이미지 분류 오류 발생: \r 86%|████████▌ | 147M/171M [00:12<00:02, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:48.116",
+    "data": "이미지 분류 오류 발생: \r 87%|████████▋ | 148M/171M [00:13<00:01, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:48.222",
+    "data": "이미지 분류 오류 발생: \r 87%|████████▋ | 149M/171M [00:13<00:01, 11.7MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:48.322",
+    "data": "이미지 분류 오류 발생: \r 88%|████████▊ | 150M/171M [00:13<00:01, 11.8MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:48.422",
+    "data": "이미지 분류 오류 발생: \r 89%|████████▊ | 151M/171M [00:13<00:01, 11.8MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:48.523",
+    "data": "이미지 분류 오류 발생: \r 89%|████████▉ | 152M/171M [00:13<00:01, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:48.623",
+    "data": "이미지 분류 오류 발생: \r 90%|█████████ | 154M/171M [00:13<00:01, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:48.723",
+    "data": "이미지 분류 오류 발생: \r 91%|█████████ | 155M/171M [00:13<00:01, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:48.825",
+    "data": "이미지 분류 오류 발생: \r 91%|█████████▏| 156M/171M [00:13<00:01, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:48.926",
+    "data": "이미지 분류 오류 발생: \r 92%|█████████▏| 157M/171M [00:13<00:01, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:49.027",
+    "data": "이미지 분류 오류 발생: \r 93%|█████████▎| 158M/171M [00:13<00:01, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:49.127",
+    "data": "이미지 분류 오류 발생: \r 93%|█████████▎| 159M/171M [00:14<00:00, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:49.229",
+    "data": "이미지 분류 오류 발생: \r 94%|█████████▍| 160M/171M [00:14<00:00, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:49.329",
+    "data": "이미지 분류 오류 발생: \r 95%|█████████▍| 162M/171M [00:14<00:00, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:49.430",
+    "data": "이미지 분류 오류 발생: \r 95%|█████████▌| 163M/171M [00:14<00:00, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:49.530",
+    "data": "이미지 분류 오류 발생: \r 96%|█████████▌| 164M/171M [00:14<00:00, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:49.631",
+    "data": "이미지 분류 오류 발생: \r 97%|█████████▋| 165M/171M [00:14<00:00, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:49.731",
+    "data": "이미지 분류 오류 발생: \r 97%|█████████▋| 166M/171M [00:14<00:00, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:49.832",
+    "data": "이미지 분류 오류 발생: \r 98%|█████████▊| 167M/171M [00:14<00:00, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:49.932",
+    "data": "이미지 분류 오류 발생: \r 99%|█████████▉| 168M/171M [00:14<00:00, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:50.033",
+    "data": "이미지 분류 오류 발생: \r 99%|█████████▉| 170M/171M [00:14<00:00, 11.9MB/s]"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:50.115",
+    "data": "이미지 분류 오류 발생: \r100%|██████████| 171M/171M [00:14<00:00, 11.9MB/s]\n"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:51.089",
+    "data": "이미지 분류 오류 발생: Traceback (most recent call last):\n  File \"/home/t24103/v1.0src/backend/../ai/classify-resnet50.py\", line 39, in <module>\n"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:51.089",
+    "data": "이미지 분류 오류 발생:     classification_model.load_state_dict(model_state_dict)\n  File \"/usr/local/lib64/python3.9/site-packages/torch/nn/modules/module.py\", line 2152, in load_state_dict\n"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:51.094",
+    "data": "이미지 분류 오류 발생:     raise RuntimeError('Error(s) in loading state_dict for {}:\\n\\t{}'.format(\n"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:51.094",
+    "data": "이미지 분류 오류 발생: RuntimeError: Error(s) in loading state_dict for ResNet:\n\tMissing key(s) in state_dict: \"layer3.6.conv1.weight\", \"layer3.6.bn1.weight\", \"layer3.6.bn1.bias\", \"layer3.6.bn1.running_mean\", \"layer3.6.bn1.running_var\", \"layer3.6.conv2.weight\", \"layer3.6.bn2.weight\", \"layer3.6.bn2.bias\", \"layer3.6.bn2.running_mean\", \"layer3.6.bn2.running_var\", \"layer3.6.conv3.weight\", \"layer3.6.bn3.weight\", \"layer3.6.bn3.bias\", \"layer3.6.bn3.running_mean\", \"layer3.6.bn3.running_var\", \"layer3.7.conv1.weight\", \"layer3.7.bn1.weight\", \"layer3.7.bn1.bias\", \"layer3.7.bn1.running_mean\", \"layer3.7.bn1.running_var\", \"layer3.7.conv2.weight\", \"layer3.7.bn2.weight\", \"layer3.7.bn2.bias\", \"layer3.7.bn2.running_mean\", \"layer3.7.bn2.running_var\", \"layer3.7.conv3.weight\", \"layer3.7.bn3.weight\", \"layer3.7.bn3.bias\", \"layer3.7.bn3.running_mean\", \"layer3.7.bn3.running_var\", \"layer3.8.conv1.weight\", \"layer3.8.bn1.weight\", \"layer3.8.bn1.bias\", \"layer3.8.bn1.running_mean\", \"layer3.8.bn1.running_var\", \"layer3.8.conv2.weight\", \"layer3.8.bn2.weight\", \"layer3.8.bn2.bias\", \"layer3.8.bn2.running_mean\", \"layer3.8.bn2.running_var\", \"layer3.8.conv3.weight\", \"layer3.8.bn3.weight\", \"layer3.8.bn3.bias\", \"layer3.8.bn3.running_mean\", \"layer3.8.bn3.running_var\", \"layer3.9.conv1.weight\", \"layer3.9.bn1.weight\", \"layer3.9.bn1.bias\", \"layer3.9.bn1.running_mean\", \"layer3.9.bn1.running_var\", \"layer3.9.conv2.weight\", \"layer3.9.bn2.weight\", \"layer3.9.bn2.bias\", \"layer3.9.bn2.running_mean\", \"layer3.9.bn2.running_var\", \"layer3.9.conv3.weight\", \"layer3.9.bn3.weight\", \"layer3.9.bn3.bias\", \"layer3.9.bn3.running_mean\", \"layer3.9.bn3.running_var\", \"layer3.10.conv1.weight\", \"layer3.10.bn1.weight\", \"layer3.10.bn1.bias\", \"layer3.10.bn1.running_mean\", \"layer3.10.bn1.running_var\", \"layer3.10.conv2.weight\", \"layer3.10.bn2.weight\", \"layer3.10.bn2.bias\", \"layer3.10.bn2.running_mean\", \"layer3.10.bn2.running_var\", \"layer3.10.conv3.weight\", \"layer3.10.bn3.weight\", \"layer3.10.bn3.bias\", \"layer3.10.bn3.running_mean\", \"layer3.10.bn3.running_var\", \"layer3.11.conv1.weight\", \"layer3.11.bn1.weight\", \"layer3.11.bn1.bias\", \"layer3.11.bn1.running_mean\", \"layer3.11.bn1.running_var\", \"layer3.11.conv2.weight\", \"layer3.11.bn2.weight\", \"layer3.11.bn2.bias\", \"layer3.11.bn2.running_mean\", \"layer3.11.bn2.running_var\", \"layer3.11.conv3.weight\", \"layer3.11.bn3.weight\", \"layer3.11.bn3.bias\", \"layer3.11.bn3.running_mean\", \"layer3.11.bn3.running_var\", \"layer3.12.conv1.weight\", \"layer3.12.bn1.weight\", \"layer3.12.bn1.bias\", \"layer3.12.bn1.running_mean\", \"layer3.12.bn1.running_var\", \"layer3.12.conv2.weight\", \"layer3.12.bn2.weight\", \"layer3.12.bn2.bias\", \"layer3.12.bn2.running_mean\", \"layer3.12.bn2.running_var\", \"layer3.12.conv3.weight\", \"layer3.12.bn3.weight\", \"layer3.12.bn3.bias\", \"layer3.12.bn3.running_mean\", \"layer3.12.bn3.running_var\", \"layer3.13.conv1.weight\", \"layer3.13.bn1.weight\", \"layer3.13.bn1.bias\", \"layer3.13.bn1.running_mean\", \"layer3.13.bn1.running_var\", \"layer3.13.conv2.weight\", \"layer3.13.bn2.weight\", \"layer3.13.bn2.bias\", \"layer3.13.bn2.running_mean\", \"layer3.13.bn2.running_var\", \"layer3.13.conv3.weight\", \"layer3.13.bn3.weight\", \"layer3.13.bn3.bias\", \"layer3.13.bn3.running_mean\", \"layer3.13.bn3.running_var\", \"layer3.14.conv1.weight\", \"layer3.14.bn1.weight\", \"layer3.14.bn1.bias\", \"layer3.14.bn1.running_mean\", \"layer3.14.bn1.running_var\", \"layer3.14.conv2.weight\", \"layer3.14.bn2.weight\", \"layer3.14.bn2.bias\", \"layer3.14.bn2.running_mean\", \"layer3.14.bn2.running_var\", \"layer3.14.conv3.weight\", \"layer3.14.bn3.weight\", \"layer3.14.bn3.bias\", \"layer3.14.bn3.running_mean\", \"layer3.14.bn3.running_var\", \"layer3.15.conv1.weight\", \"layer3.15.bn1.weight\", \"layer3.15.bn1.bias\", \"layer3.15.bn1.running_mean\", \"layer3.15.bn1.running_var\", \"layer3.15.conv2.weight\", \"layer3.15.bn2.weight\", \"layer3.15.bn2.bias\", \"layer3.15.bn2.running_mean\", \"layer3.15.bn2.running_var\", \"layer3.15.conv3.weight\", \"layer3.15.bn3.weight\", \"layer3.15.bn3.bias\", \"layer3.15.bn3.running_mean\", \"layer3.15.bn3.running_var\", \"layer3.16.conv1.weight\", \"layer3.16.bn1.weight\", \"layer3.16.bn1.bias\", \"layer3.16.bn1.running_mean\", \"layer3.16.bn1.running_var\", \"layer3.16.conv2.weight\", \"layer3.16.bn2.weight\", \"layer3.16.bn2.bias\", \"layer3.16.bn2.running_mean\", \"layer3.16.bn2.running_var\", \"layer3.16.conv3.weight\", \"layer3.16.bn3.weight\", \"layer3.16.bn3.bias\", \"layer3.16.bn3.running_mean\", \"layer3.16.bn3.running_var\", \"layer3.17.conv1.weight\", \"layer3.17.bn1.weight\", \"layer3.17.bn1.bias\", \"layer3.17.bn1.running_mean\", \"layer3.17.bn1.running_var\", \"layer3.17.conv2.weight\", \"layer3.17.bn2.weight\", \"layer3.17.bn2.bias\", \"layer3.17.bn2.running_mean\", \"layer3.17.bn2.running_var\", \"layer3.17.conv3.weight\", \"layer3.17.bn3.weight\", \"layer3.17.bn3.bias\", \"layer3.17.bn3.running_mean\", \"layer3.17.bn3.running_var\", \"layer3.18.conv1.weight\", \"layer3.18.bn1.weight\", \"layer3.18.bn1.bias\", \"layer3.18.bn1.running_mean\", \"layer3.18.bn1.running_var\", \"layer3.18.conv2.weight\", \"layer3.18.bn2.weight\", \"layer3.18.bn2.bias\", \"layer3.18.bn2.running_mean\", \"layer3.18.bn2.running_var\", \"layer3.18.conv3.weight\", \"layer3.18.bn3.weight\", \"layer3.18.bn3.bias\", \"layer3.18.bn3.running_mean\", \"layer3.18.bn3.running_var\", \"layer3.19.conv1.weight\", \"layer3.19.bn1.weight\", \"layer3.19.bn1.bias\", \"layer3.19.bn1.running_mean\", \"layer3.19.bn1.running_var\", \"layer3.19.conv2.weight\", \"layer3.19.bn2.weight\", \"layer3.19.bn2.bias\", \"layer3.19.bn2.running_mean\", \"layer3.19.bn2.running_var\", \"layer3.19.conv3.weight\", \"layer3.19.bn3.weight\", \"layer3.19.bn3.bias\", \"layer3.19.bn3.running_mean\", \"layer3.19.bn3.running_var\", \"layer3.20.conv1.weight\", \"layer3.20.bn1.weight\", \"layer3.20.bn1.bias\", \"layer3.20.bn1.running_mean\", \"layer3.20.bn1.running_var\", \"layer3.20.conv2.weight\", \"layer3.20.bn2.weight\", \"layer3.20.bn2.bias\", \"layer3.20.bn2.running_mean\", \"layer3.20.bn2.running_var\", \"layer3.20.conv3.weight\", \"layer3.20.bn3.weight\", \"layer3.20.bn3.bias\", \"layer3.20.bn3.running_mean\", \"layer3.20.bn3.running_var\", \"layer3.21.conv1.weight\", \"layer3.21.bn1.weight\", \"layer3.21.bn1.bias\", \"layer3.21.bn1.running_mean\", \"layer3.21.bn1.running_var\", \"layer3.21.conv2.weight\", \"layer3.21.bn2.weight\", \"layer3.21.bn2.bias\", \"layer3.21.bn2.running_mean\", \"layer3.21.bn2.running_var\", \"layer3.21.conv3.weight\", \"layer3.21.bn3.weight\", \"layer3.21.bn3.bias\", \"layer3.21.bn3.running_mean\", \"layer3.21.bn3.running_var\", \"layer3.22.conv1.weight\", \"layer3.22.bn1.weight\", \"layer3.22.bn1.bias\", \"layer3.22.bn1.running_mean\", \"layer3.22.bn1.running_var\", \"layer3.22.conv2.weight\", \"layer3.22.bn2.weight\", \"layer3.22.bn2.bias\", \"layer3.22.bn2.running_mean\", \"layer3.22.bn2.running_var\", \"layer3.22.conv3.weight\", \"layer3.22.bn3.weight\", \"layer3.22.bn3.bias\", \"layer3.22.bn3.running_mean\", \"layer3.22.bn3.running_var\". \n"
+  },
+  {
+    "timestamp": "2024-05-25 00:18:51.528",
+    "data": "이미지 분류에 실패했습니다."
+  },
+  {
+    "timestamp": "2024-05-25 00:22:15.099",
+    "data": "이미지 분류 오류 발생: Traceback (most recent call last):\n  File \"/home/t24103/v1.0src/backend/../ai/classify-resnet50.py\", line 27, in <module>\n"
+  },
+  {
+    "timestamp": "2024-05-25 00:22:15.099",
+    "data": "이미지 분류 오류 발생:     model.load_state_dict(model_state_dict)\n  File \"/usr/local/lib64/python3.9/site-packages/torch/nn/modules/module.py\", line 2152, in load_state_dict\n"
+  },
+  {
+    "timestamp": "2024-05-25 00:22:15.099",
+    "data": "이미지 분류 오류 발생:     raise RuntimeError('Error(s) in loading state_dict for {}:\\n\\t{}'.format(\n"
+  },
+  {
+    "timestamp": "2024-05-25 00:22:15.099",
+    "data": "이미지 분류 오류 발생: RuntimeError: Error(s) in loading state_dict for ResNet:\n\tMissing key(s) in state_dict: \"layer3.6.conv1.weight\", \"layer3.6.bn1.weight\", \"layer3.6.bn1.bias\", \"layer3.6.bn1.running_mean\", \"layer3.6.bn1.running_var\", \"layer3.6.conv2.weight\", \"layer3.6.bn2.weight\", \"layer3.6.bn2.bias\", \"layer3.6.bn2.running_mean\", \"layer3.6.bn2.running_var\", \"layer3.6.conv3.weight\", \"layer3.6.bn3.weight\", \"layer3.6.bn3.bias\", \"layer3.6.bn3.running_mean\", \"layer3.6.bn3.running_var\", \"layer3.7.conv1.weight\", \"layer3.7.bn1.weight\", \"layer3.7.bn1.bias\", \"layer3.7.bn1.running_mean\", \"layer3.7.bn1.running_var\", \"layer3.7.conv2.weight\", \"layer3.7.bn2.weight\", \"layer3.7.bn2.bias\", \"layer3.7.bn2.running_mean\", \"layer3.7.bn2.running_var\", \"layer3.7.conv3.weight\", \"layer3.7.bn3.weight\", \"layer3.7.bn3.bias\", \"layer3.7.bn3.running_mean\", \"layer3.7.bn3.running_var\", \"layer3.8.conv1.weight\", \"layer3.8.bn1.weight\", \"layer3.8.bn1.bias\", \"layer3.8.bn1.running_mean\", \"layer3.8.bn1.running_var\", \"layer3.8.conv2.weight\", \"layer3.8.bn2.weight\", \"layer3.8.bn2.bias\", \"layer3.8.bn2.running_mean\", \"layer3.8.bn2.running_var\", \"layer3.8.conv3.weight\", \"layer3.8.bn3.weight\", \"layer3.8.bn3.bias\", \"layer3.8.bn3.running_mean\", \"layer3.8.bn3.running_var\", \"layer3.9.conv1.weight\", \"layer3.9.bn1.weight\", \"layer3.9.bn1.bias\", \"layer3.9.bn1.running_mean\", \"layer3.9.bn1.running_var\", \"layer3.9.conv2.weight\", \"layer3.9.bn2.weight\", \"layer3.9.bn2.bias\", \"layer3.9.bn2.running_mean\", \"layer3.9.bn2.running_var\", \"layer3.9.conv3.weight\", \"layer3.9.bn3.weight\", \"layer3.9.bn3.bias\", \"layer3.9.bn3.running_mean\", \"layer3.9.bn3.running_var\", \"layer3.10.conv1.weight\", \"layer3.10.bn1.weight\", \"layer3.10.bn1.bias\", \"layer3.10.bn1.running_mean\", \"layer3.10.bn1.running_var\", \"layer3.10.conv2.weight\", \"layer3.10.bn2.weight\", \"layer3.10.bn2.bias\", \"layer3.10.bn2.running_mean\", \"layer3.10.bn2.running_var\", \"layer3.10.conv3.weight\", \"layer3.10.bn3.weight\", \"layer3.10.bn3.bias\", \"layer3.10.bn3.running_mean\", \"layer3.10.bn3.running_var\", \"layer3.11.conv1.weight\", \"layer3.11.bn1.weight\", \"layer3.11.bn1.bias\", \"layer3.11.bn1.running_mean\", \"layer3.11.bn1.running_var\", \"layer3.11.conv2.weight\", \"layer3.11.bn2.weight\", \"layer3.11.bn2.bias\", \"layer3.11.bn2.running_mean\", \"layer3.11.bn2.running_var\", \"layer3.11.conv3.weight\", \"layer3.11.bn3.weight\", \"layer3.11.bn3.bias\", \"layer3.11.bn3.running_mean\", \"layer3.11.bn3.running_var\", \"layer3.12.conv1.weight\", \"layer3.12.bn1.weight\", \"layer3.12.bn1.bias\", \"layer3.12.bn1.running_mean\", \"layer3.12.bn1.running_var\", \"layer3.12.conv2.weight\", \"layer3.12.bn2.weight\", \"layer3.12.bn2.bias\", \"layer3.12.bn2.running_mean\", \"layer3.12.bn2.running_var\", \"layer3.12.conv3.weight\", \"layer3.12.bn3.weight\", \"layer3.12.bn3.bias\", \"layer3.12.bn3.running_mean\", \"layer3.12.bn3.running_var\", \"layer3.13.conv1.weight\", \"layer3.13.bn1.weight\", \"layer3.13.bn1.bias\", \"layer3.13.bn1.running_mean\", \"layer3.13.bn1.running_var\", \"layer3.13.conv2.weight\", \"layer3.13.bn2.weight\", \"layer3.13.bn2.bias\", \"layer3.13.bn2.running_mean\", \"layer3.13.bn2.running_var\", \"layer3.13.conv3.weight\", \"layer3.13.bn3.weight\", \"layer3.13.bn3.bias\", \"layer3.13.bn3.running_mean\", \"layer3.13.bn3.running_var\", \"layer3.14.conv1.weight\", \"layer3.14.bn1.weight\", \"layer3.14.bn1.bias\", \"layer3.14.bn1.running_mean\", \"layer3.14.bn1.running_var\", \"layer3.14.conv2.weight\", \"layer3.14.bn2.weight\", \"layer3.14.bn2.bias\", \"layer3.14.bn2.running_mean\", \"layer3.14.bn2.running_var\", \"layer3.14.conv3.weight\", \"layer3.14.bn3.weight\", \"layer3.14.bn3.bias\", \"layer3.14.bn3.running_mean\", \"layer3.14.bn3.running_var\", \"layer3.15.conv1.weight\", \"layer3.15.bn1.weight\", \"layer3.15.bn1.bias\", \"layer3.15.bn1.running_mean\", \"layer3.15.bn1.running_var\", \"layer3.15.conv2.weight\", \"layer3.15.bn2.weight\", \"layer3.15.bn2.bias\", \"layer3.15.bn2.running_mean\", \"layer3.15.bn2.running_var\", \"layer3.15.conv3.weight\", \"layer3.15.bn3.weight\", \"layer3.15.bn3.bias\", \"layer3.15.bn3.running_mean\", \"layer3.15.bn3.running_var\", \"layer3.16.conv1.weight\", \"layer3.16.bn1.weight\", \"layer3.16.bn1.bias\", \"layer3.16.bn1.running_mean\", \"layer3.16.bn1.running_var\", \"layer3.16.conv2.weight\", \"layer3.16.bn2.weight\", \"layer3.16.bn2.bias\", \"layer3.16.bn2.running_mean\", \"layer3.16.bn2.running_var\", \"layer3.16.conv3.weight\", \"layer3.16.bn3.weight\", \"layer3.16.bn3.bias\", \"layer3.16.bn3.running_mean\", \"layer3.16.bn3.running_var\", \"layer3.17.conv1.weight\", \"layer3.17.bn1.weight\", \"layer3.17.bn1.bias\", \"layer3.17.bn1.running_mean\", \"layer3.17.bn1.running_var\", \"layer3.17.conv2.weight\", \"layer3.17.bn2.weight\", \"layer3.17.bn2.bias\", \"layer3.17.bn2.running_mean\", \"layer3.17.bn2.running_var\", \"layer3.17.conv3.weight\", \"layer3.17.bn3.weight\", \"layer3.17.bn3.bias\", \"layer3.17.bn3.running_mean\", \"layer3.17.bn3.running_var\", \"layer3.18.conv1.weight\", \"layer3.18.bn1.weight\", \"layer3.18.bn1.bias\", \"layer3.18.bn1.running_mean\", \"layer3.18.bn1.running_var\", \"layer3.18.conv2.weight\", \"layer3.18.bn2.weight\", \"layer3.18.bn2.bias\", \"layer3.18.bn2.running_mean\", \"layer3.18.bn2.running_var\", \"layer3.18.conv3.weight\", \"layer3.18.bn3.weight\", \"layer3.18.bn3.bias\", \"layer3.18.bn3.running_mean\", \"layer3.18.bn3.running_var\", \"layer3.19.conv1.weight\", \"layer3.19.bn1.weight\", \"layer3.19.bn1.bias\", \"layer3.19.bn1.running_mean\", \"layer3.19.bn1.running_var\", \"layer3.19.conv2.weight\", \"layer3.19.bn2.weight\", \"layer3.19.bn2.bias\", \"layer3.19.bn2.running_mean\", \"layer3.19.bn2.running_var\", \"layer3.19.conv3.weight\", \"layer3.19.bn3.weight\", \"layer3.19.bn3.bias\", \"layer3.19.bn3.running_mean\", \"layer3.19.bn3.running_var\", \"layer3.20.conv1.weight\", \"layer3.20.bn1.weight\", \"layer3.20.bn1.bias\", \"layer3.20.bn1.running_mean\", \"layer3.20.bn1.running_var\", \"layer3.20.conv2.weight\", \"layer3.20.bn2.weight\", \"layer3.20.bn2.bias\", \"layer3.20.bn2.running_mean\", \"layer3.20.bn2.running_var\", \"layer3.20.conv3.weight\", \"layer3.20.bn3.weight\", \"layer3.20.bn3.bias\", \"layer3.20.bn3.running_mean\", \"layer3.20.bn3.running_var\", \"layer3.21.conv1.weight\", \"layer3.21.bn1.weight\", \"layer3.21.bn1.bias\", \"layer3.21.bn1.running_mean\", \"layer3.21.bn1.running_var\", \"layer3.21.conv2.weight\", \"layer3.21.bn2.weight\", \"layer3.21.bn2.bias\", \"layer3.21.bn2.running_mean\", \"layer3.21.bn2.running_var\", \"layer3.21.conv3.weight\", \"layer3.21.bn3.weight\", \"layer3.21.bn3.bias\", \"layer3.21.bn3.running_mean\", \"layer3.21.bn3.running_var\", \"layer3.22.conv1.weight\", \"layer3.22.bn1.weight\", \"layer3.22.bn1.bias\", \"layer3.22.bn1.running_mean\", \"layer3.22.bn1.running_var\", \"layer3.22.conv2.weight\", \"layer3.22.bn2.weight\", \"layer3.22.bn2.bias\", \"layer3.22.bn2.running_mean\", \"layer3.22.bn2.running_var\", \"layer3.22.conv3.weight\", \"layer3.22.bn3.weight\", \"layer3.22.bn3.bias\", \"layer3.22.bn3.running_mean\", \"layer3.22.bn3.running_var\". \n"
+  },
+  {
+    "timestamp": "2024-05-25 00:22:15.479",
+    "data": "이미지 분류에 실패했습니다."
+  },
+  {
+    "timestamp": "2024-05-25 00:23:40.880",
+    "data": "이미지 분류 오류 발생: Traceback (most recent call last):\n  File \"/home/t24103/v1.0src/backend/../ai/classify-resnet50.py\", line 31, in <module>\n"
+  },
+  {
+    "timestamp": "2024-05-25 00:23:40.880",
+    "data": "이미지 분류 오류 발생:     model.load_state_dict(model_state_dict)\n  File \"/usr/local/lib64/python3.9/site-packages/torch/nn/modules/module.py\", line 2152, in load_state_dict\n"
+  },
+  {
+    "timestamp": "2024-05-25 00:23:40.880",
+    "data": "이미지 분류 오류 발생:     raise RuntimeError('Error(s) in loading state_dict for {}:\\n\\t{}'.format(\n"
+  },
+  {
+    "timestamp": "2024-05-25 00:23:40.880",
+    "data": "이미지 분류 오류 발생: RuntimeError: Error(s) in loading state_dict for ResNet:\n\tMissing key(s) in state_dict: \"layer3.6.conv1.weight\", \"layer3.6.bn1.weight\", \"layer3.6.bn1.bias\", \"layer3.6.bn1.running_mean\", \"layer3.6.bn1.running_var\", \"layer3.6.conv2.weight\", \"layer3.6.bn2.weight\", \"layer3.6.bn2.bias\", \"layer3.6.bn2.running_mean\", \"layer3.6.bn2.running_var\", \"layer3.6.conv3.weight\", \"layer3.6.bn3.weight\", \"layer3.6.bn3.bias\", \"layer3.6.bn3.running_mean\", \"layer3.6.bn3.running_var\", \"layer3.7.conv1.weight\", \"layer3.7.bn1.weight\", \"layer3.7.bn1.bias\", \"layer3.7.bn1.running_mean\", \"layer3.7.bn1.running_var\", \"layer3.7.conv2.weight\", \"layer3.7.bn2.weight\", \"layer3.7.bn2.bias\", \"layer3.7.bn2.running_mean\", \"layer3.7.bn2.running_var\", \"layer3.7.conv3.weight\", \"layer3.7.bn3.weight\", \"layer3.7.bn3.bias\", \"layer3.7.bn3.running_mean\", \"layer3.7.bn3.running_var\", \"layer3.8.conv1.weight\", \"layer3.8.bn1.weight\", \"layer3.8.bn1.bias\", \"layer3.8.bn1.running_mean\", \"layer3.8.bn1.running_var\", \"layer3.8.conv2.weight\", \"layer3.8.bn2.weight\", \"layer3.8.bn2.bias\", \"layer3.8.bn2.running_mean\", \"layer3.8.bn2.running_var\", \"layer3.8.conv3.weight\", \"layer3.8.bn3.weight\", \"layer3.8.bn3.bias\", \"layer3.8.bn3.running_mean\", \"layer3.8.bn3.running_var\", \"layer3.9.conv1.weight\", \"layer3.9.bn1.weight\", \"layer3.9.bn1.bias\", \"layer3.9.bn1.running_mean\", \"layer3.9.bn1.running_var\", \"layer3.9.conv2.weight\", \"layer3.9.bn2.weight\", \"layer3.9.bn2.bias\", \"layer3.9.bn2.running_mean\", \"layer3.9.bn2.running_var\", \"layer3.9.conv3.weight\", \"layer3.9.bn3.weight\", \"layer3.9.bn3.bias\", \"layer3.9.bn3.running_mean\", \"layer3.9.bn3.running_var\", \"layer3.10.conv1.weight\", \"layer3.10.bn1.weight\", \"layer3.10.bn1.bias\", \"layer3.10.bn1.running_mean\", \"layer3.10.bn1.running_var\", \"layer3.10.conv2.weight\", \"layer3.10.bn2.weight\", \"layer3.10.bn2.bias\", \"layer3.10.bn2.running_mean\", \"layer3.10.bn2.running_var\", \"layer3.10.conv3.weight\", \"layer3.10.bn3.weight\", \"layer3.10.bn3.bias\", \"layer3.10.bn3.running_mean\", \"layer3.10.bn3.running_var\", \"layer3.11.conv1.weight\", \"layer3.11.bn1.weight\", \"layer3.11.bn1.bias\", \"layer3.11.bn1.running_mean\", \"layer3.11.bn1.running_var\", \"layer3.11.conv2.weight\", \"layer3.11.bn2.weight\", \"layer3.11.bn2.bias\", \"layer3.11.bn2.running_mean\", \"layer3.11.bn2.running_var\", \"layer3.11.conv3.weight\", \"layer3.11.bn3.weight\", \"layer3.11.bn3.bias\", \"layer3.11.bn3.running_mean\", \"layer3.11.bn3.running_var\", \"layer3.12.conv1.weight\", \"layer3.12.bn1.weight\", \"layer3.12.bn1.bias\", \"layer3.12.bn1.running_mean\", \"layer3.12.bn1.running_var\", \"layer3.12.conv2.weight\", \"layer3.12.bn2.weight\", \"layer3.12.bn2.bias\", \"layer3.12.bn2.running_mean\", \"layer3.12.bn2.running_var\", \"layer3.12.conv3.weight\", \"layer3.12.bn3.weight\", \"layer3.12.bn3.bias\", \"layer3.12.bn3.running_mean\", \"layer3.12.bn3.running_var\", \"layer3.13.conv1.weight\", \"layer3.13.bn1.weight\", \"layer3.13.bn1.bias\", \"layer3.13.bn1.running_mean\", \"layer3.13.bn1.running_var\", \"layer3.13.conv2.weight\", \"layer3.13.bn2.weight\", \"layer3.13.bn2.bias\", \"layer3.13.bn2.running_mean\", \"layer3.13.bn2.running_var\", \"layer3.13.conv3.weight\", \"layer3.13.bn3.weight\", \"layer3.13.bn3.bias\", \"layer3.13.bn3.running_mean\", \"layer3.13.bn3.running_var\", \"layer3.14.conv1.weight\", \"layer3.14.bn1.weight\", \"layer3.14.bn1.bias\", \"layer3.14.bn1.running_mean\", \"layer3.14.bn1.running_var\", \"layer3.14.conv2.weight\", \"layer3.14.bn2.weight\", \"layer3.14.bn2.bias\", \"layer3.14.bn2.running_mean\", \"layer3.14.bn2.running_var\", \"layer3.14.conv3.weight\", \"layer3.14.bn3.weight\", \"layer3.14.bn3.bias\", \"layer3.14.bn3.running_mean\", \"layer3.14.bn3.running_var\", \"layer3.15.conv1.weight\", \"layer3.15.bn1.weight\", \"layer3.15.bn1.bias\", \"layer3.15.bn1.running_mean\", \"layer3.15.bn1.running_var\", \"layer3.15.conv2.weight\", \"layer3.15.bn2.weight\", \"layer3.15.bn2.bias\", \"layer3.15.bn2.running_mean\", \"layer3.15.bn2.running_var\", \"layer3.15.conv3.weight\", \"layer3.15.bn3.weight\", \"layer3.15.bn3.bias\", \"layer3.15.bn3.running_mean\", \"layer3.15.bn3.running_var\", \"layer3.16.conv1.weight\", \"layer3.16.bn1.weight\", \"layer3.16.bn1.bias\", \"layer3.16.bn1.running_mean\", \"layer3.16.bn1.running_var\", \"layer3.16.conv2.weight\", \"layer3.16.bn2.weight\", \"layer3.16.bn2.bias\", \"layer3.16.bn2.running_mean\", \"layer3.16.bn2.running_var\", \"layer3.16.conv3.weight\", \"layer3.16.bn3.weight\", \"layer3.16.bn3.bias\", \"layer3.16.bn3.running_mean\", \"layer3.16.bn3.running_var\", \"layer3.17.conv1.weight\", \"layer3.17.bn1.weight\", \"layer3.17.bn1.bias\", \"layer3.17.bn1.running_mean\", \"layer3.17.bn1.running_var\", \"layer3.17.conv2.weight\", \"layer3.17.bn2.weight\", \"layer3.17.bn2.bias\", \"layer3.17.bn2.running_mean\", \"layer3.17.bn2.running_var\", \"layer3.17.conv3.weight\", \"layer3.17.bn3.weight\", \"layer3.17.bn3.bias\", \"layer3.17.bn3.running_mean\", \"layer3.17.bn3.running_var\", \"layer3.18.conv1.weight\", \"layer3.18.bn1.weight\", \"layer3.18.bn1.bias\", \"layer3.18.bn1.running_mean\", \"layer3.18.bn1.running_var\", \"layer3.18.conv2.weight\", \"layer3.18.bn2.weight\", \"layer3.18.bn2.bias\", \"layer3.18.bn2.running_mean\", \"layer3.18.bn2.running_var\", \"layer3.18.conv3.weight\", \"layer3.18.bn3.weight\", \"layer3.18.bn3.bias\", \"layer3.18.bn3.running_mean\", \"layer3.18.bn3.running_var\", \"layer3.19.conv1.weight\", \"layer3.19.bn1.weight\", \"layer3.19.bn1.bias\", \"layer3.19.bn1.running_mean\", \"layer3.19.bn1.running_var\", \"layer3.19.conv2.weight\", \"layer3.19.bn2.weight\", \"layer3.19.bn2.bias\", \"layer3.19.bn2.running_mean\", \"layer3.19.bn2.running_var\", \"layer3.19.conv3.weight\", \"layer3.19.bn3.weight\", \"layer3.19.bn3.bias\", \"layer3.19.bn3.running_mean\", \"layer3.19.bn3.running_var\", \"layer3.20.conv1.weight\", \"layer3.20.bn1.weight\", \"layer3.20.bn1.bias\", \"layer3.20.bn1.running_mean\", \"layer3.20.bn1.running_var\", \"layer3.20.conv2.weight\", \"layer3.20.bn2.weight\", \"layer3.20.bn2.bias\", \"layer3.20.bn2.running_mean\", \"layer3.20.bn2.running_var\", \"layer3.20.conv3.weight\", \"layer3.20.bn3.weight\", \"layer3.20.bn3.bias\", \"layer3.20.bn3.running_mean\", \"layer3.20.bn3.running_var\", \"layer3.21.conv1.weight\", \"layer3.21.bn1.weight\", \"layer3.21.bn1.bias\", \"layer3.21.bn1.running_mean\", \"layer3.21.bn1.running_var\", \"layer3.21.conv2.weight\", \"layer3.21.bn2.weight\", \"layer3.21.bn2.bias\", \"layer3.21.bn2.running_mean\", \"layer3.21.bn2.running_var\", \"layer3.21.conv3.weight\", \"layer3.21.bn3.weight\", \"layer3.21.bn3.bias\", \"layer3.21.bn3.running_mean\", \"layer3.21.bn3.running_var\", \"layer3.22.conv1.weight\", \"layer3.22.bn1.weight\", \"layer3.22.bn1.bias\", \"layer3.22.bn1.running_mean\", \"layer3.22.bn1.running_var\", \"layer3.22.conv2.weight\", \"layer3.22.bn2.weight\", \"layer3.22.bn2.bias\", \"layer3.22.bn2.running_mean\", \"layer3.22.bn2.running_var\", \"layer3.22.conv3.weight\", \"layer3.22.bn3.weight\", \"layer3.22.bn3.bias\", \"layer3.22.bn3.running_mean\", \"layer3.22.bn3.running_var\", \"fc.1.weight\", \"fc.1.bias\". \n\tUnexpected key(s) in state_dict: \"fc.weight\", \"fc.bias\". \n"
+  },
+  {
+    "timestamp": "2024-05-25 00:23:41.264",
+    "data": "이미지 분류에 실패했습니다."
+  },
+  {
+    "timestamp": "2024-05-25 00:25:45.189",
+    "data": "이미지 분류 오류 발생: Traceback (most recent call last):\n  File \"/home/t24103/v1.0src/backend/../ai/classify-resnet50.py\", line 31, in <module>\n"
+  },
+  {
+    "timestamp": "2024-05-25 00:25:45.189",
+    "data": "이미지 분류 오류 발생:     model.load_state_dict(model_state_dict)\n  File \"/usr/local/lib64/python3.9/site-packages/torch/nn/modules/module.py\", line 2152, in load_state_dict\n"
+  },
+  {
+    "timestamp": "2024-05-25 00:25:45.189",
+    "data": "이미지 분류 오류 발생:     raise RuntimeError('Error(s) in loading state_dict for {}:\\n\\t{}'.format(\n"
+  },
+  {
+    "timestamp": "2024-05-25 00:25:45.189",
+    "data": "이미지 분류 오류 발생: RuntimeError: Error(s) in loading state_dict for ResNet:\n\tMissing key(s) in state_dict: \"layer3.6.conv1.weight\", \"layer3.6.bn1.weight\", \"layer3.6.bn1.bias\", \"layer3.6.bn1.running_mean\", \"layer3.6.bn1.running_var\", \"layer3.6.conv2.weight\", \"layer3.6.bn2.weight\", \"layer3.6.bn2.bias\", \"layer3.6.bn2.running_mean\", \"layer3.6.bn2.running_var\", \"layer3.6.conv3.weight\", \"layer3.6.bn3.weight\", \"layer3.6.bn3.bias\", \"layer3.6.bn3.running_mean\", \"layer3.6.bn3.running_var\", \"layer3.7.conv1.weight\", \"layer3.7.bn1.weight\", \"layer3.7.bn1.bias\", \"layer3.7.bn1.running_mean\", \"layer3.7.bn1.running_var\", \"layer3.7.conv2.weight\", \"layer3.7.bn2.weight\", \"layer3.7.bn2.bias\", \"layer3.7.bn2.running_mean\", \"layer3.7.bn2.running_var\", \"layer3.7.conv3.weight\", \"layer3.7.bn3.weight\", \"layer3.7.bn3.bias\", \"layer3.7.bn3.running_mean\", \"layer3.7.bn3.running_var\", \"layer3.8.conv1.weight\", \"layer3.8.bn1.weight\", \"layer3.8.bn1.bias\", \"layer3.8.bn1.running_mean\", \"layer3.8.bn1.running_var\", \"layer3.8.conv2.weight\", \"layer3.8.bn2.weight\", \"layer3.8.bn2.bias\", \"layer3.8.bn2.running_mean\", \"layer3.8.bn2.running_var\", \"layer3.8.conv3.weight\", \"layer3.8.bn3.weight\", \"layer3.8.bn3.bias\", \"layer3.8.bn3.running_mean\", \"layer3.8.bn3.running_var\", \"layer3.9.conv1.weight\", \"layer3.9.bn1.weight\", \"layer3.9.bn1.bias\", \"layer3.9.bn1.running_mean\", \"layer3.9.bn1.running_var\", \"layer3.9.conv2.weight\", \"layer3.9.bn2.weight\", \"layer3.9.bn2.bias\", \"layer3.9.bn2.running_mean\", \"layer3.9.bn2.running_var\", \"layer3.9.conv3.weight\", \"layer3.9.bn3.weight\", \"layer3.9.bn3.bias\", \"layer3.9.bn3.running_mean\", \"layer3.9.bn3.running_var\", \"layer3.10.conv1.weight\", \"layer3.10.bn1.weight\", \"layer3.10.bn1.bias\", \"layer3.10.bn1.running_mean\", \"layer3.10.bn1.running_var\", \"layer3.10.conv2.weight\", \"layer3.10.bn2.weight\", \"layer3.10.bn2.bias\", \"layer3.10.bn2.running_mean\", \"layer3.10.bn2.running_var\", \"layer3.10.conv3.weight\", \"layer3.10.bn3.weight\", \"layer3.10.bn3.bias\", \"layer3.10.bn3.running_mean\", \"layer3.10.bn3.running_var\", \"layer3.11.conv1.weight\", \"layer3.11.bn1.weight\", \"layer3.11.bn1.bias\", \"layer3.11.bn1.running_mean\", \"layer3.11.bn1.running_var\", \"layer3.11.conv2.weight\", \"layer3.11.bn2.weight\", \"layer3.11.bn2.bias\", \"layer3.11.bn2.running_mean\", \"layer3.11.bn2.running_var\", \"layer3.11.conv3.weight\", \"layer3.11.bn3.weight\", \"layer3.11.bn3.bias\", \"layer3.11.bn3.running_mean\", \"layer3.11.bn3.running_var\", \"layer3.12.conv1.weight\", \"layer3.12.bn1.weight\", \"layer3.12.bn1.bias\", \"layer3.12.bn1.running_mean\", \"layer3.12.bn1.running_var\", \"layer3.12.conv2.weight\", \"layer3.12.bn2.weight\", \"layer3.12.bn2.bias\", \"layer3.12.bn2.running_mean\", \"layer3.12.bn2.running_var\", \"layer3.12.conv3.weight\", \"layer3.12.bn3.weight\", \"layer3.12.bn3.bias\", \"layer3.12.bn3.running_mean\", \"layer3.12.bn3.running_var\", \"layer3.13.conv1.weight\", \"layer3.13.bn1.weight\", \"layer3.13.bn1.bias\", \"layer3.13.bn1.running_mean\", \"layer3.13.bn1.running_var\", \"layer3.13.conv2.weight\", \"layer3.13.bn2.weight\", \"layer3.13.bn2.bias\", \"layer3.13.bn2.running_mean\", \"layer3.13.bn2.running_var\", \"layer3.13.conv3.weight\", \"layer3.13.bn3.weight\", \"layer3.13.bn3.bias\", \"layer3.13.bn3.running_mean\", \"layer3.13.bn3.running_var\", \"layer3.14.conv1.weight\", \"layer3.14.bn1.weight\", \"layer3.14.bn1.bias\", \"layer3.14.bn1.running_mean\", \"layer3.14.bn1.running_var\", \"layer3.14.conv2.weight\", \"layer3.14.bn2.weight\", \"layer3.14.bn2.bias\", \"layer3.14.bn2.running_mean\", \"layer3.14.bn2.running_var\", \"layer3.14.conv3.weight\", \"layer3.14.bn3.weight\", \"layer3.14.bn3.bias\", \"layer3.14.bn3.running_mean\", \"layer3.14.bn3.running_var\", \"layer3.15.conv1.weight\", \"layer3.15.bn1.weight\", \"layer3.15.bn1.bias\", \"layer3.15.bn1.running_mean\", \"layer3.15.bn1.running_var\", \"layer3.15.conv2.weight\", \"layer3.15.bn2.weight\", \"layer3.15.bn2.bias\", \"layer3.15.bn2.running_mean\", \"layer3.15.bn2.running_var\", \"layer3.15.conv3.weight\", \"layer3.15.bn3.weight\", \"layer3.15.bn3.bias\", \"layer3.15.bn3.running_mean\", \"layer3.15.bn3.running_var\", \"layer3.16.conv1.weight\", \"layer3.16.bn1.weight\", \"layer3.16.bn1.bias\", \"layer3.16.bn1.running_mean\", \"layer3.16.bn1.running_var\", \"layer3.16.conv2.weight\", \"layer3.16.bn2.weight\", \"layer3.16.bn2.bias\", \"layer3.16.bn2.running_mean\", \"layer3.16.bn2.running_var\", \"layer3.16.conv3.weight\", \"layer3.16.bn3.weight\", \"layer3.16.bn3.bias\", \"layer3.16.bn3.running_mean\", \"layer3.16.bn3.running_var\", \"layer3.17.conv1.weight\", \"layer3.17.bn1.weight\", \"layer3.17.bn1.bias\", \"layer3.17.bn1.running_mean\", \"layer3.17.bn1.running_var\", \"layer3.17.conv2.weight\", \"layer3.17.bn2.weight\", \"layer3.17.bn2.bias\", \"layer3.17.bn2.running_mean\", \"layer3.17.bn2.running_var\", \"layer3.17.conv3.weight\", \"layer3.17.bn3.weight\", \"layer3.17.bn3.bias\", \"layer3.17.bn3.running_mean\", \"layer3.17.bn3.running_var\", \"layer3.18.conv1.weight\", \"layer3.18.bn1.weight\", \"layer3.18.bn1.bias\", \"layer3.18.bn1.running_mean\", \"layer3.18.bn1.running_var\", \"layer3.18.conv2.weight\", \"layer3.18.bn2.weight\", \"layer3.18.bn2.bias\", \"layer3.18.bn2.running_mean\", \"layer3.18.bn2.running_var\", \"layer3.18.conv3.weight\", \"layer3.18.bn3.weight\", \"layer3.18.bn3.bias\", \"layer3.18.bn3.running_mean\", \"layer3.18.bn3.running_var\", \"layer3.19.conv1.weight\", \"layer3.19.bn1.weight\", \"layer3.19.bn1.bias\", \"layer3.19.bn1.running_mean\", \"layer3.19.bn1.running_var\", \"layer3.19.conv2.weight\", \"layer3.19.bn2.weight\", \"layer3.19.bn2.bias\", \"layer3.19.bn2.running_mean\", \"layer3.19.bn2.running_var\", \"layer3.19.conv3.weight\", \"layer3.19.bn3.weight\", \"layer3.19.bn3.bias\", \"layer3.19.bn3.running_mean\", \"layer3.19.bn3.running_var\", \"layer3.20.conv1.weight\", \"layer3.20.bn1.weight\", \"layer3.20.bn1.bias\", \"layer3.20.bn1.running_mean\", \"layer3.20.bn1.running_var\", \"layer3.20.conv2.weight\", \"layer3.20.bn2.weight\", \"layer3.20.bn2.bias\", \"layer3.20.bn2.running_mean\", \"layer3.20.bn2.running_var\", \"layer3.20.conv3.weight\", \"layer3.20.bn3.weight\", \"layer3.20.bn3.bias\", \"layer3.20.bn3.running_mean\", \"layer3.20.bn3.running_var\", \"layer3.21.conv1.weight\", \"layer3.21.bn1.weight\", \"layer3.21.bn1.bias\", \"layer3.21.bn1.running_mean\", \"layer3.21.bn1.running_var\", \"layer3.21.conv2.weight\", \"layer3.21.bn2.weight\", \"layer3.21.bn2.bias\", \"layer3.21.bn2.running_mean\", \"layer3.21.bn2.running_var\", \"layer3.21.conv3.weight\", \"layer3.21.bn3.weight\", \"layer3.21.bn3.bias\", \"layer3.21.bn3.running_mean\", \"layer3.21.bn3.running_var\", \"layer3.22.conv1.weight\", \"layer3.22.bn1.weight\", \"layer3.22.bn1.bias\", \"layer3.22.bn1.running_mean\", \"layer3.22.bn1.running_var\", \"layer3.22.conv2.weight\", \"layer3.22.bn2.weight\", \"layer3.22.bn2.bias\", \"layer3.22.bn2.running_mean\", \"layer3.22.bn2.running_var\", \"layer3.22.conv3.weight\", \"layer3.22.bn3.weight\", \"layer3.22.bn3.bias\", \"layer3.22.bn3.running_mean\", \"layer3.22.bn3.running_var\", \"fc.1.weight\", \"fc.1.bias\". \n\tUnexpected key(s) in state_dict: \"fc.weight\", \"fc.bias\". \n"
+  },
+  {
+    "timestamp": "2024-05-25 00:25:45.569",
+    "data": "이미지 분류에 실패했습니다."
+  },
+  {
+    "timestamp": "2024-05-25 00:27:38.700",
+    "data": "이미지 분류 오류 발생: Traceback (most recent call last):\n  File \"/home/t24103/v1.0src/backend/../ai/classify-resnet50.py\", line 37, in <module>\n"
+  },
+  {
+    "timestamp": "2024-05-25 00:27:38.702",
+    "data": "이미지 분류 오류 발생:     seg_model = models.segmentation.deeplabv3_resnet101(weights=models.DeepLabV3_ResNet101_Weights.DEFAULT)\n"
+  },
+  {
+    "timestamp": "2024-05-25 00:27:38.702",
+    "data": "이미지 분류 오류 발생: AttributeError: module 'torchvision.models' has no attribute 'DeepLabV3_ResNet101_Weights'\n"
+  },
+  {
+    "timestamp": "2024-05-25 00:27:39.084",
+    "data": "이미지 분류에 실패했습니다."
+  },
+  {
+    "timestamp": "2024-05-25 00:29:14.421",
+    "data": "이미지 분류 오류 발생: Traceback (most recent call last):\n  File \"/home/t24103/v1.0src/backend/../ai/classify-resnet50.py\", line 96, in <module>\n"
+  },
+  {
+    "timestamp": "2024-05-25 00:29:14.421",
+    "data": "이미지 분류 오류 발생:     extracted_img = remove_background(image_path)\n  File \"/home/t24103/v1.0src/backend/../ai/classify-resnet50.py\", line 77, in remove_background\n    pred_mask = pred_mask.squeeze(0).cpu().detach()\nAttributeError: 'collections.OrderedDict' object has no attribute 'squeeze'\n"
+  },
+  {
+    "timestamp": "2024-05-25 00:29:14.912",
+    "data": "이미지 분류에 실패했습니다."
+  },
+  {
+    "timestamp": "2024-05-25 00:31:48.168",
+    "data": "이미지 분류 오류 발생: Traceback (most recent call last):\n  File \"/home/t24103/v1.0src/backend/../ai/classify-resnet50.py\", line 95, in <module>\n"
+  },
+  {
+    "timestamp": "2024-05-25 00:31:48.168",
+    "data": "이미지 분류 오류 발생:     extracted_img = remove_background(image_path)\n  File \"/home/t24103/v1.0src/backend/../ai/classify-resnet50.py\", line 75, in remove_background\n    output = model(image_resized)['out']\n  File \"/usr/local/lib64/python3.9/site-packages/torch/nn/modules/module.py\", line 1518, in _wrapped_call_impl\n"
+  },
+  {
+    "timestamp": "2024-05-25 00:31:48.168",
+    "data": "이미지 분류 오류 발생:     return self._call_impl(*args, **kwargs)\n  File \"/usr/local/lib64/python3.9/site-packages/torch/nn/modules/module.py\", line 1527, in _call_impl\n"
+  },
+  {
+    "timestamp": "2024-05-25 00:31:48.168",
+    "data": "이미지 분류 오류 발생:     return forward_call(*args, **kwargs)\n  File \"/usr/local/lib64/python3.9/site-packages/torchvision/models/resnet.py\", line 285, in forward\n"
+  },
+  {
+    "timestamp": "2024-05-25 00:31:48.169",
+    "data": "이미지 분류 오류 발생:     return self._forward_impl(x)\n  File \"/usr/local/lib64/python3.9/site-packages/torchvision/models/resnet.py\", line 268, in _forward_impl\n"
+  },
+  {
+    "timestamp": "2024-05-25 00:31:48.169",
+    "data": "이미지 분류 오류 발생:     x = self.conv1(x)\n  File \"/usr/local/lib64/python3.9/site-packages/torch/nn/modules/module.py\", line 1518, in _wrapped_call_impl\n"
+  },
+  {
+    "timestamp": "2024-05-25 00:31:48.169",
+    "data": "이미지 분류 오류 발생:     return self._call_impl(*args, **kwargs)\n  File \"/usr/local/lib64/python3.9/site-packages/torch/nn/modules/module.py\", line 1527, in _call_impl\n"
+  },
+  {
+    "timestamp": "2024-05-25 00:31:48.169",
+    "data": "이미지 분류 오류 발생:     return forward_call(*args, **kwargs)\n  File \"/usr/local/lib64/python3.9/site-packages/torch/nn/modules/conv.py\", line 460, in forward\n"
+  },
+  {
+    "timestamp": "2024-05-25 00:31:48.169",
+    "data": "이미지 분류 오류 발생:     return self._conv_forward(input, self.weight, self.bias)\n  File \"/usr/local/lib64/python3.9/site-packages/torch/nn/modules/conv.py\", line 456, in _conv_forward\n"
+  },
+  {
+    "timestamp": "2024-05-25 00:31:48.169",
+    "data": "이미지 분류 오류 발생:     return F.conv2d(input, weight, bias, self.stride,\n"
+  },
+  {
+    "timestamp": "2024-05-25 00:31:48.169",
+    "data": "이미지 분류 오류 발생: RuntimeError: Input type (torch.cuda.FloatTensor) and weight type (torch.FloatTensor) should be the same\n"
+  },
+  {
+    "timestamp": "2024-05-25 00:31:48.616",
+    "data": "이미지 분류에 실패했습니다."
+  },
+  {
+    "timestamp": "2024-05-25 00:32:01.377",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-25 00:32:06.481",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:14.35.75.94"
+  },
+  {
+    "timestamp": "2024-05-25 00:32:19.345",
+    "data": "이미지 분류 오류 발생: Traceback (most recent call last):\n  File \"/home/t24103/v1.0src/backend/../ai/classify-resnet50.py\", line 95, in <module>\n"
+  },
+  {
+    "timestamp": "2024-05-25 00:32:19.346",
+    "data": "이미지 분류 오류 발생:     extracted_img = remove_background(image_path)\n  File \"/home/t24103/v1.0src/backend/../ai/classify-resnet50.py\", line 75, in remove_background\n    output = model(image_resized)['out']\n  File \"/usr/local/lib64/python3.9/site-packages/torch/nn/modules/module.py\", line 1518, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n  File \"/usr/local/lib64/python3.9/site-packages/torch/nn/modules/module.py\", line 1527, in _call_impl\n    return forward_call(*args, **kwargs)\n  File \"/usr/local/lib64/python3.9/site-packages/torchvision/models/resnet.py\", line 285, in forward\n    return self._forward_impl(x)\n  File \"/usr/local/lib64/python3.9/site-packages/torchvision/models/resnet.py\", line 268, in _forward_impl\n    x = self.conv1(x)\n  File \"/usr/local/lib64/python3.9/site-packages/torch/nn/modules/module.py\", line 1518, in _wrapped_call_impl\n"
+  },
+  {
+    "timestamp": "2024-05-25 00:32:19.346",
+    "data": "이미지 분류 오류 발생:     return self._call_impl(*args, **kwargs)\n  File \"/usr/local/lib64/python3.9/site-packages/torch/nn/modules/module.py\", line 1527, in _call_impl\n"
+  },
+  {
+    "timestamp": "2024-05-25 00:32:19.346",
+    "data": "이미지 분류 오류 발생:     return forward_call(*args, **kwargs)\n  File \"/usr/local/lib64/python3.9/site-packages/torch/nn/modules/conv.py\", line 460, in forward\n"
+  },
+  {
+    "timestamp": "2024-05-25 00:32:19.346",
+    "data": "이미지 분류 오류 발생:     return self._conv_forward(input, self.weight, self.bias)\n  File \"/usr/local/lib64/python3.9/site-packages/torch/nn/modules/conv.py\", line 456, in _conv_forward\n"
+  },
+  {
+    "timestamp": "2024-05-25 00:32:19.346",
+    "data": "이미지 분류 오류 발생:     return F.conv2d(input, weight, bias, self.stride,\n"
+  },
+  {
+    "timestamp": "2024-05-25 00:32:19.346",
+    "data": "이미지 분류 오류 발생: RuntimeError: Input type (torch.cuda.FloatTensor) and weight type (torch.FloatTensor) should be the same\n"
+  },
+  {
+    "timestamp": "2024-05-25 00:32:19.791",
+    "data": "이미지 분류에 실패했습니다."
+  },
+  {
+    "timestamp": "2024-05-25 00:33:37.395",
+    "data": "이미지 분류 오류 발생: Traceback (most recent call last):\n  File \"/home/t24103/v1.0src/backend/../ai/classify-resnet50.py\", line 95, in <module>\n"
+  },
+  {
+    "timestamp": "2024-05-25 00:33:37.395",
+    "data": "이미지 분류 오류 발생:     extracted_img = remove_background(image_path)\n  File \"/home/t24103/v1.0src/backend/../ai/classify-resnet50.py\", line 75, in remove_background\n    output = model(image_resized)['out']\n  File \"/usr/local/lib64/python3.9/site-packages/torch/nn/modules/module.py\", line 1518, in _wrapped_call_impl\n"
+  },
+  {
+    "timestamp": "2024-05-25 00:33:37.395",
+    "data": "이미지 분류 오류 발생:     return self._call_impl(*args, **kwargs)\n  File \"/usr/local/lib64/python3.9/site-packages/torch/nn/modules/module.py\", line 1527, in _call_impl\n"
+  },
+  {
+    "timestamp": "2024-05-25 00:33:37.396",
+    "data": "이미지 분류 오류 발생:     return forward_call(*args, **kwargs)\n  File \"/usr/local/lib64/python3.9/site-packages/torchvision/models/resnet.py\", line 285, in forward\n"
+  },
+  {
+    "timestamp": "2024-05-25 00:33:37.396",
+    "data": "이미지 분류 오류 발생:     return self._forward_impl(x)\n  File \"/usr/local/lib64/python3.9/site-packages/torchvision/models/resnet.py\", line 268, in _forward_impl\n"
+  },
+  {
+    "timestamp": "2024-05-25 00:33:37.396",
+    "data": "이미지 분류 오류 발생:     x = self.conv1(x)\n  File \"/usr/local/lib64/python3.9/site-packages/torch/nn/modules/module.py\", line 1518, in _wrapped_call_impl\n"
+  },
+  {
+    "timestamp": "2024-05-25 00:33:37.396",
+    "data": "이미지 분류 오류 발생:     return self._call_impl(*args, **kwargs)\n  File \"/usr/local/lib64/python3.9/site-packages/torch/nn/modules/module.py\", line 1527, in _call_impl\n"
+  },
+  {
+    "timestamp": "2024-05-25 00:33:37.396",
+    "data": "이미지 분류 오류 발생:     return forward_call(*args, **kwargs)\n  File \"/usr/local/lib64/python3.9/site-packages/torch/nn/modules/conv.py\", line 460, in forward\n"
+  },
+  {
+    "timestamp": "2024-05-25 00:33:37.396",
+    "data": "이미지 분류 오류 발생:     return self._conv_forward(input, self.weight, self.bias)\n  File \"/usr/local/lib64/python3.9/site-packages/torch/nn/modules/conv.py\", line 456, in _conv_forward\n"
+  },
+  {
+    "timestamp": "2024-05-25 00:33:37.396",
+    "data": "이미지 분류 오류 발생:     return F.conv2d(input, weight, bias, self.stride,\n"
+  },
+  {
+    "timestamp": "2024-05-25 00:33:37.396",
+    "data": "이미지 분류 오류 발생: RuntimeError: Input type (torch.cuda.FloatTensor) and weight type (torch.FloatTensor) should be the same\n"
+  },
+  {
+    "timestamp": "2024-05-25 00:33:37.824",
+    "data": "이미지 분류에 실패했습니다."
+  },
+  {
+    "timestamp": "2024-05-25 00:50:06.727",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-25 00:50:11.987",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:14.35.75.94"
+  },
+  {
+    "timestamp": "2024-05-25 00:51:07.505",
+    "data": "이미지 분류 모델이 변경되었습니다."
+  },
+  {
+    "timestamp": "2024-05-25 01:10:08.633",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-25 01:10:15.579",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:14.35.75.94"
+  },
+  {
+    "timestamp": "2024-05-25 01:11:56.159",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-25 01:12:01.514",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:14.35.75.94"
+  },
+  {
+    "timestamp": "2024-05-25 01:16:23.774",
+    "data": "학습 프로세스가 중지되었습니다."
+  },
+  {
+    "timestamp": "2024-05-25 01:19:04.868",
+    "data": "이미지 분류 모델이 변경되었습니다."
+  },
+  {
+    "timestamp": "2024-05-25 01:19:15.088",
+    "data": "이미지 분류 오류 발생: Traceback (most recent call last):\n  File \"/home/t24103/v1.0src/backend/../ai/classify-mobilenetv3.py\", line 99, in <module>\n"
+  },
+  {
+    "timestamp": "2024-05-25 01:19:15.088",
+    "data": "이미지 분류 오류 발생:     output = model(input_batch)\n  File \"/usr/local/lib64/python3.9/site-packages/torch/nn/modules/module.py\", line 1518, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n  File \"/usr/local/lib64/python3.9/site-packages/torch/nn/modules/module.py\", line 1527, in _call_impl\n"
+  },
+  {
+    "timestamp": "2024-05-25 01:19:15.088",
+    "data": "이미지 분류 오류 발생:     return forward_call(*args, **kwargs)\n  File \"/usr/local/lib64/python3.9/site-packages/torchvision/models/mobilenetv3.py\", line 220, in forward\n"
+  },
+  {
+    "timestamp": "2024-05-25 01:19:15.088",
+    "data": "이미지 분류 오류 발생:     return self._forward_impl(x)\n  File \"/usr/local/lib64/python3.9/site-packages/torchvision/models/mobilenetv3.py\", line 210, in _forward_impl\n"
+  },
+  {
+    "timestamp": "2024-05-25 01:19:15.088",
+    "data": "이미지 분류 오류 발생:     x = self.features(x)\n  File \"/usr/local/lib64/python3.9/site-packages/torch/nn/modules/module.py\", line 1518, in _wrapped_call_impl\n"
+  },
+  {
+    "timestamp": "2024-05-25 01:19:15.088",
+    "data": "이미지 분류 오류 발생:     return self._call_impl(*args, **kwargs)\n  File \"/usr/local/lib64/python3.9/site-packages/torch/nn/modules/module.py\", line 1527, in _call_impl\n"
+  },
+  {
+    "timestamp": "2024-05-25 01:19:15.089",
+    "data": "이미지 분류 오류 발생:     return forward_call(*args, **kwargs)\n  File \"/usr/local/lib64/python3.9/site-packages/torch/nn/modules/container.py\", line 215, in forward\n"
+  },
+  {
+    "timestamp": "2024-05-25 01:19:15.089",
+    "data": "이미지 분류 오류 발생:     input = module(input)\n  File \"/usr/local/lib64/python3.9/site-packages/torch/nn/modules/module.py\", line 1518, in _wrapped_call_impl\n"
+  },
+  {
+    "timestamp": "2024-05-25 01:19:15.089",
+    "data": "이미지 분류 오류 발생:     return self._call_impl(*args, **kwargs)\n  File \"/usr/local/lib64/python3.9/site-packages/torch/nn/modules/module.py\", line 1527, in _call_impl\n"
+  },
+  {
+    "timestamp": "2024-05-25 01:19:15.089",
+    "data": "이미지 분류 오류 발생:     return forward_call(*args, **kwargs)\n  File \"/usr/local/lib64/python3.9/site-packages/torch/nn/modules/container.py\", line 215, in forward\n"
+  },
+  {
+    "timestamp": "2024-05-25 01:19:15.089",
+    "data": "이미지 분류 오류 발생:     input = module(input)\n  File \"/usr/local/lib64/python3.9/site-packages/torch/nn/modules/module.py\", line 1518, in _wrapped_call_impl\n"
+  },
+  {
+    "timestamp": "2024-05-25 01:19:15.089",
+    "data": "이미지 분류 오류 발생:     return self._call_impl(*args, **kwargs)\n  File \"/usr/local/lib64/python3.9/site-packages/torch/nn/modules/module.py\", line 1527, in _call_impl\n"
+  },
+  {
+    "timestamp": "2024-05-25 01:19:15.089",
+    "data": "이미지 분류 오류 발생:     return forward_call(*args, **kwargs)\n  File \"/usr/local/lib64/python3.9/site-packages/torch/nn/modules/conv.py\", line 460, in forward\n"
+  },
+  {
+    "timestamp": "2024-05-25 01:19:15.090",
+    "data": "이미지 분류 오류 발생:     return self._conv_forward(input, self.weight, self.bias)\n  File \"/usr/local/lib64/python3.9/site-packages/torch/nn/modules/conv.py\", line 456, in _conv_forward\n"
+  },
+  {
+    "timestamp": "2024-05-25 01:19:15.090",
+    "data": "이미지 분류 오류 발생:     return F.conv2d(input, weight, bias, self.stride,\n"
+  },
+  {
+    "timestamp": "2024-05-25 01:19:15.090",
+    "data": "이미지 분류 오류 발생: RuntimeError: Input type (torch.cuda.FloatTensor) and weight type (torch.FloatTensor) should be the same\n"
+  },
+  {
+    "timestamp": "2024-05-25 01:19:15.476",
+    "data": "이미지 분류에 실패했습니다."
+  },
+  {
+    "timestamp": "2024-05-25 01:22:19.325",
+    "data": "이미지 분류 오류 발생: Traceback (most recent call last):\n  File \"/home/t24103/v1.0src/backend/../ai/classify-mobilenetv3.py\", line 103, in <module>\n"
+  },
+  {
+    "timestamp": "2024-05-25 01:22:19.325",
+    "data": "이미지 분류 오류 발생:     output = model(input_batch)\n  File \"/usr/local/lib64/python3.9/site-packages/torch/nn/modules/module.py\", line 1518, in _wrapped_call_impl\n"
+  },
+  {
+    "timestamp": "2024-05-25 01:22:19.325",
+    "data": "이미지 분류 오류 발생:     return self._call_impl(*args, **kwargs)\n  File \"/usr/local/lib64/python3.9/site-packages/torch/nn/modules/module.py\", line 1527, in _call_impl\n"
+  },
+  {
+    "timestamp": "2024-05-25 01:22:19.325",
+    "data": "이미지 분류 오류 발생:     return forward_call(*args, **kwargs)\n  File \"/usr/local/lib64/python3.9/site-packages/torchvision/models/mobilenetv3.py\", line 220, in forward\n"
+  },
+  {
+    "timestamp": "2024-05-25 01:22:19.325",
+    "data": "이미지 분류 오류 발생:     return self._forward_impl(x)\n  File \"/usr/local/lib64/python3.9/site-packages/torchvision/models/mobilenetv3.py\", line 210, in _forward_impl\n"
+  },
+  {
+    "timestamp": "2024-05-25 01:22:19.325",
+    "data": "이미지 분류 오류 발생:     x = self.features(x)\n  File \"/usr/local/lib64/python3.9/site-packages/torch/nn/modules/module.py\", line 1518, in _wrapped_call_impl\n"
+  },
+  {
+    "timestamp": "2024-05-25 01:22:19.325",
+    "data": "이미지 분류 오류 발생:     return self._call_impl(*args, **kwargs)\n  File \"/usr/local/lib64/python3.9/site-packages/torch/nn/modules/module.py\", line 1527, in _call_impl\n"
+  },
+  {
+    "timestamp": "2024-05-25 01:22:19.325",
+    "data": "이미지 분류 오류 발생:     return forward_call(*args, **kwargs)\n  File \"/usr/local/lib64/python3.9/site-packages/torch/nn/modules/container.py\", line 215, in forward\n"
+  },
+  {
+    "timestamp": "2024-05-25 01:22:19.325",
+    "data": "이미지 분류 오류 발생:     input = module(input)\n  File \"/usr/local/lib64/python3.9/site-packages/torch/nn/modules/module.py\", line 1518, in _wrapped_call_impl\n"
+  },
+  {
+    "timestamp": "2024-05-25 01:22:19.325",
+    "data": "이미지 분류 오류 발생:     return self._call_impl(*args, **kwargs)\n  File \"/usr/local/lib64/python3.9/site-packages/torch/nn/modules/module.py\", line 1527, in _call_impl\n"
+  },
+  {
+    "timestamp": "2024-05-25 01:22:19.326",
+    "data": "이미지 분류 오류 발생:     return forward_call(*args, **kwargs)\n  File \"/usr/local/lib64/python3.9/site-packages/torch/nn/modules/container.py\", line 215, in forward\n"
+  },
+  {
+    "timestamp": "2024-05-25 01:22:19.326",
+    "data": "이미지 분류 오류 발생:     input = module(input)\n  File \"/usr/local/lib64/python3.9/site-packages/torch/nn/modules/module.py\", line 1518, in _wrapped_call_impl\n"
+  },
+  {
+    "timestamp": "2024-05-25 01:22:19.326",
+    "data": "이미지 분류 오류 발생:     return self._call_impl(*args, **kwargs)\n  File \"/usr/local/lib64/python3.9/site-packages/torch/nn/modules/module.py\", line 1527, in _call_impl\n"
+  },
+  {
+    "timestamp": "2024-05-25 01:22:19.326",
+    "data": "이미지 분류 오류 발생:     return forward_call(*args, **kwargs)\n  File \"/usr/local/lib64/python3.9/site-packages/torch/nn/modules/conv.py\", line 460, in forward\n"
+  },
+  {
+    "timestamp": "2024-05-25 01:22:19.326",
+    "data": "이미지 분류 오류 발생:     return self._conv_forward(input, self.weight, self.bias)\n  File \"/usr/local/lib64/python3.9/site-packages/torch/nn/modules/conv.py\", line 456, in _conv_forward\n"
+  },
+  {
+    "timestamp": "2024-05-25 01:22:19.326",
+    "data": "이미지 분류 오류 발생:     return F.conv2d(input, weight, bias, self.stride,\n"
+  },
+  {
+    "timestamp": "2024-05-25 01:22:19.326",
+    "data": "이미지 분류 오류 발생: RuntimeError: Input type (torch.cuda.FloatTensor) and weight type (torch.FloatTensor) should be the same\n"
+  },
+  {
+    "timestamp": "2024-05-25 01:22:19.720",
+    "data": "이미지 분류에 실패했습니다."
+  },
+  {
+    "timestamp": "2024-05-25 01:38:33.445",
+    "data": "이미지 분류 모델이 변경되었습니다."
+  },
+  {
+    "timestamp": "2024-05-25 01:50:11.867",
+    "data": "이미지 분류 모델이 변경되었습니다."
+  },
+  {
+    "timestamp": "2024-05-25 05:48:39.928",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-25 05:48:53.355",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:14.35.75.94"
+  },
+  {
+    "timestamp": "2024-05-25 05:48:58.684",
+    "data": "이미지 분류 모델이 변경되었습니다."
+  },
+  {
+    "timestamp": "2024-05-25 05:49:10.544",
+    "data": "지정된 모델 파일이 없습니다."
+  },
+  {
+    "timestamp": "2024-05-25 05:49:52.028",
+    "data": "지정된 모델 파일이 없습니다."
+  },
+  {
+    "timestamp": "2024-05-25 05:50:39.019",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-25 05:50:43.853",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:14.35.75.94"
+  },
+  {
+    "timestamp": "2024-05-25 06:03:32.691",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-25 09:05:47.126",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-25 09:10:47.967",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-25 09:14:54.788",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-25 09:29:31.636",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-25 09:38:32.855",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-25 09:43:53.740",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-25 09:50:56.955",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-25 13:09:09.204",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-25 13:10:06.088",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-25 13:36:39.998",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-25 15:12:52.058",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-25 16:25:31.750",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-25 20:02:46.022",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-25 23:20:26.909",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-25 23:23:29.391",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:14.35.75.94"
+  },
+  {
+    "timestamp": "2024-05-25 23:23:38.093",
+    "data": "이미지 분류 모델이 변경되었습니다."
+  },
+  {
+    "timestamp": "2024-05-25 23:32:27.430",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-25 23:43:35.759",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-25 23:43:42.710",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:14.35.75.94"
+  }
+]

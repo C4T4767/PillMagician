@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "55573588374",
+    "project_id": "pill-manager-b3ccb",
+    "storage_bucket": "pill-manager-b3ccb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:55573588374:android:42268d59d6ecac1d2915b7",
+        "android_client_info": {
+          "package_name": "com.example.pill_magician"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWvKrzgiUTD3lLtqB9rZ5I-HqW07JIulY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "timestamp": "2024-04-28T08:39:16.355Z",
+    "data": "Training process started: name:123, model_type:resnet50, optimizer:Adam, batch_size:16, epoch:1"
+  },
+  {
+    "timestamp": "2024-04-28T08:39:16.357Z",
+    "data": "학습을 시작합니다."
+  },
+  {
+    "timestamp": "2024-04-28T08:42:25.035Z",
+    "data": "Training process started: name:123, model_type:resnet50, optimizer:Adam, batch_size:16, epoch:1"
+  },
+  {
+    "timestamp": "2024-04-28T08:42:25.036Z",
+    "data": "이미 학습이 진행 중입니다."
+  },
+  {
+    "timestamp": "2024-04-28T08:42:34.486Z",
+    "data": "Training process started: name:123, model_type:resnet50, optimizer:Adam, batch_size:16, epoch:"
+  },
+  {
+    "timestamp": "2024-04-28T08:42:34.486Z",
+    "data": "이름 또는 epoch가 없습니다."
+  },
+  {
+    "timestamp": "2024-04-28T08:44:58.410Z",
+    "data": "Training process started: name:, model_type:YOLOv8, optimizer:Adam, batch_size:16, epoch:"
+  },
+  {
+    "timestamp": "2024-04-28T08:44:58.410Z",
+    "data": "이름 또는 epoch가 없습니다."
+  },
+  {
+    "timestamp": "2024-04-28T08:45:03.464Z",
+    "data": "Training process started: name:123, model_type:YOLOv8, optimizer:Adam, batch_size:16, epoch:"
+  },
+  {
+    "timestamp": "2024-04-28T08:45:03.465Z",
+    "data": "이름 또는 epoch가 없습니다."
+  },
+  {
+    "timestamp": "2024-04-28T08:45:10.408Z",
+    "data": "Training process started: name:, model_type:YOLOv8, optimizer:Adam, batch_size:16, epoch:"
+  },
+  {
+    "timestamp": "2024-04-28T08:45:10.409Z",
+    "data": "이름 또는 epoch가 없습니다."
+  }
+]

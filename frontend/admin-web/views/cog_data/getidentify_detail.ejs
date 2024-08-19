@@ -1,0 +1,80 @@
+<div class="container-fluid px-4">
+    <h1 class="mt-4">알약 세부 정보</h1>
+    <hr>
+        <div class="card mb-4 mx-auto" style="max-width: 1500px;">
+            <div class="card-header">
+                <i class="fas fa-table me-1"></i>
+                알약 정보
+            </div>
+            <div class="card-body">
+                <!-- 알약 세부 정보를 표시하는 테이블 또는 폼 등을 여기에 추가하세요 -->
+                <table class="table table-bordered">
+                    <tbody>
+                        <tr>
+                            <th>알약 번호</th>
+                            <td><%= data.item_seq %></td>
+                        </tr>
+                        <tr>
+                            <th>알약 이름</th>
+                            <td><%= data.item_name %></td>
+                        </tr>
+                        <tr>
+                            <th>제조사</th>
+                            <td><%= data.entp_name %></td>
+                        </tr>
+                        <tr>
+                            <th>외관 설명</th>
+                            <td><%= data.chart %></td>
+                        </tr>
+                        <tr>
+                            <th>이미지</th>
+                            <td><img src="<%= data.item_image %>" alt="알약 이미지" width="300"></td>
+                        </tr>
+                        <tr>
+                            <th>모양</th>
+                            <td><%= data.drug_shape %></td>
+                        </tr>
+                        <tr>
+                            <th>색상(주/부)</th>
+                            <td><%= data.color_class1 %>, <%= data.color_class2 %></td>
+                        </tr>
+                        <tr>
+                            <th>분류</th>
+                            <td><%= data.class_name %></td>
+                        </tr>
+                        <tr>
+                            <th>앞면 인쇄</th>
+                            <td><%= data.print_front %></td>
+                        </tr>
+                        <tr>
+                            <th>뒷면 인쇄</th>
+                            <td><%= data.print_back %></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="mt-4">
+                    <button type="button" class="btn btn-secondary me-2" onclick="window.history.back()">뒤로가기</button>
+                    <button type="button" class="btn btn-danger" onclick="deleteItem()">삭제하기</button>
+                </div>
+            </div>
+        </div>
+</div>
+
+
+<script>
+
+    function deleteItem() {
+        if (confirm('정말로 이 아이템을 삭제하시겠습니까?')) {
+            fetch('/data/getidentify_detail/<%= data.item_seq %>', {
+                method: 'DELETE'
+            })
+            .then(response => response.json())
+            .then(data => {
+                alert(data.message);
+                // 삭제 성공 시 /main 페이지로 이동 또는 다른 동작 수행
+                window.location.reload(); // 예시로 페이지 새로고침
+            })
+            .catch(error => console.error('데이터 삭제 오류:', error));
+        }
+    }
+</script>

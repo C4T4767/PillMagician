@@ -1,0 +1,386 @@
+[
+  {
+    "timestamp": "2024-05-19 09:00:03.030",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-19 09:02:00.580",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-19 17:43:39.818",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-19 18:07:02.527",
+    "data": "로그인 실패. 유효하지 않은 사용자 이름 또는 비밀번호. IP: ::ffff:220.78.216.223"
+  },
+  {
+    "timestamp": "2024-05-19 18:07:53.411",
+    "data": "로그인 실패. 유효하지 않은 사용자 이름 또는 비밀번호. IP: ::ffff:220.78.216.223"
+  },
+  {
+    "timestamp": "2024-05-19 18:08:15.881",
+    "data": "로그인 실패. 유효하지 않은 사용자 이름 또는 비밀번호. IP: ::ffff:220.78.216.223"
+  },
+  {
+    "timestamp": "2024-05-19 18:50:00.580",
+    "data": "로그인 실패. 유효하지 않은 사용자 이름 또는 비밀번호. IP: ::ffff:220.78.216.223"
+  },
+  {
+    "timestamp": "2024-05-19 18:54:28.438",
+    "data": "로그인 실패. 유효하지 않은 사용자 이름 또는 비밀번호. IP: ::ffff:220.78.216.223"
+  },
+  {
+    "timestamp": "2024-05-19 18:54:39.379",
+    "data": "로그인 실패. 유효하지 않은 사용자 이름 또는 비밀번호. IP: ::ffff:220.78.216.223"
+  },
+  {
+    "timestamp": "2024-05-19 18:54:51.291",
+    "data": "로그인 실패. 유효하지 않은 사용자 이름 또는 비밀번호. IP: ::ffff:220.78.216.223"
+  },
+  {
+    "timestamp": "2024-05-19 18:55:19.119",
+    "data": "로그인 실패. 유효하지 않은 사용자 이름 또는 비밀번호. IP: ::ffff:220.78.216.223"
+  },
+  {
+    "timestamp": "2024-05-19 19:14:37.456",
+    "data": "로그인 실패. 유효하지 않은 사용자 이름 또는 비밀번호. IP: ::ffff:220.78.216.223"
+  },
+  {
+    "timestamp": "2024-05-19 19:15:50.192",
+    "data": "로그인 실패. 유효하지 않은 사용자 이름 또는 비밀번호. IP: ::ffff:220.65.239.63"
+  },
+  {
+    "timestamp": "2024-05-19 19:33:57.942",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:14.35.75.94"
+  },
+  {
+    "timestamp": "2024-05-19 19:37:32.224",
+    "data": "학습을 시작합니다. name:asd, model_type:YOLOv8, optimizer:Adam, batch_size:16, epoch:2"
+  },
+  {
+    "timestamp": "2024-05-19 19:47:03.814",
+    "data": "학습이 완료되었습니다. 모델명: asd"
+  },
+  {
+    "timestamp": "2024-05-19 19:47:03.815",
+    "data": "서브프로세스 플래그 파일 삭제 오류: ENOENT: no such file or directory, unlink './subprocess.flag'"
+  },
+  {
+    "timestamp": "2024-05-19 19:47:57.598",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-19 19:48:12.127",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:14.35.75.94"
+  },
+  {
+    "timestamp": "2024-05-19 20:10:44.321",
+    "data": "학습을 시작합니다. name:tetetetess, model_type:MobileNetV3, optimizer:Adam, batch_size:16, epoch:10"
+  },
+  {
+    "timestamp": "2024-05-19 20:11:29.369",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-19 20:11:52.783",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:14.35.75.94"
+  },
+  {
+    "timestamp": "2024-05-19 20:16:51.048",
+    "data": "이름 또는 epoch가 없습니다."
+  },
+  {
+    "timestamp": "2024-05-19 20:16:54.652",
+    "data": "이름 또는 epoch가 없습니다."
+  },
+  {
+    "timestamp": "2024-05-19 20:17:32.140",
+    "data": "이름 또는 epoch가 없습니다."
+  },
+  {
+    "timestamp": "2024-05-19 20:17:36.268",
+    "data": "이름 또는 epoch가 없습니다."
+  },
+  {
+    "timestamp": "2024-05-19 20:17:40.606",
+    "data": "이름 또는 epoch가 없습니다."
+  },
+  {
+    "timestamp": "2024-05-19 20:18:26.257",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-19 20:24:03.142",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-19 20:24:12.265",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:14.35.75.94"
+  },
+  {
+    "timestamp": "2024-05-19 20:28:15.467",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-19 20:28:21.596",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:14.35.75.94"
+  },
+  {
+    "timestamp": "2024-05-19 20:28:26.316",
+    "data": "학습을 시작합니다. name: asda, model_type: YOLOv8, optimizer: Adam, batch_size: 16, epoch: 3"
+  },
+  {
+    "timestamp": "2024-05-19 20:28:26.316",
+    "data": "학습을 시작합니다. name:asda, model_type:YOLOv8, optimizer:Adam, batch_size:16, epoch:3"
+  },
+  {
+    "timestamp": "2024-05-19 20:28:28.408",
+    "data": "학습 프로세스가 중지되었습니다."
+  },
+  {
+    "timestamp": "2024-05-19 20:28:28.435",
+    "data": "서브프로세스 플래그 파일 삭제 오류: ENOENT: no such file or directory, unlink './subprocess.flag'"
+  },
+  {
+    "timestamp": "2024-05-19 20:29:58.303",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-19 20:30:01.999",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:14.35.75.94"
+  },
+  {
+    "timestamp": "2024-05-19 20:30:09.025",
+    "data": "학습을 시작합니다. name: asdas, model_type: MobileNetV3, optimizer: Adam, batch_size: 16, epoch: 2"
+  },
+  {
+    "timestamp": "2024-05-19 20:30:09.025",
+    "data": "학습을 시작합니다. name:asdas, model_type:MobileNetV3, optimizer:Adam, batch_size:16, epoch:2"
+  },
+  {
+    "timestamp": "2024-05-19 20:30:12.418",
+    "data": "학습 프로세스가 중지되었습니다."
+  },
+  {
+    "timestamp": "2024-05-19 20:30:12.447",
+    "data": "서브프로세스 플래그 파일 삭제 오류: ENOENT: no such file or directory, unlink './subprocess.flag'"
+  },
+  {
+    "timestamp": "2024-05-19 20:30:47.503",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-19 20:30:52.196",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:14.35.75.94"
+  },
+  {
+    "timestamp": "2024-05-19 20:31:12.578",
+    "data": "모델명 중복됨"
+  },
+  {
+    "timestamp": "2024-05-19 20:31:18.023",
+    "data": "학습을 시작합니다. name: tses21`3, model_type: YOLOv8, optimizer: Adam, batch_size: 16, epoch: 3"
+  },
+  {
+    "timestamp": "2024-05-19 20:31:18.023",
+    "data": "학습을 시작합니다. name:tses21`3, model_type:YOLOv8, optimizer:Adam, batch_size:16, epoch:3"
+  },
+  {
+    "timestamp": "2024-05-19 20:31:21.466",
+    "data": "학습 프로세스가 중지되었습니다."
+  },
+  {
+    "timestamp": "2024-05-19 20:31:58.054",
+    "data": "학습을 시작합니다. name: asdas, model_type: YOLOv8, optimizer: Adam, batch_size: 16, epoch: 5"
+  },
+  {
+    "timestamp": "2024-05-19 20:31:58.054",
+    "data": "학습을 시작합니다. name:asdas, model_type:YOLOv8, optimizer:Adam, batch_size:16, epoch:5"
+  },
+  {
+    "timestamp": "2024-05-19 20:32:03.319",
+    "data": "학습 프로세스가 중지되었습니다."
+  },
+  {
+    "timestamp": "2024-05-19 20:36:20.852",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-19 20:36:25.990",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:14.35.75.94"
+  },
+  {
+    "timestamp": "2024-05-19 20:43:44.558",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-19 20:43:49.699",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:14.35.75.94"
+  },
+  {
+    "timestamp": "2024-05-19 20:46:32.520",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-19 20:46:37.119",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:14.35.75.94"
+  },
+  {
+    "timestamp": "2024-05-19 20:46:42.598",
+    "data": "학습을 시작합니다. name: tewte1, model_type: YOLOv8, optimizer: Adam, batch_size: 16, epoch: 3"
+  },
+  {
+    "timestamp": "2024-05-19 20:46:42.598",
+    "data": "학습을 시작합니다. name:tewte1, model_type:YOLOv8, optimizer:Adam, batch_size:16, epoch:3"
+  },
+  {
+    "timestamp": "2024-05-19 20:46:44.801",
+    "data": "학습 프로세스가 중지되었습니다."
+  },
+  {
+    "timestamp": "2024-05-19 20:46:52.906",
+    "data": "학습을 시작합니다. name: tetasdrt, model_type: resnet50, optimizer: Adam, batch_size: 16, epoch: 4"
+  },
+  {
+    "timestamp": "2024-05-19 20:46:52.906",
+    "data": "학습을 시작합니다. name:tetasdrt, model_type:resnet50, optimizer:Adam, batch_size:16, epoch:4"
+  },
+  {
+    "timestamp": "2024-05-19 20:47:36.619",
+    "data": "학습 프로세스가 중지되었습니다."
+  },
+  {
+    "timestamp": "2024-05-19 21:03:03.156",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-19 21:03:07.914",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:14.35.75.94"
+  },
+  {
+    "timestamp": "2024-05-19 21:03:13.852",
+    "data": "학습을 시작합니다. name: dsa, model_type: resnet50, optimizer: Adam, batch_size: 16, epoch: 32"
+  },
+  {
+    "timestamp": "2024-05-19 21:03:13.852",
+    "data": "학습을 시작합니다. name:dsa, model_type:resnet50, optimizer:Adam, batch_size:16, epoch:32"
+  },
+  {
+    "timestamp": "2024-05-19 21:06:27.408",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-19 21:06:31.411",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:14.35.75.94"
+  },
+  {
+    "timestamp": "2024-05-19 21:06:40.361",
+    "data": "학습을 시작합니다. name: asdasda, model_type: resnet50, optimizer: Adam, batch_size: 16, epoch: 10"
+  },
+  {
+    "timestamp": "2024-05-19 21:06:40.361",
+    "data": "학습을 시작합니다. name:asdasda, model_type:resnet50, optimizer:Adam, batch_size:16, epoch:10"
+  },
+  {
+    "timestamp": "2024-05-19 21:10:27.065",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-19 21:10:31.732",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:14.35.75.94"
+  },
+  {
+    "timestamp": "2024-05-19 21:10:38.047",
+    "data": "학습을 시작합니다. name: rrcs, model_type: MobileNetV3, optimizer: Adam, batch_size: 16, epoch: 10"
+  },
+  {
+    "timestamp": "2024-05-19 21:10:38.047",
+    "data": "학습을 시작합니다. name:rrcs, model_type:MobileNetV3, optimizer:Adam, batch_size:16, epoch:10"
+  },
+  {
+    "timestamp": "2024-05-19 21:10:51.208",
+    "data": "학습 프로세스가 중지되었습니다."
+  },
+  {
+    "timestamp": "2024-05-19 21:13:38.094",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-19 21:13:43.112",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:14.35.75.94"
+  },
+  {
+    "timestamp": "2024-05-19 21:13:49.920",
+    "data": "학습을 시작합니다. name: asdasdasa, model_type: resnet50, optimizer: Adam, batch_size: 16, epoch: 10"
+  },
+  {
+    "timestamp": "2024-05-19 21:13:49.921",
+    "data": "학습을 시작합니다. name:asdasdasa, model_type:resnet50, optimizer:Adam, batch_size:16, epoch:10"
+  },
+  {
+    "timestamp": "2024-05-19 21:15:26.650",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-19 21:15:30.014",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:14.35.75.94"
+  },
+  {
+    "timestamp": "2024-05-19 21:15:35.555",
+    "data": "모델명 중복됨"
+  },
+  {
+    "timestamp": "2024-05-19 21:15:40.231",
+    "data": "학습을 시작합니다. name: fasds, model_type: resnet50, optimizer: Adam, batch_size: 16, epoch: 10"
+  },
+  {
+    "timestamp": "2024-05-19 21:15:40.231",
+    "data": "학습을 시작합니다. name:fasds, model_type:resnet50, optimizer:Adam, batch_size:16, epoch:10"
+  },
+  {
+    "timestamp": "2024-05-19 21:16:12.559",
+    "data": "학습 프로세스가 중지되었습니다."
+  },
+  {
+    "timestamp": "2024-05-19 21:20:56.942",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-19 21:21:01.818",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:14.35.75.94"
+  },
+  {
+    "timestamp": "2024-05-19 21:21:12.715",
+    "data": "학습 오류 발생:     return _open_file(name_or_buffer, mode)\n  File \"/usr/local/lib64/python3.9/site-packages/torch/serialization.py\", line 416, in __init__\n    super().__init__(open(name, mode))\nFileNotFoundError: [Errno 2] No such file or directory: '/home/t24103/v0.9src/ai/models/testest/best.pt'\n"
+  },
+  {
+    "timestamp": "2024-05-19 21:22:10.639",
+    "data": "모델 'testest'이 삭제됐습니다."
+  },
+  {
+    "timestamp": "2024-05-19 21:23:02.574",
+    "data": "학습 오류 발생: torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 32.00 MiB. GPU 0 has a total capacty of 23.68 GiB of which 14.44 MiB is free. Process 2952722 has 22.20 GiB memory in use. Including non-PyTorch memory, this process has 1.44 GiB memory in use. Of the allocated memory 1.06 GiB is allocated by PyTorch, and 67.48 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF\n"
+  },
+  {
+    "timestamp": "2024-05-19 21:23:26.084",
+    "data": "학습 오류 발생: torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 14.00 MiB. GPU 0 has a total capacty of 23.68 GiB of which 14.44 MiB is free. Process 2952722 has 22.20 GiB memory in use. Including non-PyTorch memory, this process has 1.44 GiB memory in use. Of the allocated memory 1.13 GiB is allocated by PyTorch, and 64.72 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF\n"
+  },
+  {
+    "timestamp": "2024-05-19 21:24:14.220",
+    "data": "서버가 시작되었습니다."
+  },
+  {
+    "timestamp": "2024-05-19 21:24:25.161",
+    "data": "로그인 성공. 유저명: aa, IP: ::ffff:14.35.75.94"
+  },
+  {
+    "timestamp": "2024-05-19 21:24:34.930",
+    "data": "학습 프로세스가 중지되었습니다."
+  },
+  {
+    "timestamp": "2024-05-19 22:43:50.811",
+    "data": "서버가 시작되었습니다."
+  }
+]

@@ -1,0 +1,241 @@
+
+  <style>
+    #progress-bar {
+      width: 100%;
+      background-color: #f3f3f3;
+      margin-bottom: 20px;
+    }
+
+    #progress-bar-inner {
+      width: 0;
+      height: 30px;
+      background-color: #4caf50;
+      text-align: center;
+      line-height: 30px;
+      color: white;
+    }
+
+    #trainingUpdates {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    #trainingUpdates li {
+      border-bottom: 1px solid #ccc;
+      padding: 10px;
+    }
+    html, body {
+  height: 100%; /* 전체 페이지의 높이를 100%로 설정 */
+}
+
+.row {
+  display: flex; /* Flexbox를 사용하여 자식 요소들을 효율적으로 관리 */
+  height: 100%; /* 전체 row의 높이를 100%로 설정 */
+}
+
+.col-md-4, .col-md-8 {
+  display: flex; /* Flexbox를 사용하여 자식 요소들을 효율적으로 관리 */
+  flex-direction: column; /* 자식 요소들을 수직으로 배열 */
+}
+
+.card {
+  flex-grow: 1; /* card 요소가 가능한 많은 공간을 차지하도록 설정 */
+  margin-bottom: 4px; /* 필요에 따라 마진 조정 */
+}
+
+  </style>
+<div class="container-fluid px-4">
+  <h1 class="mt-4">AI 모델 재학습</h1>
+  <hr>
+</div>
+
+<div class="container-fluid px-4">
+  <div class="card mb-4">
+      <div class="card-body">
+          알약 판별에 사용되는 AI를 '다시' 학습할 수 있다.
+      </div>
+  </div>
+</div>
+
+<div class="container-fluid px-4">
+<div class="row">
+  <!-- 왼쪽 패널: 모델 목록 -->
+  <div class="col-md-4">
+    <div class="card bg-light mb-4">
+      <div class="card-body">
+        <form id="trainingForm" action="/ai/retraining_process" method="POST">
+          <div class="mb-3">
+            <label for="name" class="form-label">새로 저장할 이름:</label>
+            <input type="text" class="form-control" id="name" name="name">
+          </div>
+          <div class="mb-3">
+            <label for="model" class="form-label">모델명:</label>
+            <select class="form-select" id="model" name="model">
+                <% models.forEach(model => { %> <!-- 모델 목록 반복 -->
+                    <%
+                        // 모델 목록에서 현재 모델에 대한 원본 모델 타입 가져오기
+                        const originalModel = model.name + '(' + model.type + ')';
+                    %>
+                    <option value="<%= model.name %>"><%= originalModel %></option> <!-- 각 모델에 대한 옵션 생성 -->
+                <% }); %>
+            </select>
+        </div>
+        <!-- hidden input으로 모델 타입 전송 -->
+        <input type="hidden" id="model_type" name="model_type" value="<%= models[0].type %>">
+          <div class="mb-3">
+            <label for="optimizer" class="form-label">옵티마이저:</label>
+            <select class="form-select" id="optimizer" name="optimizer">
+              <option value="Adam">Adam</option>
+              <option value="SGD">SGD</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="batch_size" class="form-label">batch size:</label>
+            <select class="form-select" id="batchSize" name="batch_size">
+              <option value="16">16</option>
+              <option value="32">32</option>
+              <option value="64">64</option>
+              <option value="128">128</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="epoch" class="form-label">epoch:</label>
+            <input type="text" class="form-control" id="epoch" name="epoch">
+          </div>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-auto">
+                <button type="submit" class="btn btn-primary">학습 시작</button>
+              </div>        
+            </form>
+              <div class="col-auto">
+                <form action="/ai/stop_retraining" method="POST">
+                <button type="submit" class="btn btn-danger"onclick='if(confirm("정말로 중지하시겠습니까?")){ location.href="/ai/stop_retraining" }'>학습 중지</button>
+                </form>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+    <!-- 오른쪽 패널: 학습상황 -->
+    <div class="col-md-8">
+      <div class="card bg-light mb-4">
+        <div class="card-body">
+          <h2>학습상황</h2>
+          <div id="progress-bar">
+              <div id="progress-bar-inner">0%</div>
+          </div>
+          <ul id="trainingUpdates">
+            <% if (typeof retraining !== 'undefined') { %>
+                <% retraining.split('\n').forEach(line => { %>
+                    <% if (line.trim() !== '') { %>
+                        <li><%= line %></li>
+                    <% } %>
+                <% }); %>
+            <% } else { %>
+                <li>No retraining updates yet.</li>
+            <% } %>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!-- Socket.io 라이브러리 -->
+<script src="/socket.io/socket.io.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', (event) => {
+    // 페이지 로드시 updateProgressBar 실행
+    console.log("Current Epoch:", <%= currentEpoch %>);
+    console.log("Total Epochs:", <%= totalEpochs %>);
+
+    // updateProgressBar 함수 호출
+    updateProgressBar(<%= currentEpoch %>, <%= totalEpochs %>);
+    });
+  const socket = io();
+  const maxItems = 8;
+
+  let currentEpoch = <%= currentEpoch %>;
+    let totalEpochs =  <%= totalEpochs %>;
+
+  // 페이지가 로드될 때 이전 상태를 가져와서 프로그레스 바 업데이트
+      // 학습 시작 버튼 클릭 시 폼 제출
+      $('#startTrainingBtn').click(() => {
+          $('#trainingForm').submit();
+      });
+
+  // 서버로부터 stdout 데이터를 받을 때의 처리
+  socket.on('retrainingData', (data) => {
+    console.log('Received stdout data:', data);
+
+    // 데이터를 줄 단위로 분할하여 배열로 변환
+    const lines = data.split('\n');
+
+    // 각 줄을 처리
+    lines.forEach(line => {
+        // 빈 줄이 아닌 경우에만 처리
+        if (line.trim() !== '') {
+            // "Epoch x/y" 형식의 줄인 경우
+            let epochMatches = line.match(/Epoch (\d+)\/(\d+)/);
+            if (epochMatches) {
+                currentEpoch = parseInt(epochMatches[1]) - 1;
+                totalEpochs = parseInt(epochMatches[2]);
+            }
+
+            // 학습 진행 상황 출력 라인인 경우
+            let progressMatches = line.match(/\s+(\d+)\/(\d+)\s+\S+\s+\S+\s+\S+\s+\S+\s+(\d+%)/);
+            if (progressMatches) {
+                currentEpoch = parseInt(progressMatches[1]) - 1;
+                totalEpochs = parseInt(progressMatches[2]);
+            }
+
+            // Training complete!가 출력되면 currentEpoch를 totalEpochs의 값으로 설정
+            if (line.includes('Training complete!')) {
+                currentEpoch = totalEpochs;
+            }
+
+            // 프로그레스 바 업데이트
+            updateProgressBar(currentEpoch, totalEpochs);
+
+            // 리스트 요소를 가져오고, 최대 항목 수를 초과하는 경우 가장 오래된 요소를 제거
+            const trainingUpdatesList = $('#trainingUpdates');
+            if (trainingUpdatesList.children().length >= maxItems) {
+                trainingUpdatesList.children().first().remove();
+            }
+
+            // 새로운 데이터를 리스트에 추가
+            trainingUpdatesList.append($('<li>').text(line));
+        }
+    });
+});
+
+  // Update progress bar based on current and total epochs
+  function updateProgressBar(currentEpoch, totalEpochs) {
+      let percentage = (currentEpoch / totalEpochs) * 100;
+
+      $('#progress-bar-inner').css('width', percentage + '%');
+      $('#progress-bar-inner').text(`${percentage.toFixed(2)}%`);
+
+  }
+    $(document).ready(function() {
+        var models = <%- JSON.stringify(models) %>; // 서버에서 전달된 모델 데이터를 JavaScript 객체로 변환
+
+        $('#model').change(function() {
+            var selectedModel = $(this).val();
+    
+            // 선택된 모델의 타입을 찾음
+            var selectedModelType = models.find(function(model) {
+                return model.name === selectedModel;
+            }).type;
+    
+            // model_type의 값을 선택된 모델의 타입으로 설정
+            $('#model_type').val(selectedModelType);
+        });
+
+        // 페이지 로드 시 초기 실행
+        $('#model').trigger('change');
+    });
+
+</script>
+</body>

@@ -1,0 +1,57 @@
+[
+  {
+    "timestamp": "2024-05-23 20:50:05.047",
+    "userId": "97",
+    "data": "알약 판별 진행"
+  },
+  {
+    "timestamp": "2024-05-23 20:50:06.467",
+    "userId": "97",
+    "data": "이미지 분류 오류 발생: Traceback (most recent call last):\n  File \"/home/t24103/v1.0src/backend/../ai/app-classify-mobilenetv3.py\", line 11, in <module>\n"
+  },
+  {
+    "timestamp": "2024-05-23 20:50:06.467",
+    "userId": "97",
+    "data": "이미지 분류 오류 발생:     from unet import UNet\nModuleNotFoundError: No module named 'unet'\n"
+  },
+  {
+    "timestamp": "2024-05-23 20:50:11.386",
+    "userId": "97",
+    "data": "알약 판별 진행"
+  },
+  {
+    "timestamp": "2024-05-23 20:50:12.860",
+    "userId": "97",
+    "data": "이미지 분류 오류 발생: Traceback (most recent call last):\n  File \"/home/t24103/v1.0src/backend/../ai/app-classify-mobilenetv3.py\", line 11, in <module>\n"
+  },
+  {
+    "timestamp": "2024-05-23 20:50:12.860",
+    "userId": "97",
+    "data": "이미지 분류 오류 발생:     from unet import UNet\nModuleNotFoundError: No module named 'unet'\n"
+  },
+  {
+    "timestamp": "2024-05-23 20:50:31.769",
+    "userId": "97",
+    "data": "알약 판별 진행"
+  },
+  {
+    "timestamp": "2024-05-23 20:50:33.224",
+    "userId": "97",
+    "data": "이미지 분류 오류 발생: Traceback (most recent call last):\n"
+  },
+  {
+    "timestamp": "2024-05-23 20:50:33.224",
+    "userId": "97",
+    "data": "이미지 분류 오류 발생:   File \"/home/t24103/v1.0src/backend/../ai/app-classify-mobilenetv3.py\", line 11, in <module>\n"
+  },
+  {
+    "timestamp": "2024-05-23 20:50:33.224",
+    "userId": "97",
+    "data": "이미지 분류 오류 발생:     from unet import UNet\n"
+  },
+  {
+    "timestamp": "2024-05-23 20:50:33.224",
+    "userId": "97",
+    "data": "이미지 분류 오류 발생: ModuleNotFoundError: No module named 'unet'\n"
+  }
+]
