@@ -14,7 +14,7 @@
 
 - **관리자 Web서버 구현**
     - Node.js, Express, MariaDB를 사용하여 사용자, 알약, AI 모델 관리 및 AI 모델 학습을 위한 웹사이트를 구현했습니다.
-    - **관련 파일 위치**: `backend/routes/ai` , `backend/routes/log`, `backend/routes/data`
+    - **관련 파일 위치**: `backend/routes/ai/` , `backend/routes/log/`, `backend/routes/data/`
 
 ## 사용한 기술
 
